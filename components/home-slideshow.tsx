@@ -5,8 +5,9 @@ import { useEffect, useState } from "react"
 
 type Slide = { src: string; lines: string[]; alt: string }
 const SLIDES: Slide[] = [
-  { src: "/images/banner1.jpg", lines: ["SAGOKE", "ONE-STOP INTEGRATED", "LOGISTICS SOLUTION"], alt: "Hero containers crane" },
-  { src: "/images/banner2.jpg", lines: ["SEA-RAIL", "MULTI-MODAL", "TRANSPORTATION"], alt: "Sea rail multimodal" }
+  { src: "/images/bannerê.jpg", lines: ["SAGOKE", "INTELLIGENT LOGISTICS", "FOR THE FUTURE"], alt: "Sagoke intelligent logistics" },
+  { src: "/images/banner4.jpg", lines: ["SAGOKE", "ONE-STOP INTEGRATED", "LOGISTICS SOLUTION"], alt: "Hero containers crane" },
+  { src: "/images/banner5.jpg", lines: ["SEA-RAIL", "MULTI-MODAL", "TRANSPORTATION"], alt: "Sea rail multimodal" },
 ]
 
 export default function HomeSlideshow() {
