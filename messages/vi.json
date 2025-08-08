@@ -1,0 +1,101 @@
+{
+  "navigation": { "home": "Trang chủ", "services": "Dịch vụ", "news": "Tin tức", "contact": "Liên hệ", "about": "Giới thiệu" },
+  "common": { "loading": "Đang tải...", "readMore": "Đọc thêm", "contactInfo": { "email": "sagoke-group@gmail.com", "phone": "+84 123 456 789", "address": "Hà Nội, Việt Nam" } },
+  "home": {
+    "hero": { "alt": "Ảnh hero cần cẩu và container", "titleLine1": "SAGOKE", "titleLine2": "GIẢI PHÁP LOGISTICS", "titleLine3": "MỘT CỬA TÍCH HỢP" },
+    "track": { "label": "Quan sát, truy vết và kiểm soát toàn bộ quy trình.", "placeholder": "Nhập số vận đơn", "button": "Tra cứu" },
+    "news": {
+      "a1": { "t": "Tàu TMĐT xuyên biên giới đã đến Budapest...", "s": "Sagoke đẩy mạnh logistics TMĐT xuyên biên giới." },
+      "a2": { "t": "Diễn đàn Kết nối Vận tải Toàn cầu 202...", "s": "Sagoke tham dự diễn đàn." },
+      "a3": { "t": "Bắt kịp xu hướng, các đoàn tàu Trung Quốc‑Châu Âu ngày càng...", "s": "Dữ liệu ngành và nhận định." },
+      "a4": { "t": "Bạn đã tham dự hội chợ Canton ngày 15/10 chưa?", "s": "Tin truyền thông nổi bật." },
+      "a5": { "t": "Tuyên bố", "s": "Tuyên bố chính thức về việc sử dụng trái phép..." },
+      "more": "Xem thêm"
+    },
+    "featured": {
+      "rail": { "t": "Vận tải đường sắt", "s": "Giải pháp logistics đường sắt một cửa" },
+      "searail": { "t": "Liên vận biển‑sắt", "s": "Chuyên gia vận tải đa phương thức quốc tế" },
+      "truck": { "t": "Vận tải đường bộ Á‑Âu", "s": "Nối liền Châu Âu và Châu Á" }
+    },
+    "icons": {
+      "sea": { "t": "Vận tải biển quốc tế", "s": "Vận tải đường biển" },
+      "project": { "t": "Logistics dự án", "s": "Xử lý hàng dự án" },
+      "import": { "t": "Logistics nhập khẩu", "s": "Hàng không và nhập khẩu" },
+      "operation": { "t": "Vận hành container", "s": "Dịch vụ vận hành" },
+      "warehouse": { "t": "Kho bãi & Hải quan", "s": "Lưu kho và thông quan" },
+      "supply": { "t": "Dịch vụ chuỗi cung ứng", "s": "Giải pháp đầu‑cuối" }
+    },
+    "philosophy": { "title": "TRIẾT LÝ SAGOKE", "desc": "Sagoke cam kết mang đến giải pháp logistics đầu‑cuối an toàn, hiệu quả và cạnh tranh, hướng đến giá trị bền vững." }
+  },
+  "about": {
+    "hero": { "title": "GIỚI THIỆU SAGOKE", "crumbs": { "home": "Trang chủ", "about": "Giới thiệu", "aboutUs": "Về chúng tôi" } },
+    "overview": {
+      "imageAlt": "Sự kiện đội ngũ công ty",
+      "heading": "Cung cấp giải pháp logistics một cửa Á‑Âu.",
+      "paragraph1": "Sagoke cung cấp giải pháp đường sắt, biển, hàng không và đa phương thức kết nối Trung Quốc với Châu Âu, Nga, Trung Á...",
+      "paragraph2": "Tích hợp kho bãi, hải quan, giám sát và vận hành chuỗi cung ứng an toàn, hiệu quả.",
+      "cta": "Liên hệ trực tuyến"
+    },
+    "stats": { "years": "năm kinh nghiệm", "countries": "mạng lưới tại các quốc gia chiến lược", "projects": "dự án thành công", "square": "m2 năng lực vận hành" },
+    "timeline": {
+      "title": "Lịch sử phát triển", "period": "Giai đoạn",
+      "y2002_2005": ["Khởi đầu Sagoke Shipping Co.", "Mở rộng hoạt động nội địa tại các điểm nút."],
+      "y2006_2010": ["Mở chi nhánh Thiên Tân & Thượng Hải.", "Mở rộng năng lực đường sắt & biển.", "Hợp tác với terminal chiến lược."],
+      "y2011_2015": ["Ra mắt dịch vụ đường sắt tới Trung Á & Châu Âu.", "Phát triển kho bãi & thông quan."],
+      "y2016_2020": ["Mở văn phòng nước ngoài & hành lang xuyên biên giới.", "Theo dõi số hóa vận hành đa phương thức."]
+    },
+    "philosophy": { "title": "Triết lý", "intro": "Sagoke cam kết trở thành doanh nghiệp logistics đáng tin cậy.", "centerAlt": "Cẩu container tại cảng", "vision": { "title": "Tầm nhìn", "desc": "Cầu nối tin cậy cho giải pháp logistics Á‑Âu." }, "mission": { "title": "Sứ mệnh", "desc": "Dịch vụ logistics chất lượng cao, liên tục và hiệu quả." } },
+    "certs": { "title": "Chứng nhận hệ thống quản lý EHS", "desc": "Duy trì tiêu chuẩn nghiêm ngặt về chất lượng, môi trường và an toàn." },
+    "awards": { "title": "Giải thưởng", "desc": "Ghi nhận cam kết lâu dài về chất lượng dịch vụ." }
+  },
+  "servicesPage": {
+    "hero": { "title": "SAGOKE EXPRESS", "alt": "Banner Sagoke Express", "tabs": { "overview": "Tổng quan", "services": "Dịch vụ", "advantages": "Ưu điểm", "contact": "Liên hệ" } },
+    "overview": {
+      "subtitle": "Kết nối các hành lang kinh tế cốt lõi Á‑Âu",
+      "p1": "Sagoke vận hành Sagoke Express – dịch vụ đường sắt cao cấp nối trực tiếp Trung Quốc với các thành phố Châu Âu.",
+      "p2": "Lịch khởi hành hàng tuần, lịch trình ổn định, giao nhận tận nơi toàn quốc.",
+      "cta": "Tư vấn trực tuyến"
+    },
+    "routes": {
+      "xianMoscow": ["Khởi hành: Thứ 2,4,7", "Thời gian: 10‑12 ngày ga‑đến‑ga", "Giao nhận tận nơi toàn quốc"],
+      "chengduMinsk": ["Khởi hành: Thứ 4,6", "Thời gian: 12‑15 ngày ga‑đến‑ga", "Giao nhận tận nơi toàn quốc"]
+    },
+    "advantages": {
+      "title": "Lợi thế cạnh tranh",
+      "desc": "Khi tần suất vận chuyển được chuẩn hóa, Sagoke tối ưu và nâng cao hiệu quả liên tục.",
+      "list": [
+        "Lịch ổn định, nhiều tuyến và đủ sức chứa.",
+        "Nguồn lực mạnh: 50.000+ TEU tự sở hữu, 200+ depot ở nước ngoài.",
+        "Theo dõi thông minh thời gian thực xuyên suốt.",
+        "Dịch vụ an tâm: giao cửa‑đến‑cửa toàn quốc.",
+        "Đội ngũ chuyên gia 20+ năm kinh nghiệm."
+      ]
+    },
+    "cta": { "title": "Bất cứ khi nào bạn cần, chúng tôi luôn sẵn sàng hỗ trợ", "desc": "Chuyên gia của chúng tôi sẽ tư vấn giải pháp phù hợp. Nhấn để liên hệ!", "button": "Tư vấn trực tuyến" }
+  },
+  "newsPage": {
+    "title": "Tất cả tin tức",
+    "desc": "Những cập nhật mới nhất từ Sagoke.",
+    "tabs": {
+      "all": "Tất cả",
+      "nep": "Tin công ty",
+      "promotion": "Khuyến mại",
+      "exhibition": "Triển lãm",
+      "media": "Truyền thông",
+      "industry": "Dữ liệu ngành",
+      "videos": "Video doanh nghiệp"
+    }
+  },
+  "contactPage": {
+    "title": "Liên hệ",
+    "desc": "Gửi tin nhắn và chuyên gia logistics của chúng tôi sẽ phản hồi.",
+    "fields": { "name": "Họ tên", "email": "Email", "phone": "Số điện thoại", "message": "Nội dung" },
+    "placeholders": { "name": "Tên của bạn", "message": "Chúng tôi có thể hỗ trợ gì?" },
+    "submit": "Gửi tin nhắn",
+    "submitting": "Đang gửi...",
+    "success": "Cảm ơn! Tin nhắn của bạn đã được gửi.",
+    "error": "Không thể gửi tin nhắn. Vui lòng thử lại.",
+    "info": { "title": "Thông tin văn phòng", "desc": "Liên hệ qua email/điện thoại hoặc ghé văn phòng." }
+  },
+  "breadcrumbs": { "home": "Trang chủ", "news": "Tin tức", "contact": "Liên hệ", "about": "Giới thiệu", "services": "Dịch vụ" }
+}

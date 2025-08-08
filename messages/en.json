@@ -1,0 +1,168 @@
+{
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "news": "News",
+    "contact": "Contact",
+    "about": "About Us"
+  },
+  "hero": {
+    "title": "SAGOKE ONE STOP INTEGRATED LOGISTICS SOLUTION",
+    "subtitle": "Sagoke",
+    "searchPlaceholder": { "departure": "Departure", "destination": "Destination" },
+    "searchButton": "Search"
+  },
+  "news": {
+    "title": "Latest News",
+    "articles": {
+      "article1": { "title": "China-Europe Railway Express cross-border e-commerce train officially opened", "content": "The China-Europe Railway Express cross-border e-commerce train has officially opened, deepening cross-border e-commerce logistics..." },
+      "article2": { "title": "Xinjiang Logistics Group Awards Global Logistics Excellence Award", "content": "Global Logistics Excellence Award for outstanding contributions..." },
+      "article3": { "title": "Building the world, China-Europe freight trains are becoming more and more...", "content": "More popular and efficient..." },
+      "article4": { "title": "One Belt One Road, cartoon live activities start", "content": "Officially started with many interesting activities..." }
+    }
+  },
+  "statement": {
+    "title": "Statement",
+    "content": "We provide comprehensive logistics solutions and uphold the highest standards of service excellence.",
+    "description": "With years of experience, Sagoke connects Asia and Europe through efficient and innovative transportation."
+  },
+  "services": {
+    "title": "Our Services",
+    "items": {
+      "seaFreight": { "title": "International Sea Freight", "description": "Maritime cargo transportation services" },
+      "forwarding": { "title": "Freight Forwarding", "description": "Freight forwarding and handling services" },
+      "airLogistics": { "title": "Air Logistics", "description": "Air cargo transportation services" },
+      "supervision": { "title": "Commodity Supervision", "description": "Cargo supervision and protection services" },
+      "warehousing": { "title": "Warehousing & Labeling", "description": "Warehousing and cargo labeling services" },
+      "supplyChain": { "title": "Supply Chain Services", "description": "Complete supply chain management" }
+    }
+  },
+  "philosophy": {
+    "title": "SAGOKE PHILOSOPHY",
+    "content": "We believe in connecting continents through reliable, efficient, and innovative logistics.",
+    "contact": "Contact Us"
+  },
+  "footer": {
+    "description": "Professional logistics solutions connecting Asia and Europe with reliable, highly efficient services by Sagoke.",
+    "quickLinks": "Quick Links",
+    "mainServices": "Main Services",
+    "copyright": "© 2024 Sagoke. All rights reserved."
+  },
+  "common": {
+    "loading": "Loading...",
+    "readMore": "Read More",
+    "contactInfo": {
+      "email": "sagoke-group@gmail.com",
+      "phone": "+84 123 456 789",
+      "address": "Hanoi, Vietnam"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "ABOUT SAGOKE",
+      "crumbs": { "home": "Home", "about": "About", "aboutUs": "About Us" }
+    },
+    "overview": {
+      "imageAlt": "Company team event on stage",
+      "heading": "Provides Eurasia-to-Eurasia one-stop integrated logistics solutions.",
+      "paragraph1": "Sagoke provides rail, sea, air and multimodal solutions connecting China to Europe, Russia, Central Asia and beyond.",
+      "paragraph2": "We deliver integrated warehousing, customs, supervision and supply-chain operations with reliable, efficient movement of goods.",
+      "cta": "Contact us online"
+    },
+    "stats": { "years": "years of industry experience", "countries": "network across strategic countries", "projects": "successful projects", "square": "sqm operations capacity" },
+    "timeline": {
+      "title": "Development History", "period": "Period",
+      "y2002_2005": ["Started Sagoke Shipping Co.", "Expanded domestic operations in key nodes."],
+      "y2006_2010": ["Established branches in Tianjin and Shanghai.", "Scaled rail and sea capabilities.", "Formed terminal partnerships."],
+      "y2011_2015": ["Launched comprehensive rail services to Central Asia and Europe.", "Built warehousing and customs solutions."],
+      "y2016_2020": ["Opened overseas offices and cross-border corridors.", "Upgraded multimodal operations with digital tracking."]
+    },
+    "philosophy": { "title": "Philosophy", "intro": "Sagoke is committed to becoming a reliable logistics company.", "centerAlt": "Container crane at port", "vision": { "title": "Vision", "desc": "To be the trusted bridge for Eurasian logistics solutions." }, "mission": { "title": "Mission", "desc": "Provide high-quality, continuous and efficient logistics services." } },
+    "certs": { "title": "EHS management system certification", "desc": "We maintain strict quality, environment, and safety standards." },
+    "awards": { "title": "Awards", "desc": "Honors that reflect our commitment to service excellence." }
+  },
+  "home": {
+    "hero": {
+      "alt": "Containers and crane hero",
+      "titleLine1": "SAGOKE",
+      "titleLine2": "ONE-STOP INTEGRATED",
+      "titleLine3": "LOGISTICS SOLUTION"
+    },
+    "track": { "label": "Full-process visibility, traceability, and control.", "placeholder": "Please enter the waybill number", "button": "Track" },
+    "news": {
+      "a1": { "t": "Cross-border e-commerce train arrives in Budapest...", "s": "Sagoke deepens cross-border e-commerce logistics." },
+      "a2": { "t": "Global Transport Connectivity Forum 202...", "s": "Sagoke attends global forum." },
+      "a3": { "t": "Backing the trend, the China-Europe freight trains are becoming more and more...", "s": "Industry data and insights." },
+      "a4": { "t": "Did you get the Canton Fair on October 15th?", "s": "Media reporting and highlights." },
+      "a5": { "t": "Statement", "s": "Official Statement Regarding Unauthorized Use..." },
+      "more": "Read More"
+    },
+    "featured": {
+      "rail": { "t": "Rail Transport", "s": "One-stop railway logistics solution" },
+      "searail": { "t": "Sea-Rail Intermodal", "s": "International multimodal transport expert" },
+      "truck": { "t": "Eurasian Trucking", "s": "Truck transport linking Europe and Asia" }
+    },
+    "icons": {
+      "sea": { "t": "International sea freight", "s": "Ocean shipping" },
+      "project": { "t": "Project Logistics", "s": "Project cargo handling" },
+      "import": { "t": "Import Logistics", "s": "Air and import" },
+      "operation": { "t": "Container Operation", "s": "Operation services" },
+      "warehouse": { "t": "Warehousing & Customs", "s": "Storage and clearance" },
+      "supply": { "t": "Supply Chain Services", "s": "End-to-end solutions" }
+    },
+    "philosophy": {
+      "title": "SAGOKE PHILOSOPHY",
+      "desc": "Sagoke is committed to safe, efficient, competitive end-to-end logistics solutions and long-term excellence."
+    }
+  },
+  "servicesPage": {
+    "hero": { "title": "SAGOKE EXPRESS", "alt": "Sagoke Express banner", "tabs": { "overview": "Overview", "services": "Services", "advantages": "Advantages", "contact": "Contact us" } },
+    "overview": {
+      "subtitle": "Connecting core economic corridors across Eurasia",
+      "p1": "Sagoke proudly operates Sagoke Express, a premium rail service directly linking China to key European cities.",
+      "p2": "Regular weekly departures, stable schedules and door-to-door delivery across the network.",
+      "cta": "Online consultation"
+    },
+    "routes": {
+      "xianMoscow": ["Weekly departures: Monday, Wednesday, Saturday", "Transit: 10-12 days station-to-station", "Nationwide door-to-door delivery"],
+      "chengduMinsk": ["Weekly departures: Wednesday, Friday", "Transit: 12-15 days station-to-station", "Nationwide door-to-door delivery"]
+    },
+    "advantages": {
+      "title": "Competitive Advantages",
+      "desc": "As transport frequency becomes normalized, Sagoke continues to optimize and improve efficiency.",
+      "list": [
+        "Stable schedule: multiple routes and sufficient cabin space available.",
+        "Robust resources: 50,000+ self-owned TEU containers, 200+ overseas yards.",
+        "Intelligent tracking: real-time monitoring through the whole process.",
+        "Worry-free service: nationwide door-to-door delivery.",
+        "Expert team: 20+ years of deep industry experience."
+      ]
+    },
+    "cta": { "title": "Whatever you need, we are ready to assist you", "desc": "Our seasoned professionals tailor solutions to your needs. Click to contact our logistics experts!", "button": "Online consultation" }
+  },
+  "newsPage": {
+    "title": "All News",
+    "desc": "Latest updates and stories from Sagoke.",
+    "tabs": {
+      "all": "All News",
+      "nep": "Company News",
+      "promotion": "Promotion",
+      "exhibition": "Exhibition",
+      "media": "Media Reporting",
+      "industry": "Industry Data",
+      "videos": "Corporate Videos"
+    }
+  },
+  "contactPage": {
+    "title": "Contact Us",
+    "desc": "Send us a message and our logistics experts will get back to you.",
+    "fields": { "name": "Name", "email": "Email", "phone": "Phone", "message": "Message" },
+    "placeholders": { "name": "Your name", "message": "How can we help you?" },
+    "submit": "Send message",
+    "submitting": "Sending...",
+    "success": "Thanks! Your message has been sent.",
+    "error": "Could not send your message. Please try again later.",
+    "info": { "title": "Office info", "desc": "Reach us by email or phone, or visit our office." }
+  },
+  "breadcrumbs": { "home": "Home", "news": "News", "contact": "Contact", "about": "About", "services": "Services" }
+}
