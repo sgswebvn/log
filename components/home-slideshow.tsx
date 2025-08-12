@@ -5,9 +5,8 @@ import { useEffect, useState } from "react"
 
 type Slide = { src: string; lines: string[]; alt: string }
 const SLIDES: Slide[] = [
-  { src: "/images/bannerê.jpg", lines: ["SAGOKE", "INTELLIGENT LOGISTICS", "FOR THE FUTURE"], alt: "Sagoke intelligent logistics" },
-  { src: "/images/banner4.jpg", lines: ["SAGOKE", "ONE-STOP INTEGRATED", "LOGISTICS SOLUTION"], alt: "Hero containers crane" },
-  { src: "/images/banner5.jpg", lines: ["SEA-RAIL", "MULTI-MODAL", "TRANSPORTATION"], alt: "Sea rail multimodal" },
+  { src: "/images/slide-1.png", lines: ["SAGOKE", "ONE-STOP INTEGRATED", "LOGISTICS SOLUTION"], alt: "Hero containers crane" },
+  { src: "/images/slide-2.png", lines: ["SEA-RAIL", "MULTI-MODAL", "TRANSPORTATION"], alt: "Sea rail multimodal" }
 ]
 
 export default function HomeSlideshow() {
@@ -30,7 +29,7 @@ export default function HomeSlideshow() {
       <div className="relative container mx-auto px-4 h-full flex items-center">
         <div className="text-white font-extrabold leading-tight text-3xl sm:text-5xl tracking-wide">
           {s.lines.map((t, i) => (
-            <div key={i} className="animate-[slideIn_600ms_ease-out] will-change-transform" style={{ animationDelay: `${200 * i}ms` }}>
+            <div key={i} className="animate-[slideIn_600ms_ease-out] will-change-transform" style={{ animationDelay: `${200*i}ms` }}>
               {t}
             </div>
           ))}
@@ -41,7 +40,7 @@ export default function HomeSlideshow() {
       </div>
       <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
         {SLIDES.map((_, i) => (
-          <button key={i} onClick={() => setIndex(i)} aria-label={`Slide ${i + 1}`} className={`w-2.5 h-2.5 rounded-full ${i === index ? 'bg-white' : 'bg-white/60 hover:bg-white'}`} />
+          <button key={i} onClick={() => setIndex(i)} aria-label={`Slide ${i+1}`} className={`w-2.5 h-2.5 rounded-full ${i===index?'bg-white':'bg-white/60 hover:bg-white'}`} />
         ))}
       </div>
 

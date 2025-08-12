@@ -1,51 +1,39 @@
 "use client"
 
 import Link from "next/link"
-import { usePathname } from "next/navigation"
-import { ChevronRight } from 'lucide-react'
+import { ChevronRight } from "lucide-react"
 import { useLocale, useTranslations } from "next-intl"
 
-type Crumb = { href: string; label: string }
+interface BreadcrumbItem {
+  label: string
+  href?: string
+}
 
-export default function Breadcrumbs({ currentTitle }: { currentTitle?: string }) {
-  const pathname = usePathname()
+interface BreadcrumbsProps {
+  items?: BreadcrumbItem[]
+}
+
+export default function Breadcrumbs({ items = [] }: BreadcrumbsProps) {
   const locale = useLocale()
-  const t = useTranslations('breadcrumbs')
-
-  // Build segments excluding locale
-  const segments = pathname.split('/').filter(Boolean)
-  const segs = segments[0] === locale ? segments.slice(1) : segments
-
-  const crumbs: Crumb[] = []
-  let href = `/${locale}`
-  crumbs.push({ href, label: t('home') })
-
-  for (let i = 0; i < segs.length; i++) {
-    const seg = segs[i]
-    href += `/${seg}`
-    const key = seg as keyof typeof t
-    const label = t.has(seg) ? t(seg) : decodeURIComponent(seg)
-    if (i < segs.length - 1) {
-      crumbs.push({ href, label })
-    } else {
-      crumbs.push({ href, label: currentTitle || label })
-    }
-  }
+  const t = useTranslations("breadcrumbs")
 
   return (
-    <nav aria-label="Breadcrumb" className="bg-gray-50/70">
-      <ol className="container mx-auto px-4 py-2 flex items-center gap-1 text-sm text-gray-600">
-        {crumbs.map((c, i) => (
-          <li key={i} className="flex items-center">
-            {i === crumbs.length - 1 ? (
-              <span className="text-gray-800">{c.label}</span>
-            ) : (
-              <Link href={c.href} className="hover:text-blue-600">{c.label}</Link>
-            )}
-            {i < crumbs.length - 1 && <ChevronRight className="mx-1 h-4 w-4 text-gray-400" />}
-          </li>
-        ))}
-      </ol>
+    <nav className="flex items-center justify-center gap-2 text-sm text-white/90">
+      <Link href={`/${locale}`} className="hover:text-white transition-colors">
+        {t("home")}
+      </Link>
+      {items.map((item, i) => (
+        <div key={i} className="flex items-center gap-2">
+          <ChevronRight className="h-4 w-4" />
+          {item.href ? (
+            <Link href={item.href} className="hover:text-white transition-colors">
+              {item.label}
+            </Link>
+          ) : (
+            <span className="text-white">{item.label}</span>
+          )}
+        </div>
+      ))}
     </nav>
   )
 }

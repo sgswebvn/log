@@ -1,5 +1,5 @@
 import {NextIntlClientProvider} from 'next-intl';
-import {getMessages} from 'next-intl/server';
+import {getMessages, setRequestLocale} from 'next-intl/server';
 import { Inter } from 'next/font/google'
 import SideButtons from '@/components/side-buttons'
 
@@ -16,6 +16,9 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: {locale: string};
 }) {
+  // Enable static rendering with next-intl in the App Router
+  setRequestLocale(locale);
+
   const messages = await getMessages();
   return (
     <html lang={locale}>
