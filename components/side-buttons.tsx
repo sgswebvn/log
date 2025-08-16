@@ -14,15 +14,13 @@ export default function SideButtons() {
               <div className={btnBase}><Mail className="h-5 w-5 text-blue-600" /></div>
             </a>
           </TooltipTrigger>
-          <TooltipContent>Gmail: duke@sagoke-group.com</TooltipContent>
         </Tooltip>
         <Tooltip>
           <TooltipTrigger asChild>
-            <a href="tel:+84123456789" aria-label="Phone">
-              <div className={btnBase}><Phone className="h-5 w-5 text-blue-600" /></div>
+            <a href="tel:+84123456789" aria-label="Phone" >
+              <div className={btnBase}><Phone className="h-5 w-5 text-blue-600 " /></div>
             </a>
           </TooltipTrigger>
-          <TooltipContent>Gọi điện</TooltipContent>
         </Tooltip>
         <Tooltip>
           <TooltipTrigger asChild>
@@ -30,7 +28,6 @@ export default function SideButtons() {
               <div className={btnBase}><MessageSquare className="h-5 w-5 text-blue-600" /></div>
             </a>
           </TooltipTrigger>
-          <TooltipContent>SMS</TooltipContent>
         </Tooltip>
         <Tooltip>
           <TooltipTrigger asChild>
@@ -41,7 +38,6 @@ export default function SideButtons() {
               <div className={btnBase}><ChevronUp className="h-5 w-5 text-blue-600" /></div>
             </button>
           </TooltipTrigger>
-          <TooltipContent>Lên đầu trang</TooltipContent>
         </Tooltip>
       </div>
     </TooltipProvider>

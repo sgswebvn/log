@@ -131,7 +131,7 @@ export default function HomeNewsFeatured() {
           {otherNews.slice(0, 6).map((item) => (
             <div key={item.id} className="lg:col-span-1">
               <Link href={`/${locale}/news/${item.id}`}>
-                <article className="group bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-all duration-300 h-full">
+                <article className="group bg-white rounded-lg   shadow-md overflow-hidden hover:shadow-lg transition-all duration-300 h-full">
                   <div className="relative aspect-video overflow-hidden">
                     <Image
                       src={item.image_url || "/placeholder.svg?height=200&width=300"}
@@ -139,11 +139,7 @@ export default function HomeNewsFeatured() {
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-300"
                     />
-                    <div className="absolute top-3 left-3">
-                      <span className="bg-gray-900/80 text-white px-2 py-1 rounded text-xs font-medium">
-                        {item.category}
-                      </span>
-                    </div>
+
                   </div>
                   <div className="p-4">
                     <h4 className="font-semibold text-gray-900 line-clamp-2 mb-2 group-hover:text-blue-600 transition-colors">
