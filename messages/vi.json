@@ -17,9 +17,10 @@
     "loading": "Đang tải...",
     "readMore": "Đọc thêm",
     "contactInfo": {
-      "email": "sagoke-group@gmail.com",
+      "email": "duke@sagoke-group.com",
       "phone": "+84 123 456 789",
-      "address": "Hà Nội, Việt Nam"
+      "address": " 27 Trần Hưng Đạo B, Phường An Đông, TP. Hồ Chí Minh",
+      "website": "sagoke-group.com"
     }
   },
   "home": {
@@ -27,7 +28,36 @@
       "alt": "Ảnh hero cần cẩu và container",
       "titleLine1": "SAGOKE",
       "titleLine2": "GIẢI PHÁP LOGISTICS",
-      "titleLine3": "MỘT CỬA TÍCH HỢP"
+      "titleLine3": "MỘT CỬA TÍCH HỢP",
+      "slides": [
+        {
+          "lines": [
+            "SAGOKE",
+            "GIẢI PHÁP LOGISTICS",
+            "MỘT CỬA TÍCH HỢP"
+          ],
+          "alt": "Ảnh hero cần cẩu và container",
+          "description": "Logistics thân thiện, hiện đại và thông minh từ Sagoke."
+        },
+        {
+          "lines": [
+            "LIÊN VẬN BIỂN-SẮT",
+            "ĐA PHƯƠNG THỨC",
+            "VẬN TẢI"
+          ],
+          "alt": "Liên vận biển-sắt",
+          "description": "Giải pháp vận tải đa phương thức chuyên nghiệp từ Sagoke."
+        },
+        {
+          "lines": [
+            "THÔNG QUAN HẢI QUAN",
+            "CHUYÊN MÔN",
+            "CHO DOANH NGHIỆP"
+          ],
+          "alt": "Chuyên môn thông quan hải quan",
+          "description": "Dịch vụ hải quan chuyên nghiệp cho logistics liền mạch."
+        }
+      ]
     },
     "track": {
       "label": "Quan sát, truy vết và kiểm soát toàn bộ quy trình.",
@@ -41,43 +71,280 @@
         "t": "Tàu TMĐT xuyên biên giới đã đến Budapest...",
         "s": "Sagoke đẩy mạnh logistics TMĐT xuyên biên giới."
       },
-      "a2": { "t": "Diễn đàn Kết nối Vận tải Toàn cầu 202...", "s": "Sagoke tham dự diễn đàn." },
+      "a2": {
+        "t": "Diễn đàn Kết nối Vận tải Toàn cầu 202...",
+        "s": "Sagoke tham gia diễn đàn."
+      },
       "a3": {
         "t": "Bắt kịp xu hướng, các đoàn tàu Trung Quốc‑Châu Âu ngày càng...",
         "s": "Dữ liệu ngành và nhận định."
       },
-      "a4": { "t": "Bạn đã tham dự hội chợ Canton ngày 15/10 chưa?", "s": "Tin truyền thông nổi bật." },
-      "a5": { "t": "Tuyên bố", "s": "Tuyên bố chính thức về việc sử dụng trái phép..." },
+      "a4": {
+        "t": "Bạn đã tham dự hội chợ Canton ngày 15/10 chưa?",
+        "s": "Tin truyền thông nổi bật."
+      },
+      "a5": {
+        "t": "Tuyên bố",
+        "s": "Tuyên bố chính thức về việc sử dụng trái phép..."
+      },
       "more": "Xem thêm"
     },
     "featured": {
       "title": "Dịch vụ nổi bật",
       "desc": "Các giải pháp logistics hàng đầu của Sagoke",
-      "rail": { "t": "Vận tải đường sắt", "s": "Giải pháp logistics đường sắt một cửa" },
-      "searail": { "t": "Liên vận biển‑sắt", "s": "Chuyên gia vận tải đa phương thức quốc tế" },
-      "truck": { "t": "Vận tải đường bộ Á‑Âu", "s": "Nối liền Châu Âu và Châu Á" }
+      "rail": {
+        "t": "Vận tải đường sắt",
+        "s": "Giải pháp logistics đường sắt một cửa"
+      },
+      "searail": {
+        "t": "Liên vận biển-sắt",
+        "s": "Chuyên gia vận tải đa phương thức quốc tế"
+      },
+      "truck": {
+        "t": "Vận tải đường bộ Á-Âu",
+        "s": "Nối liền Châu Âu và Châu Á"
+      }
     },
     "services": {
       "title": "Dịch vụ của chúng tôi",
       "desc": "Giải pháp logistics toàn diện cho mọi nhu cầu"
     },
     "icons": {
-      "sea": { "t": "Vận tải biển quốc tế", "s": "Vận tải đường biển" },
-      "project": { "t": "Logistics dự án", "s": "Xử lý hàng dự án" },
-      "import": { "t": "Logistics nhập khẩu", "s": "Hàng không và nhập khẩu" },
-      "operation": { "t": "Vận hành container", "s": "Dịch vụ vận hành" },
-      "warehouse": { "t": "Kho bãi & Hải quan", "s": "Lưu kho và thông quan" },
-      "supply": { "t": "Dịch vụ chuỗi cung ứng", "s": "Giải pháp đầu‑cuối" }
+      "sea": {
+        "t": "Vận tải biển quốc tế",
+        "s": "Vận tải đường biển"
+      },
+      "project": {
+        "t": "Logistics dự án",
+        "s": "Xử lý hàng dự án"
+      },
+      "import": {
+        "t": "Logistics nhập khẩu",
+        "s": "Hàng không và nhập khẩu"
+      },
+      "operation": {
+        "t": "Vận hành container",
+        "s": "Dịch vụ vận hành"
+      },
+      "warehouse": {
+        "t": "Kho bãi & Hải quan",
+        "s": "Lưu kho và thông quan"
+      },
+      "supply": {
+        "t": "Dịch vụ chuỗi cung ứng",
+        "s": "Giải pháp đầu‑cuối"
+      }
     },
     "philosophy": {
       "title": "TRIẾT LÝ SAGOKE",
       "desc": "Sagoke cam kết mang đến giải pháp logistics đầu‑cuối an toàn, hiệu quả và cạnh tranh, hướng đến giá trị bền vững."
     }
   },
+  "services": {
+    "title": "Dịch vụ của chúng tôi",
+    "subtitle": "Kết nối các hành lang kinh tế cốt lõi Á‑Âu",
+    "overview": {
+      "description": "Với hơn 15 năm kinh nghiệm trong ngành logistics, Sagoke cung cấp đầy đủ các dịch vụ vận chuyển và logistics chuyên nghiệp, đáp ứng mọi nhu cầu của khách hàng từ cá nhân đến doanh nghiệp lớn."
+    },
+    "stats": {
+      "title": "Thành tích của chúng tôi",
+      "desc": "Những con số ấn tượng qua nhiều năm phát triển",
+      "years": "15+ năm",
+      "containers": "50K+ container/năm",
+      "countries": "100+ quốc gia",
+      "onTime": "99.5% đúng hẹn"
+    },
+    "items": {
+      "rail": {
+        "title": "Vận tải đường sắt",
+        "description": "Dịch vụ vận chuyển container qua đường sắt từ Trung Quốc đến châu Âu và các nước CIS",
+        "features": {
+          "container": "Container FCL/LCL",
+          "bulk": "Hàng rời (Bulk cargo)",
+          "project": "Hàng dự án (Project cargo)",
+          "departures": "Khởi hành: Thứ 2, 4, 7 hàng tuần",
+          "transit": "Thời gian: 10‑12 ngày ga‑đến‑ga",
+          "delivery": "Giao nhận tận nơi toàn quốc",
+          "tracking": "Dịch vụ theo dõi 24/7"
+        }
+      },
+      "seaFreight": {
+        "title": "Vận tải biển quốc tế",
+        "description": "Dịch vụ vận chuyển container và hàng rời qua đường biển đến các cảng lớn trên thế giới",
+        "features": {
+          "container": "Container FCL/LCL",
+          "bulk": "Hàng rời (Bulk cargo)",
+          "project": "Hàng dự án (Project cargo)"
+        }
+      },
+      "airLogistics": {
+        "title": "Logistics hàng không",
+        "description": "Dịch vụ vận chuyển hàng không nhanh chóng cho hàng hóa khẩn cấp và có giá trị cao",
+        "features": {
+          "express": "Express Air Freight",
+          "charter": "Charter Flights",
+          "dangerous": "Hàng nguy hiểm (DG)"
+        }
+      },
+      "forwarding": {
+        "title": "Dịch vụ giao nhận",
+        "description": "Giải pháp giao nhận hàng hóa toàn diện từ kho đến kho",
+        "features": {
+          "doorToDoor": "Giao nhận tận nơi (Door-to-Door)",
+          "customsClearance": "Thủ tục hải quan",
+          "insurance": "Bảo hiểm hàng hóa"
+        }
+      },
+      "supplyChain": {
+        "title": "Chuỗi cung ứng",
+        "description": "Giải pháp logistics đầu-cuối tích hợp từ sản xuất đến phân phối",
+        "features": {
+          "planning": "Lập kế hoạch chuỗi cung ứng",
+          "inventory": "Quản lý tồn kho",
+          "distribution": "Phân phối hàng hóa"
+        }
+      },
+      "road": {
+        "title": "Vận tải đường bộ",
+        "description": "Dịch vụ vận chuyển đường bộ linh hoạt, phù hợp cho vận chuyển nội địa và xuyên biên giới",
+        "features": {
+          "trucks": "Xe tải các loại tải trọng",
+          "container": "Xe container",
+          "specialized": "Xe chuyên dụng"
+        }
+      },
+      "warehousing": {
+        "title": "Kho bãi & Dán nhãn",
+        "description": "Dịch vụ kho bãi hiện đại và các giải pháp logistics tổng thể",
+        "features": {
+          "modern": "Kho bãi hiện đại",
+          "wms": "Hệ thống WMS",
+          "crossDocking": "Cross-docking"
+        }
+      },
+      "customs": {
+        "title": "Dịch vụ hải quan",
+        "description": "Hỗ trợ thủ tục hải quan xuất nhập khẩu chuyên nghiệp và nhanh chóng",
+        "features": {
+          "declaration": "Khai báo hải quan",
+          "taxConsultation": "Tư vấn thuế xuất nhập khẩu",
+          "permit": "Xin giấy phép"
+        }
+      },
+      "mainFeatures": "Dịch vụ chính"
+    },
+    "advantages": {
+      "globalNetwork": {
+        "title": "Mạng lưới toàn cầu",
+        "description": "Kết nối với hơn 100 quốc gia và vùng lãnh thổ trên thế giới"
+      },
+      "onTimeDelivery": {
+        "title": "Giao hàng đúng hẹn",
+        "description": "Cam kết 99.5% đơn hàng được giao đúng thời gian đã hẹn"
+      },
+      "absoluteSafety": {
+        "title": "An toàn tuyệt đối",
+        "description": "Bảo hiểm toàn diện và hệ thống theo dõi 24/7"
+      },
+      "isoQuality": {
+        "title": "Chất lượng ISO",
+        "description": "Được chứng nhận ISO 9001:2015 về hệ thống quản lý chất lượng"
+      },
+      "expertTeam": {
+        "title": "Đội ngũ chuyên nghiệp",
+        "description": "Hơn 500 chuyên gia logistics giàu kinh nghiệm"
+      },
+      "competitivePricing": {
+        "title": "Giá cả cạnh tranh",
+        "description": "Tiết kiệm đến 30% chi phí vận chuyển so với thị trường"
+      }
+    },
+    "cta": {
+      "button": "Gửi yêu cầu báo giá"
+    }
+  },
+  "newsPage": {
+    "title": "TIN TỨC SAGOKE",
+    "subtitle": "Cập nhật mới nhất từ Sagoke",
+    "desc": "Những cập nhật và câu chuyện mới nhất từ Sagoke.",
+    "breadcrumb": "Tin tức",
+    "no": "Không có tin tức trong danh mục này.",
+    "tabs": {
+      "all": "Tất cả",
+      "company": "Tin công ty",
+      "promotion": "Khuyến mại",
+      "exhibition": "Triển lãm",
+      "media": "Truyền thông",
+      "industry": "Dữ liệu ngành"
+    }
+  },
+  "footer": {
+    "description": "Giải pháp logistics chuyên nghiệp kết nối Châu Á và Châu Âu với dịch vụ đáng tin cậy, hiệu quả cao bởi Sagoke.",
+    "quickLinks": "Liên kết nhanh",
+    "mainServices": "Dịch vụ chính",
+    "copyright": "© 2024 Sagoke. Tất cả quyền được bảo lưu."
+  },
+  "servicesPage": {
+    "hero": {
+      "title": "DỊCH VỤ SAGOKE",
+      "alt": "Banner dịch vụ Sagoke",
+      "breadcrumb": "Dịch vụ"
+    },
+    "overview": {
+      "subtitle": "Kết nối các hành lang kinh tế cốt lõi Á‑Âu",
+      "p1": "Sagoke vận hành Sagoke Express – dịch vụ đường sắt cao cấp nối trực tiếp Trung Quốc với các thành phố Châu Âu.",
+      "p2": "Lịch khởi hành hàng tuần, lịch trình ổn định, giao nhận tận nơi toàn quốc.",
+      "p3": "Với mạng lưới rộng khắp và đội ngũ chuyên nghiệp, chúng tôi cam kết mang đến dịch vụ logistics tốt nhất.",
+      "cta": "Tư vấn trực tuyến"
+    },
+    "routes": {
+      "title": "Tuyến vận chuyển chính",
+      "consultation": "Tư vấn trực tuyến",
+      "xianMoscow": {
+        "title": "Tuyến Xi'an – Moscow Express",
+        "features": {
+          "departures": "Khởi hành: Thứ 2, 4, 7 hàng tuần",
+          "transit": "Thời gian: 10‑12 ngày ga‑đến‑ga",
+          "delivery": "Giao nhận tận nơi toàn quốc",
+          "tracking": "Dịch vụ theo dõi 24/7"
+        }
+      },
+      "chengduMinsk": {
+        "title": "Tuyến Chengdu – Minsk Express",
+        "features": {
+          "departures": "Khởi hành: Thứ 4, 6 hàng tuần",
+          "transit": "Thời gian: 12‑15 ngày ga‑đến‑ga",
+          "delivery": "Giao nhận tận nơi toàn quốc",
+          "customs": "Hỗ trợ thủ tục hải quan"
+        }
+      }
+    },
+    "advantages": {
+      "title": "Lợi thế cạnh tranh",
+      "desc": "Khi tần suất vận chuyển được chuẩn hóa, Sagoke tối ưu và nâng cao hiệu quả liên tục.",
+      "list": {
+        "stableSchedule": "Lịch trình ổn định: nhiều tuyến và đủ sức chứa cho mọi nhu cầu.",
+        "robustResources": "Nguồn lực mạnh: 50.000+ TEU tự sở hữu, 200+ depot ở nước ngoài.",
+        "intelligentTracking": "Theo dõi thông minh: giám sát thời gian thực xuyên suốt hành trình.",
+        "worryFreeService": "Dịch vụ an tâm: giao nhận cửa‑đến‑cửa toàn quốc.",
+        "expertTeam": "Đội ngũ chuyên gia: 20+ năm kinh nghiệm sâu trong ngành."
+      }
+    },
+    "cta": {
+      "title": "Bất cứ khi nào bạn cần, chúng tôi luôn sẵn sàng hỗ trợ",
+      "desc": "Chuyên gia của chúng tôi sẽ tư vấn giải pháp phù hợp nhất cho nhu cầu của bạn. Nhấn để liên hệ ngay!",
+      "button": "Tư vấn trực tuyến"
+    }
+  },
   "about": {
     "hero": {
       "title": "VỀ SAGOKE",
-      "crumbs": { "home": "Trang chủ", "about": "Giới thiệu", "aboutUs": "Về chúng tôi" }
+      "subtitle": "Hành trình 20+ năm xây dựng cầu nối logistics Á-Âu",
+      "crumbs": {
+        "home": "Trang chủ",
+        "about": "Giới thiệu",
+        "aboutUs": "Về chúng tôi"
+      }
     },
     "overview": {
       "imageAlt": "Công ty chúng tôi gồm những con người tài năng và tận tâm với khách hàng",
@@ -155,90 +422,91 @@
       "award6": "Giải thưởng Chuyển đổi Số 2024"
     }
   },
-  "servicesPage": {
-    "hero": {
-      "title": "DỊCH VỤ SAGOKE",
-      "alt": "Banner dịch vụ Sagoke",
-      "breadcrumb": "Dịch vụ"
-    },
-    "overview": {
-      "subtitle": "Kết nối các hành lang kinh tế cốt lõi Á‑Âu",
-      "p1": "Sagoke vận hành Sagoke Express – dịch vụ đường sắt cao cấp nối trực tiếp Trung Quốc với các thành phố Châu Âu.",
-      "p2": "Lịch khởi hành hàng tuần, lịch trình ổn định, giao nhận tận nơi toàn quốc.",
-      "p3": "Với mạng lưới rộng khắp và đội ngũ chuyên nghiệp, chúng tôi cam kết mang đến dịch vụ logistics tốt nhất.",
-      "cta": "Tư vấn trực tuyến"
-    },
-    "routes": {
-      "title": "Tuyến vận chuyển chính",
-      "consultation": "Tư vấn trực tuyến",
-      "xianMoscow": {
-        "title": "Tuyến Xi'an – Moscow Express",
-        "features": [
-          "Khởi hành: Thứ 2, 4, 7 hàng tuần",
-          "Thời gian: 10‑12 ngày ga‑đến‑ga",
-          "Giao nhận tận nơi toàn quốc",
-          "Dịch vụ theo dõi 24/7"
-        ]
-      },
-      "chengduMinsk": {
-        "title": "Tuyến Chengdu – Minsk Express",
-        "features": [
-          "Khởi hành: Thứ 4, 6 hàng tuần",
-          "Thời gian: 12‑15 ngày ga‑đến‑ga",
-          "Giao nhận tận nơi toàn quốc",
-          "Hỗ trợ thủ tục hải quan"
-        ]
-      }
-    },
-    "advantages": {
-      "title": "Lợi thế cạnh tranh",
-      "desc": "Khi tần suất vận chuyển được chuẩn hóa, Sagoke tối ưu và nâng cao hiệu quả liên tục.",
-      "list": [
-        "Lịch trình ổn định: nhiều tuyến và đủ sức chứa cho mọi nhu cầu.",
-        "Nguồn lực mạnh: 50.000+ TEU tự sở hữu, 200+ depot ở nước ngoài.",
-        "Theo dõi thông minh: giám sát thời gian thực xuyên suốt hành trình.",
-        "Dịch vụ an tâm: giao nhận cửa‑đến‑cửa toàn quốc.",
-        "Đội ngũ chuyên gia: 20+ năm kinh nghiệm sâu trong ngành."
-      ]
-    },
-    "cta": {
-      "title": "Bất cứ khi nào bạn cần, chúng tôi luôn sẵn sàng hỗ trợ",
-      "desc": "Chuyên gia của chúng tôi sẽ tư vấn giải pháp phù hợp nhất cho nhu cầu của bạn. Nhấn để liên hệ ngay!",
-      "button": "Tư vấn trực tuyến"
-    }
-  },
-  "newsPage": {
-    "title": "TIN TỨC SAGOKE",
-    "desc": "Những cập nhật và câu chuyện mới nhất từ Sagoke.",
-    "breadcrumb": "Tin tức",
-    "tabs": {
-      "all": "Tất cả",
-      "nep": "Tin công ty",
-      "promotion": "Khuyến mại",
-      "exhibition": "Triển lãm",
-      "media": "Truyền thông",
-      "industry": "Dữ liệu ngành",
-      "videos": "Video doanh nghiệp"
-    }
-  },
   "contactPage": {
     "title": "LIÊN HỆ VỚI SAGOKE",
     "desc": "Đội ngũ chuyên gia logistics của Sagoke luôn sẵn sàng tư vấn và hỗ trợ bạn tìm ra giải pháp tối ưu nhất. Hãy chia sẻ nhu cầu của bạn và chúng tôi sẽ liên hệ ngay!",
-    "fields": { "name": "Họ tên", "email": "Email", "phone": "Số điện thoại", "message": "Nội dung tin nhắn" },
+    "hero": {
+      "alt": "Banner liên hệ Sagoke"
+    },
+    "form": {
+      "title": "Gửi yêu cầu tư vấn",
+      "desc": "Điền thông tin bên dưới và chúng tôi sẽ liên hệ với bạn trong vòng 24 giờ",
+      "success": {
+        "title": "Gửi thành công!",
+        "desc": "Cảm ơn bạn đã liên hệ. Chúng tôi sẽ phản hồi trong thời gian sớm nhất.",
+        "button": "Gửi yêu cầu khác"
+      }
+    },
+    "fields": {
+      "name": "Họ và tên",
+      "email": "Email",
+      "phone": "Số điện thoại",
+      "company": "Công ty",
+      "service": "Dịch vụ quan tâm",
+      "message": "Nội dung tin nhắn"
+    },
     "placeholders": {
       "name": "Nguyễn Văn A",
+      "email": "email@example.com",
+      "phone": "0123 456 789",
+      "company": "Tên công ty của bạn",
+      "service": "Chọn dịch vụ bạn quan tâm",
       "message": "Mô tả chi tiết nhu cầu của bạn: loại hàng hóa, tuyến đường, thời gian, yêu cầu đặc biệt..."
     },
-    "submit": "🚀 Gửi tin nhắn ngay",
-    "submitting": "⏳ Đang gửi...",
-    "success": "🎉 Cảm ơn bạn đã liên hệ! Chúng tôi sẽ phản hồi trong vòng 24 giờ.",
-    "error": "❌ Có lỗi xảy ra. Vui lòng thử lại hoặc liên hệ trực tiếp qua email.",
-    "info": { "title": "Thông tin liên hệ", "desc": "Liên hệ qua email/điện thoại hoặc ghé văn phòng." }
-  },
-  "footer": {
-    "description": "Giải pháp logistics chuyên nghiệp kết nối Châu Á và Châu Âu với dịch vụ đáng tin cậy, hiệu quả cao bởi Sagoke.",
-    "quickLinks": "Liên kết nhanh",
-    "mainServices": "Dịch vụ chính",
-    "copyright": "© 2024 Sagoke. Tất cả quyền được bảo lưu."
+    "submit": "Gửi yêu cầu tư vấn",
+    "submitting": "Đang gửi...",
+    "info": {
+      "title": "Thông tin liên hệ",
+      "desc": "Liên hệ qua email, điện thoại hoặc ghé thăm văn phòng của chúng tôi."
+    },
+    "contactMethods": {
+      "hotline": {
+        "title": "Hotline 24/7",
+        "info": "+84 123 456 789",
+        "description": "Hỗ trợ khách hàng mọi lúc"
+      },
+      "email": {
+        "title": "Email hỗ trợ",
+        "info": "duke@sagoke-group.com",
+        "description": "Phản hồi trong 2 giờ"
+      },
+      "liveChat": {
+        "title": "Chat trực tuyến",
+        "info": "Chat trực tuyến",
+        "description": "Tư vấn tức thì"
+      }
+    },
+    "office": {
+      "title": "Văn phòng chính",
+      "address": "123 Đường ABC, Quận 1, TP.HCM, Việt Nam",
+      "hours": "Thứ 2 - Thứ 6: 8:00 - 18:00"
+    },
+    "stats": {
+      "customers": {
+        "value": "500+",
+        "label": "Khách hàng tin tưởng"
+      },
+      "countries": {
+        "value": "50+",
+        "label": "Quốc gia phục vụ"
+      },
+      "experience": {
+        "value": "15+",
+        "label": "Năm kinh nghiệm"
+      },
+      "shipments": {
+        "value": "10K+",
+        "label": "Lô hàng/tháng"
+      }
+    },
+    "whyChooseUs": {
+      "title": "Tại sao chọn Sagoke?",
+      "globalNetwork": "Mạng lưới logistics toàn cầu",
+      "tracking": "Công nghệ tracking hiện đại",
+      "expertTeam": "Đội ngũ chuyên gia giàu kinh nghiệm",
+      "pricing": "Giá cả cạnh tranh, minh bạch",
+      "support": "Hỗ trợ khách hàng 24/7",
+      "insurance": "Bảo hiểm hàng hóa toàn diện"
+    }
   }
 }

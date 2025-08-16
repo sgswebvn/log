@@ -10,11 +10,11 @@ export default function SideButtons() {
       <div className="fixed right-4 bottom-6 z-40 flex flex-col gap-3">
         <Tooltip>
           <TooltipTrigger asChild>
-            <a href="mailto:sagoke-group@gmail.com" aria-label="Email Sagoke">
+            <a href="mailto:duke@sagoke-group.com" aria-label="Email Sagoke">
               <div className={btnBase}><Mail className="h-5 w-5 text-blue-600" /></div>
             </a>
           </TooltipTrigger>
-          <TooltipContent>Gmail: sagoke-group@gmail.com</TooltipContent>
+          <TooltipContent>Gmail: duke@sagoke-group.com</TooltipContent>
         </Tooltip>
         <Tooltip>
           <TooltipTrigger asChild>

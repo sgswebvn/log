@@ -1,8 +1,10 @@
+"use client"
+
 import Image from "next/image"
 import { useTranslations } from "next-intl"
 
 const awards = Array.from({ length: 8 }).map((_, i) => ({
-  img: `/placeholder.svg?height=160&width=240&query=award+certificate+${i+1}`,
+  img: `/placeholder.svg?height=160&width=240&query=award+certificate+${i + 1}`,
   title: `Award ${i + 1}`
 }))
 

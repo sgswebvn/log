@@ -1,24 +1,54 @@
-"use client"
+"use client";
 
-import Image from "next/image"
-import { useEffect, useState } from "react"
+import Image from "next/image";
+import { useEffect, useState } from "react";
+import { useTranslations } from "next-intl";
 
-type Slide = { src: string; lines: string[]; alt: string }
-const SLIDES: Slide[] = [
-  { src: "/images/slide-1.png", lines: ["SAGOKE", "ONE-STOP INTEGRATED", "LOGISTICS SOLUTION"], alt: "Hero containers crane" },
-  { src: "/images/slide-2.png", lines: ["SEA-RAIL", "MULTI-MODAL", "TRANSPORTATION"], alt: "Sea rail multimodal" }
-]
+type Slide = { src: string; lines: string[]; alt: string; description: string };
 
 export default function HomeSlideshow() {
-  const [index, setIndex] = useState(0)
+  const t = useTranslations("home.hero");
+  const slidesData = t.raw("slides") as { lines: string[]; alt: string; description: string }[];
+
+  const SLIDES: Slide[] = [
+    {
+      src: "/images/banner0.jpg",
+      lines: slidesData[0].lines,
+      alt: slidesData[0].alt,
+      description: slidesData[0].description,
+    },
+    {
+      src: "/images/banner1.jpg",
+      lines: slidesData[1].lines,
+      alt: slidesData[1].alt,
+      description: slidesData[1].description,
+    },
+    {
+      src: "/images/banner2.jpg",
+      lines: slidesData[2].lines,
+      alt: slidesData[2].alt,
+      description: slidesData[2].description,
+    },
+  ];
+
+  const [index, setIndex] = useState(0);
+
   useEffect(() => {
-    const id = setInterval(() => setIndex(i => (i + 1) % SLIDES.length), 5000)
-    return () => clearInterval(id)
-  }, [])
-  const s = SLIDES[index]
+    const id = setInterval(() => setIndex((i) => (i + 1) % SLIDES.length), 5000);
+    return () => clearInterval(id);
+  }, []);
+
+  const s = SLIDES[index];
+
   return (
     <section className="relative w-full h-[420px] sm:h-[520px] overflow-hidden">
-      <Image src={s.src || "/placeholder.svg"} alt={s.alt} fill priority className="object-cover scale-105 animate-[slowZoom_12s_ease-in-out_infinite_alternate]" />
+      <Image
+        src={s.src || "/placeholder.svg"}
+        alt={s.alt}
+        fill
+        priority
+        className="object-cover scale-105 animate-[slowZoom_12s_ease-in-out_infinite_alternate]"
+      />
       {/* soft gradient glass overlay */}
       <div className="absolute inset-0 bg-gradient-to-tr from-black/50 via-black/25 to-transparent" />
       {/* floating glow orbs */}
@@ -29,18 +59,27 @@ export default function HomeSlideshow() {
       <div className="relative container mx-auto px-4 h-full flex items-center">
         <div className="text-white font-extrabold leading-tight text-3xl sm:text-5xl tracking-wide">
           {s.lines.map((t, i) => (
-            <div key={i} className="animate-[slideIn_600ms_ease-out] will-change-transform" style={{ animationDelay: `${200*i}ms` }}>
+            <div
+              key={i}
+              className="animate-[slideIn_600ms_ease-out] will-change-transform"
+              style={{ animationDelay: `${200 * i}ms` }}
+            >
               {t}
             </div>
           ))}
           <div className="mt-4 text-base sm:text-lg font-normal text-white/90 animate-[fadeIn_1s_ease-out_600ms_both]">
-            Friendly. Modern. Intelligent logistics by Sagoke.
+            {s.description}
           </div>
         </div>
       </div>
       <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
         {SLIDES.map((_, i) => (
-          <button key={i} onClick={() => setIndex(i)} aria-label={`Slide ${i+1}`} className={`w-2.5 h-2.5 rounded-full ${i===index?'bg-white':'bg-white/60 hover:bg-white'}`} />
+          <button
+            key={i}
+            onClick={() => setIndex(i)}
+            aria-label={`Slide ${i + 1}`}
+            className={`w-2.5 h-2.5 rounded-full ${i === index ? 'bg-white' : 'bg-white/60 hover:bg-white'}`}
+          />
         ))}
       </div>
 
@@ -51,5 +90,5 @@ export default function HomeSlideshow() {
         @keyframes float { 0%{ transform: translateY(0)} 50%{ transform: translateY(-10px)} 100%{ transform: translateY(0)} }
       `}</style>
     </section>
-  )
+  );
 }

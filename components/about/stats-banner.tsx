@@ -1,3 +1,5 @@
+"use client"
+
 import { Package, Users, Trophy, Building2 } from 'lucide-react'
 import { useTranslations } from "next-intl"
 

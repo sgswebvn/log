@@ -1,14 +1,22 @@
-import createMiddleware from 'next-intl/middleware'
+import createMiddleware from "next-intl/middleware"
 
-// Đảm bảo middleware bắt mọi URL (trừ _next, api, asset tĩnh)
 export default createMiddleware({
-  locales: ['en', 'vi'],
-  defaultLocale: 'vi'
+  // A list of all locales that are supported
+  locales: ["en", "vi"],
+
+  // Used when no locale matches
+  defaultLocale: "vi",
+
+  // Always use locale prefix
+  localePrefix: "always",
 })
 
 export const config = {
+  // Match only internationalized pathnames
   matcher: [
-    // loại trừ các file tĩnh và API
-    '/((?!api|_next/static|_next/image|favicon.ico|assets|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico)).*)'
-  ]
+    // Match all pathnames except for
+    // - … if they start with `/api`, `/_next` or `/_vercel`
+    // - … the ones containing a dot (e.g. `favicon.ico`)
+    "/((?!api|_next|_vercel|.*\\..*).*)",
+  ],
 }

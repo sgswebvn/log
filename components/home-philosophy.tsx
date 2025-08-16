@@ -18,7 +18,7 @@ export default function HomePhilosophy() {
         <div className="flex flex-wrap gap-8 items-center mt-8">
           {logos.map((src, i) => (
             <div key={i} className="relative w-[110px] h-[26px]">
-              <Image src={src || "/placeholder.svg"} alt={`Partner ${i+1}`} fill className="object-contain" />
+              <Image src={src || "/placeholder.svg"} alt={`Partner ${i + 1}`} fill className="object-contain" />
             </div>
           ))}
         </div>
