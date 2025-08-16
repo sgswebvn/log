@@ -5,7 +5,7 @@ import { useTranslations, useLocale } from "next-intl";
 const cards = [
   { img: "/images/banner2.jpg", titleKey: "rail.t", subKey: "rail.s" },
   { img: "/SeaRail.jpg", titleKey: "searail.t", subKey: "searail.s" },
-  { img: "/images/truck.jpg", titleKey: "truck.t", subKey: "truck.s" },
+  { img: "/images/bo.png", titleKey: "truck.t", subKey: "truck.s" },
 ];
 
 export default function HomeFeaturedServices() {

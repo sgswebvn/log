@@ -93,13 +93,13 @@ export default function Header() {
                       onClick={() => switchLang("vi")}
                       className={`block w-full text-left px-3 py-2 text-sm hover:bg-gray-50 ${locale === "vi" ? "bg-blue-50 text-blue-600" : "text-gray-700"}`}
                     >
-                      🇻🇳 Tiếng Việt
+                      Tiếng Việt
                     </button>
                     <button
                       onClick={() => switchLang("en")}
                       className={`block w-full text-left px-3 py-2 text-sm hover:bg-gray-50 ${locale === "en" ? "bg-blue-50 text-blue-600" : "text-gray-700"}`}
                     >
-                      🇺🇸 English
+                      English
                     </button>
                   </div>
                 )}

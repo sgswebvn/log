@@ -26,7 +26,6 @@ export interface News {
   } | null
   category_id?: string
 }
-
 export interface NewsCategory {
   id: number
   name_vi: string
