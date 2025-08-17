@@ -6,6 +6,10 @@
     "contact": "Contact",
     "about": "About Us"
   },
+  "cta": {
+    "requestQuote": "Request a Quote",
+    "getStarted": "Get Started"
+  },
   "breadcrumbs": {
     "home": "Home",
     "news": "News",
@@ -240,7 +244,8 @@
       }
     },
     "cta": {
-      "button": "Request a Quote"
+      "button": "Request a Quote",
+      "getStarted": "Get Started"
     }
   },
   "newsPage": {
@@ -458,7 +463,7 @@
     },
     "office": {
       "title": "Main Office",
-      "address": "123 ABC Street, District 1, Ho Chi Minh City, Vietnam",
+      "address": "27 Tran Hung Dao B, An Dong Ward, Ho Chi Minh City, Vietnam",
       "hours": "Monday - Friday: 8:00 AM - 6:00 PM"
     },
     "stats": {

@@ -6,6 +6,9 @@
     "contact": "Liên hệ",
     "about": "Giới thiệu"
   },
+  "cta": {
+    "getStarted": "Bắt đầu ngay"
+  },
   "breadcrumbs": {
     "home": "Trang chủ",
     "news": "Tin tức",
@@ -479,7 +482,7 @@
     },
     "office": {
       "title": "Văn phòng chính",
-      "address": "123 Đường ABC, Quận 1, TP.HCM, Việt Nam",
+      "address": "27 Trần Hưng Đạo B, Phường An Đông, TP. Hồ Chí Minh, Việt Nam",
       "hours": "Thứ 2 - Thứ 6: 8:00 - 18:00"
     },
     "stats": {

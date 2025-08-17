@@ -1,7 +1,8 @@
 "use client"
 
-import { Mail, Phone, MessageSquare, ChevronUp } from 'lucide-react'
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
+import { Mail, MessageSquare, ChevronUp, PhoneCall } from 'lucide-react'
+import { Tooltip, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
+import { SiZalo } from 'react-icons/si'
 
 export default function SideButtons() {
   const btnBase = "w-11 h-11 rounded-full bg-white/95 shadow-lg border border-gray-200 flex items-center justify-center hover:bg-blue-50 hover:border-blue-400 transition-all hover:shadow-blue-200"
@@ -18,16 +19,24 @@ export default function SideButtons() {
         <Tooltip>
           <TooltipTrigger asChild>
             <a href="tel:+84123456789" aria-label="Phone" >
-              <div className={btnBase}><Phone className="h-5 w-5 text-blue-600 " /></div>
+              <div className={btnBase}><PhoneCall className="h-5 w-5 text-blue-600 " /></div>
             </a>
           </TooltipTrigger>
         </Tooltip>
         <Tooltip>
           <TooltipTrigger asChild>
-            <a href="sms:+84123456789" aria-label="SMS">
-              <div className={btnBase}><MessageSquare className="h-5 w-5 text-blue-600" /></div>
+            <a
+              href="https://zalo.me/84123456789"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Zalo"
+            >
+              <div className={btnBase}>
+                <SiZalo className="h-5 w-5 text-blue-600" />
+              </div>
             </a>
           </TooltipTrigger>
+
         </Tooltip>
         <Tooltip>
           <TooltipTrigger asChild>

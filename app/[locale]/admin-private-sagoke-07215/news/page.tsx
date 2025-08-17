@@ -98,7 +98,7 @@ export default function NewsPage() {
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
         <h1 className="text-2xl font-semibold text-gray-900">Quản lý tin tức</h1>
         <Link
-          href="/admin/news/create"
+          href="/admin-private-sagoke-07215/news/create"
           className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
         >
           ➕ Thêm tin tức
@@ -162,7 +162,7 @@ export default function NewsPage() {
 
                 <div className="flex gap-2">
                   <Link
-                    href={`/admin/news/edit/${item.id}`}
+                    href={`/admin-private-sagoke-07215/news/edit/${item.id}`}
                     className="flex-1 bg-blue-50 text-blue-700 px-3 py-2 rounded text-xs font-medium hover:bg-blue-100 transition-colors text-center"
                   >
                     ✏️ Sửa
@@ -184,7 +184,7 @@ export default function NewsPage() {
           <h3 className="text-lg font-medium text-gray-900 mb-2">Chưa có tin tức nào</h3>
           <p className="text-gray-500 mb-4">Bắt đầu tạo tin tức đầu tiên của bạn</p>
           <Link
-            href="/admin/news/create"
+            href="/admin-private-sagoke-07215/news/create"
             className="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
           >
             Thêm tin tức

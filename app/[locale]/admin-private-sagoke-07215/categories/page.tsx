@@ -88,7 +88,7 @@ export default function CategoriesPage() {
           <p className="text-gray-600">Tổng cộng {categories.length} danh mục</p>
         </div>
         <Link
-          href="/vi/admin/categories/create"
+          href="/vi/admin-private-sagoke-07215/categories/create"
           className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium inline-flex items-center gap-2"
         >
           ➕ Thêm danh mục
@@ -135,7 +135,7 @@ export default function CategoriesPage() {
 
                   <div className="flex items-center gap-2 ml-4">
                     <Link
-                      href={`/vi/admin/categories/edit/${category.id}`}
+                      href={`/vi/admin-private-sagoke-07215/categories/edit/${category.id}`}
                       className="bg-blue-50 text-blue-700 px-3 py-1 rounded text-sm font-medium hover:bg-blue-100 transition-colors"
                     >
                       ✏️ Sửa
@@ -157,7 +157,7 @@ export default function CategoriesPage() {
             <h3 className="text-lg font-medium text-gray-900 mb-2">Chưa có danh mục nào</h3>
             <p className="text-gray-500 mb-6">Thêm danh mục đầu tiên để bắt đầu phân loại tin tức</p>
             <Link
-              href="/vi/admin/categories/create"
+              href="/vi/admin-private-sagoke-07215/categories/create"
               className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium inline-flex items-center gap-2"
             >
               Thêm danh mục đầu tiên

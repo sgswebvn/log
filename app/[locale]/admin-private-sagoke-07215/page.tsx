@@ -126,7 +126,7 @@ export default function AdminDashboard() {
         <h2 className="text-lg font-medium text-gray-900 mb-4">Thao tác nhanh</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <Link
-            href="/admin/news/create"
+            href="/admin-private-sagoke-07215/news/create"
             className="flex items-center p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors"
           >
             <span className="text-2xl mr-3">➕</span>
@@ -136,7 +136,7 @@ export default function AdminDashboard() {
             </div>
           </Link>
           <Link
-            href="/admin/categories"
+            href="/admin-private-sagoke-07215/categories"
             className="flex items-center p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors"
           >
             <span className="text-2xl mr-3">📁</span>
@@ -146,7 +146,7 @@ export default function AdminDashboard() {
             </div>
           </Link>
           <Link
-            href="/admin/contacts"
+            href="/admin-private-sagoke-07215/contacts"
             className="flex items-center p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors"
           >
             <span className="text-2xl mr-3">📧</span>

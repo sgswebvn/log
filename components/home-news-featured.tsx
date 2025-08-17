@@ -128,7 +128,7 @@ export default function HomeNewsFeatured() {
           )}
 
           {/* Other Articles */}
-          {otherNews.slice(0, 6).map((item) => (
+          {otherNews.slice(0, 4).map((item) => (
             <div key={item.id} className="lg:col-span-1">
               <Link href={`/${locale}/news/${item.id}`}>
                 <article className="group bg-white rounded-lg   shadow-md overflow-hidden hover:shadow-lg transition-all duration-300 h-full">

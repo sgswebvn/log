@@ -96,9 +96,7 @@ export default function AboutPage() {
             </div>
 
             <div className="order-1 lg:order-2">
-              <div className="inline-block px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium mb-4">
-                ⭐ Về Sagoke
-              </div>
+
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">{t("overview.heading")}</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed mb-8">
                 <p className="text-lg">{t("overview.paragraph1")}</p>

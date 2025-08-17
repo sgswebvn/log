@@ -42,6 +42,7 @@ export default function HomeSlideshow() {
 
   return (
     <section className="relative w-full h-[420px] sm:h-[520px] overflow-hidden">
+
       <Image
         src={s.src || "/placeholder.svg"}
         alt={s.alt}

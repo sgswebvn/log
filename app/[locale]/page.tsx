@@ -14,6 +14,7 @@ export default function HomePage() {
       <Header />
 
       <main>
+        <div className="h-[109px]" />
         {/* Hero Slideshow */}
         <HomeSlideshow />
 

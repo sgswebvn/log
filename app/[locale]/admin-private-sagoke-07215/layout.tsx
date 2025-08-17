@@ -7,10 +7,10 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 
 const menuItems = [
-  { href: "/admin", label: "Dashboard", icon: "📊" },
-  { href: "/admin/news", label: "Tin tức", icon: "📰" },
-  { href: "/admin/categories", label: "Danh mục", icon: "📁" },
-  { href: "/admin/contacts", label: "Liên hệ", icon: "📧" },
+  { href: "/admin-private-sagoke-07215", label: "Dashboard", icon: "📊" },
+  { href: "/admin-private-sagoke-07215/news", label: "Tin tức", icon: "📰" },
+  { href: "/admin-private-sagoke-07215/categories", label: "Danh mục", icon: "📁" },
+  { href: "/admin-private-sagoke-07215/contacts", label: "Liên hệ", icon: "📧" },
 ]
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {
@@ -74,12 +74,12 @@ function SidebarContent({ pathname }: { pathname: string }) {
   return (
     <>
       <div className="flex items-center h-16 flex-shrink-0 px-4 bg-white border-b border-gray-200">
-        <h1 className="text-lg font-semibold text-gray-900">Admin Panel</h1>
+        <h1 className="text-lg font-semibold text-gray-900">Sagoke admin</h1>
       </div>
       <div className="flex-1 flex flex-col overflow-y-auto">
         <nav className="flex-1 px-2 py-4 space-y-1">
           {menuItems.map((item) => {
-            const isActive = pathname === item.href || (item.href !== "/admin" && pathname.startsWith(item.href))
+            const isActive = pathname === item.href || (item.href !== "/admin-private-sagoke-07215" && pathname.startsWith(item.href))
             return (
               <Link
                 key={item.href}

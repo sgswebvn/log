@@ -78,14 +78,6 @@ export default function ContactPage() {
     }
   }
 
-  const hotlineContact = {
-    icon: Phone,
-    titleKey: "contactMethods.hotline.title",
-    infoKey: "contactMethods.hotline.info",
-    descriptionKey: "contactMethods.hotline.description",
-    color: "from-blue-500 to-blue-600",
-    action: "tel:+84123456789",
-  }
 
   const emailContact = {
     icon: Mail,
@@ -96,16 +88,8 @@ export default function ContactPage() {
     action: "mailto:duke@sagoke-group.com",
   }
 
-  const liveChatContact = {
-    icon: MessageCircle,
-    titleKey: "contactMethods.liveChat.title",
-    infoKey: "contactMethods.liveChat.info",
-    descriptionKey: "contactMethods.liveChat.description",
-    color: "from-purple-500 to-purple-600",
-    action: "#",
-  }
 
-  const contactMethods = [hotlineContact, emailContact, liveChatContact]
+  const contactMethods = [emailContact]
 
   const customersStat = {
     icon: Users,
@@ -250,7 +234,7 @@ export default function ContactPage() {
                             value={formData.name}
                             onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                             placeholder={t("placeholders.name")}
-                            className="pl-10 h-12 border-gray-200 focus:border-blue-500 focus:ring-blue-500 rounded-xl"
+                            className="pl-10 h-12 border-gray-200 focus:border-blue-500 focus:ring-blue-500 rounded-xl placeholder:text-gray-400"
                           />
                         </div>
                       </div>
@@ -264,7 +248,7 @@ export default function ContactPage() {
                             value={formData.email}
                             onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                             placeholder={t("placeholders.email")}
-                            className="pl-10 h-12 border-gray-200 focus:border-blue-500 focus:ring-blue-500 rounded-xl"
+                            className="pl-10 h-12 border-gray-200 focus:border-blue-500 focus:ring-blue-500 rounded-xl placeholder:text-gray-400"
                           />
                         </div>
                       </div>
@@ -280,7 +264,7 @@ export default function ContactPage() {
                             value={formData.phone}
                             onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                             placeholder={t("placeholders.phone")}
-                            className="pl-10 h-12 border-gray-200 focus:border-blue-500 focus:ring-blue-500 rounded-xl"
+                            className="pl-10 h-12 border-gray-200 focus:border-blue-500 focus:ring-blue-500 rounded-xl placeholder:text-gray-400"
                           />
                         </div>
                       </div>
@@ -293,7 +277,7 @@ export default function ContactPage() {
                             value={formData.company}
                             onChange={(e) => setFormData({ ...formData, company: e.target.value })}
                             placeholder={t("placeholders.company")}
-                            className="pl-10 h-12 border-gray-200 focus:border-blue-500 focus:ring-blue-500 rounded-xl"
+                            className="pl-10 h-12 border-gray-200 focus:border-blue-500 focus:ring-blue-500 rounded-xl placeholder:text-gray-400"
                           />
                         </div>
                       </div>
@@ -304,7 +288,7 @@ export default function ContactPage() {
                       <select
                         value={formData.service}
                         onChange={(e) => setFormData({ ...formData, service: e.target.value })}
-                        className="w-full h-12 px-4 border border-gray-200 rounded-xl focus:border-blue-500 focus:ring-blue-500"
+                        className="w-full h-12 px-4 border border-gray-200 rounded-xl focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400"
                       >
                         <option value="">{t("placeholders.service")}</option>
                         <option value="rail">{tServices("items.rail.title")}</option>
@@ -324,7 +308,7 @@ export default function ContactPage() {
                         onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                         placeholder={t("placeholders.message")}
                         rows={6}
-                        className="border-gray-200 focus:border-blue-500 focus:ring-blue-500 rounded-xl"
+                        className="border-gray-200 focus:border-blue-500 focus:ring-blue-500 rounded-xl placeholder:text-gray-400"
                       />
                     </div>
 
