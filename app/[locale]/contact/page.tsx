@@ -153,7 +153,8 @@ export default function ContactPage() {
   return (
     <div className="bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 min-h-screen">
       <Header />
-
+      <br />
+      <br />
       {/* Hero Section */}
       <section className="relative h-80 md:h-96 flex items-center justify-center overflow-hidden">
         <img src="/contact-hero.jpg" alt="" className="object-cover" />
