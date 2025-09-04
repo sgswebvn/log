@@ -38,6 +38,7 @@ export default function EditNewsPage({ params }: { params: { id: string } }) {
     category_id: "",
     published: false,
   })
+  const [imagePreview, setImagePreview] = useState<string | null>(null) // State for local image preview
 
   // Quill toolbar options
   const quillModules = {
@@ -76,7 +77,7 @@ export default function EditNewsPage({ params }: { params: { id: string } }) {
         category_id: news.category_id || "",
         published: news.published || false,
       })
-
+      setImagePreview(news.image_url || null) // Set initial preview from existing image_url
       setTags(news.tags || []) // Assuming tags is an array field in the news table
       setCategories(categoriesResponse.data || [])
     } catch (error) {
@@ -102,21 +103,33 @@ export default function EditNewsPage({ params }: { params: { id: string } }) {
       return
     }
 
+    // Show local preview immediately
+    const previewUrl = URL.createObjectURL(file)
+    setImagePreview(previewUrl)
+
     setUploading(true)
     try {
       const url = await uploadImage(file)
       if (url) {
         setFormData({ ...formData, image_url: url })
+        setImagePreview(url) // Update preview to uploaded URL
       } else {
         alert("Có lỗi xảy ra khi upload hình ảnh")
+        setImagePreview(null) // Reset preview on error
       }
     } catch (error) {
       console.error("Upload error:", error)
       alert("Có lỗi xảy ra khi upload hình ảnh")
+      setImagePreview(null) // Reset preview on error
     } finally {
       setUploading(false)
+      // Clean up local preview URL to avoid memory leaks
+      if (previewUrl) {
+        URL.revokeObjectURL(previewUrl)
+      }
     }
   }
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setLoading(true)
@@ -196,8 +209,8 @@ export default function EditNewsPage({ params }: { params: { id: string } }) {
                 type="button"
                 onClick={() => setActiveTab("vi")}
                 className={`py-2 px-1 border-b-2 font-medium text-sm ${activeTab === "vi"
-                  ? "border-blue-500 text-blue-600"
-                  : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
+                    ? "border-blue-500 text-blue-600"
+                    : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
                   }`}
               >
                 🇻🇳 Tiếng Việt
@@ -206,8 +219,8 @@ export default function EditNewsPage({ params }: { params: { id: string } }) {
                 type="button"
                 onClick={() => setActiveTab("en")}
                 className={`py-2 px-1 border-b-2 font-medium text-sm ${activeTab === "en"
-                  ? "border-blue-500 text-blue-600"
-                  : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
+                    ? "border-blue-500 text-blue-600"
+                    : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
                   }`}
               >
                 🇺🇸 Tiếng Anh
@@ -334,8 +347,6 @@ export default function EditNewsPage({ params }: { params: { id: string } }) {
             </select>
           </div>
 
-
-
           {/* Image Upload */}
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-2">Hình ảnh</label>
@@ -348,16 +359,19 @@ export default function EditNewsPage({ params }: { params: { id: string } }) {
                 className="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"
               />
               {uploading && <p className="text-sm text-blue-600">Đang upload...</p>}
-              {formData.image_url && (
+              {imagePreview && (
                 <div className="relative">
                   <img
-                    src={formData.image_url || "/placeholder.svg"}
+                    src={imagePreview}
                     alt="Preview"
                     className="w-full h-48 object-cover rounded-lg"
                   />
                   <button
                     type="button"
-                    onClick={() => setFormData({ ...formData, image_url: "" })}
+                    onClick={() => {
+                      setFormData({ ...formData, image_url: "" })
+                      setImagePreview(null)
+                    }}
                     className="absolute top-2 right-2 bg-red-500 text-white rounded-full p-1 hover:bg-red-600"
                   >
                     ✕

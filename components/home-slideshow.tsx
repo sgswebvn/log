@@ -1,48 +1,83 @@
-"use client";
+"use client"
 
-import Image from "next/image";
-import { useEffect, useState } from "react";
-import { useTranslations } from "next-intl";
+import Image from "next/image"
+import { useEffect, useState } from "react"
+import { useLocale } from "next-intl"
+import { supabase } from "@/lib/supabase"
 
-type Slide = { src: string; lines: string[]; alt: string; description: string };
+interface Slide {
+  id: string
+  src: string
+  title: string
+  alt: string
+  description: string
+}
 
 export default function HomeSlideshow() {
-  const t = useTranslations("home.hero");
-  const slidesData = t.raw("slides") as { lines: string[]; alt: string; description: string }[];
-
-  const SLIDES: Slide[] = [
-    {
-      src: "/images/banner0.jpg",
-      lines: slidesData[0].lines,
-      alt: slidesData[0].alt,
-      description: slidesData[0].description,
-    },
-    {
-      src: "/images/banner1.jpg",
-      lines: slidesData[1].lines,
-      alt: slidesData[1].alt,
-      description: slidesData[1].description,
-    },
-    {
-      src: "/images/banner2.jpg",
-      lines: slidesData[2].lines,
-      alt: slidesData[2].alt,
-      description: slidesData[2].description,
-    },
-  ];
-
-  const [index, setIndex] = useState(0);
+  const locale = useLocale();
+  const [slides, setSlides] = useState<Slide[]>([])
+  const [index, setIndex] = useState(0)
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    const id = setInterval(() => setIndex((i) => (i + 1) % SLIDES.length), 5000);
-    return () => clearInterval(id);
-  }, []);
+    const fetchSlides = async () => {
+      try {
+        const { data, error } = await supabase
+          .from("banners")
+          .select("id, title_vi, title_en, description_vi, description_en, image_url, order_number, active")
+          .eq("active", true)
+          .order("order_number", { ascending: true })
 
-  const s = SLIDES[index];
+        if (error) throw error
+
+        const formattedSlides: Slide[] = data.map((banner) => ({
+          id: banner.id,
+          src: banner.image_url,
+          title: locale === "vi" ? banner.title_vi : banner.title_en,
+          alt: banner.title_en || banner.title_vi,
+          description: (locale === "vi" ? banner.description_vi : banner.description_en) || "",
+        }))
+
+        setSlides(formattedSlides)
+      } catch (error) {
+        console.error("Error fetching slides:", error)
+      } finally {
+        setLoading(false)
+      }
+    }
+
+    fetchSlides()
+  }, [locale]) // Re-fetch if locale changes
+
+  useEffect(() => {
+    if (slides.length > 0) {
+      const id = setInterval(() => setIndex((i) => (i + 1) % slides.length), 5000)
+      return () => clearInterval(id)
+    }
+  }, [slides])
+
+  if (loading) {
+    return (
+      <section className="relative w-full h-[420px] sm:h-[520px] overflow-hidden">
+        <div className="absolute inset-0 bg-gray-200 animate-pulse" />
+      </section>
+    )
+  }
+
+  if (slides.length === 0) {
+    return (
+      <section className="relative w-full h-[420px] sm:h-[520px] overflow-hidden">
+        <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
+          <p className="text-gray-500">Chưa có banner nào được thêm.</p>
+        </div>
+      </section>
+    )
+  }
+
+  const s = slides[index]
 
   return (
     <section className="relative w-full h-[420px] sm:h-[520px] overflow-hidden">
-
       <Image
         src={s.src || "/placeholder.svg"}
         alt={s.alt}
@@ -59,22 +94,20 @@ export default function HomeSlideshow() {
       </div>
       <div className="relative container mx-auto px-4 h-full flex items-center">
         <div className="text-white font-extrabold leading-tight text-3xl sm:text-5xl tracking-wide">
-          {s.lines.map((t, i) => (
-            <div
-              key={i}
-              className="animate-[slideIn_600ms_ease-out] will-change-transform"
-              style={{ animationDelay: `${200 * i}ms` }}
-            >
-              {t}
-            </div>
-          ))}
-          <div className="mt-4 text-base sm:text-lg font-normal text-white/90 animate-[fadeIn_1s_ease-out_600ms_both]">
-            {s.description}
+          <div
+            className="animate-[slideIn_600ms_ease-out] will-change-transform"
+          >
+            {s.title}
           </div>
+          {s.description && (
+            <div className="mt-4 text-base sm:text-lg font-normal text-white/90 animate-[fadeIn_1s_ease-out_600ms_both]">
+              {s.description}
+            </div>
+          )}
         </div>
       </div>
       <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
-        {SLIDES.map((_, i) => (
+        {slides.map((_, i) => (
           <button
             key={i}
             onClick={() => setIndex(i)}
@@ -91,5 +124,5 @@ export default function HomeSlideshow() {
         @keyframes float { 0%{ transform: translateY(0)} 50%{ transform: translateY(-10px)} 100%{ transform: translateY(0)} }
       `}</style>
     </section>
-  );
+  )
 }

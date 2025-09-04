@@ -120,7 +120,7 @@ export default function Header() {
           {/* Email */}
           <a href="mailto:sake@sagoke-group.com" className="flex items-center gap-2 hover:text-blue-600 transition-colors">
             <MdEmail className="text-blue-600" size={16} />
-            <span className=" sm:inline">duke@sagoke-group.com</span>
+            <span className=" sm:inline">ops@sagoke-group.com</span>
           </a>
 
           {/* Select ngôn ngữ */}

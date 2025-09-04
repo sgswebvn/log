@@ -21,8 +21,8 @@
     "loading": "Loading...",
     "readMore": "Read More",
     "contactInfo": {
-      "email": "duke@sagoke-group.com",
-      "phone": "+84 123 456 789",
+      "email": "ops@sagoke-group.com",
+      "phone": "+84 385 655 582",
       "address": "27 Tran Hung Dao B, An Dong Ward, Ho Chi Minh City",
       "website": "sagoke-group.com"
     }
@@ -447,12 +447,12 @@
     "contactMethods": {
       "hotline": {
         "title": "24/7 Hotline",
-        "info": "+84 123 456 789",
+        "info": "+84 385 655 582",
         "description": "Customer support anytime"
       },
       "email": {
         "title": "Support Email",
-        "info": "duke@sagoke-group.com",
+        "info": "ops@sagoke-group.com",
         "description": "Response within 2 hours"
       },
       "liveChat": {

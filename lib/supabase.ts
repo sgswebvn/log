@@ -26,6 +26,18 @@ export interface News {
   } | null
   category_id?: string
 }
+export interface Banner {
+  id: string
+  title_vi: string
+  title_en: string
+  description_vi: string
+  description_en: string
+  image_url: string
+  order_number: number
+  active: boolean
+  created_at: string
+  updated_at: string
+}
 export interface NewsCategory {
   id: number
   name_vi: string

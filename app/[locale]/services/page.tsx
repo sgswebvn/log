@@ -255,6 +255,23 @@ export default function ServicesPage() {
             })}
           </div>
         </section>
+        <section>
+          {/* 2 ảnh 2 hàng */}
+          <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
+            <div className="relative h-80 w-full">
+              <Image src="/images/VINALOG-BROCHURE-10.png" alt="Air Logistics" fill className="object-cover rounded-lg shadow-lg" />
+            </div>
+            <div className="relative h-80 w-full">
+              <Image src="/images/VINALOG-BROCHURE-11.png" alt="Road Service" fill className="object-cover rounded-lg shadow-lg" />
+            </div>
+            <div className="relative h-80 w-full">
+              <Image src="/images/VINALOG-BROCHURE-12.png" alt="Warehousing Service" fill className="object-cover rounded-lg shadow-lg" />
+            </div>
+            <div className="relative h-80 w-full">
+              <Image src="/images/VINALOG-BROCHURE-13.png" alt="Sea Freight Service" fill className="object-cover rounded-lg shadow-lg" />
+            </div>
+          </div>
+        </section>
 
         <section className="bg-gradient-to-r from-blue-600 via-blue-700 to-indigo-700 text-white py-12 md:py-16">
           <div className="container mx-auto px-4">

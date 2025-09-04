@@ -85,7 +85,7 @@ export default function ContactPage() {
     infoKey: "contactMethods.email.info",
     descriptionKey: "contactMethods.email.description",
     color: "from-green-500 to-green-600",
-    action: "mailto:duke@sagoke-group.com",
+    action: "mailto:ops@sagoke-group.com",
   }
 
 

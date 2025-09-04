@@ -20,8 +20,8 @@
     "loading": "Đang tải...",
     "readMore": "Đọc thêm",
     "contactInfo": {
-      "email": "duke@sagoke-group.com",
-      "phone": "+84 123 456 789",
+      "email": "ops@sagoke-group.com",
+      "phone": "+84 385 655 582",
       "address": " 27 Trần Hưng Đạo B, Phường An Đông, TP. Hồ Chí Minh",
       "website": "sagoke-group.com"
     }
@@ -466,12 +466,12 @@
     "contactMethods": {
       "hotline": {
         "title": "Hotline 24/7",
-        "info": "+84 123 456 789",
+        "info": "+84 385 655 582",
         "description": "Hỗ trợ khách hàng mọi lúc"
       },
       "email": {
         "title": "Email hỗ trợ",
-        "info": "duke@sagoke-group.com",
+        "info": "ops@sagoke-group.com",
         "description": "Phản hồi trong 2 giờ"
       },
       "liveChat": {

@@ -11,6 +11,7 @@ const menuItems = [
   { href: "/admin-private-sagoke-07215/news", label: "Tin tức", icon: "📰" },
   { href: "/admin-private-sagoke-07215/categories", label: "Danh mục", icon: "📁" },
   { href: "/admin-private-sagoke-07215/contacts", label: "Liên hệ", icon: "📧" },
+  { href: "/admin-private-sagoke-07215/banners", label: "Banner", icon: "📧" },
 ]
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {
