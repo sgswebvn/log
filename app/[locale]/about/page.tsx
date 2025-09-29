@@ -64,7 +64,7 @@ export default function AboutPage() {
   ]
 
   return (
-    <div className="bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 min-h-screen">
+    <div className="bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 min-h-screen pt-20">
       <Header />
 
       {/* Hero Banner with Background Image */}

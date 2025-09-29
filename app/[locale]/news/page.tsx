@@ -86,7 +86,7 @@ export default function NewsPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 pt-20">
       <Header />
 
       <section className="relative h-80 md:h-96 flex items-center justify-center overflow-hidden">
