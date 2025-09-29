@@ -127,19 +127,19 @@ export default function ServicesWarehousingPage() {
                         </div>
                     </div>
 
-                    {/* Dịch vụ tại Vinalogs */}
+                    {/* Dịch vụ tại Sagoke */}
                     <div className="mb-8">
-                        <h3 className="text-xl font-semibold mb-4">{t("content.vinalogs.title")}</h3>
-                        <p className="text-gray-700 mb-4" dangerouslySetInnerHTML={{ __html: t("content.vinalogs.desc") }} />
+                        <h3 className="text-xl font-semibold mb-4">{t("content.Sagoke.title")}</h3>
+                        <p className="text-gray-700 mb-4" dangerouslySetInnerHTML={{ __html: t("content.Sagoke.desc") }} />
                         <div className="space-y-4">
-                            <p className="text-gray-700" dangerouslySetInnerHTML={{ __html: t("content.vinalogs.infrastructure") }} />
-                            <p className="text-gray-700" dangerouslySetInnerHTML={{ __html: t("content.vinalogs.management") }} />
-                            <p className="text-gray-700" dangerouslySetInnerHTML={{ __html: t("content.vinalogs.flexibility") }} />
-                            <p className="text-gray-700" dangerouslySetInnerHTML={{ __html: t("content.vinalogs.location") }} />
-                            <p className="text-gray-700" dangerouslySetInnerHTML={{ __html: t("content.vinalogs.support") }} />
-                            <p className="text-gray-700" dangerouslySetInnerHTML={{ __html: t("content.vinalogs.integration") }} />
-                            <p className="text-gray-700" dangerouslySetInnerHTML={{ __html: t("content.vinalogs.quality") }} />
-                            <p className="text-gray-700" dangerouslySetInnerHTML={{ __html: t("content.vinalogs.conclusion") }} />
+                            <p className="text-gray-700" dangerouslySetInnerHTML={{ __html: t("content.Sagoke.infrastructure") }} />
+                            <p className="text-gray-700" dangerouslySetInnerHTML={{ __html: t("content.Sagoke.management") }} />
+                            <p className="text-gray-700" dangerouslySetInnerHTML={{ __html: t("content.Sagoke.flexibility") }} />
+                            <p className="text-gray-700" dangerouslySetInnerHTML={{ __html: t("content.Sagoke.location") }} />
+                            <p className="text-gray-700" dangerouslySetInnerHTML={{ __html: t("content.Sagoke.support") }} />
+                            <p className="text-gray-700" dangerouslySetInnerHTML={{ __html: t("content.Sagoke.integration") }} />
+                            <p className="text-gray-700" dangerouslySetInnerHTML={{ __html: t("content.Sagoke.quality") }} />
+                            <p className="text-gray-700" dangerouslySetInnerHTML={{ __html: t("content.Sagoke.conclusion") }} />
                         </div>
                     </div>
 

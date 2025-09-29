@@ -154,7 +154,7 @@ export default function RoadTransportPage() {
                         </ul>
                     </div>
 
-                    {/* Lợi ích khi sử dụng dịch vụ Vinalogs */}
+                    {/* Lợi ích khi sử dụng dịch vụ Sagoke */}
                     <div className="mb-8">
                         <h2 className="text-2xl font-bold mb-6">{t("content.benefits.title")}</h2>
                         <h3 className="text-xl font-semibold mb-4">{t("content.benefits.cost.title")}</h3>

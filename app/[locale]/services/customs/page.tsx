@@ -94,17 +94,17 @@ export default function CustomsServicePage() {
                         </ul>
                     </div>
 
-                    {/* Vì sao nên thuê Vinalogs? */}
+                    {/* Vì sao nên thuê Sagoke? */}
                     <div className="mb-8">
-                        <h3 className="text-xl font-semibold mb-4">{t("content.whyVinalogs.title")}</h3>
-                        <p className="text-gray-700 mb-4" dangerouslySetInnerHTML={{ __html: t("content.whyVinalogs.desc") }} />
+                        <h3 className="text-xl font-semibold mb-4">{t("content.whySagoke.title")}</h3>
+                        <p className="text-gray-700 mb-4" dangerouslySetInnerHTML={{ __html: t("content.whySagoke.desc") }} />
                         <ul className="list-disc pl-5 space-y-2 mb-4">
-                            <li className="text-gray-700" dangerouslySetInnerHTML={{ __html: t("content.whyVinalogs.items.certifiedAgent") }} />
-                            <li className="text-gray-700" dangerouslySetInnerHTML={{ __html: t("content.whyVinalogs.items.costTimeSaving") }} />
-                            <li className="text-gray-700" dangerouslySetInnerHTML={{ __html: t("content.whyVinalogs.items.accuracy") }} />
-                            <li className="text-gray-700" dangerouslySetInnerHTML={{ __html: t("content.whyVinalogs.items.customerService") }} />
-                            <li className="text-gray-700" dangerouslySetInnerHTML={{ __html: t("content.whyVinalogs.items.network") }} />
-                            <li className="text-gray-700" dangerouslySetInnerHTML={{ __html: t("content.whyVinalogs.items.relatedServices") }} />
+                            <li className="text-gray-700" dangerouslySetInnerHTML={{ __html: t("content.whySagoke.items.certifiedAgent") }} />
+                            <li className="text-gray-700" dangerouslySetInnerHTML={{ __html: t("content.whySagoke.items.costTimeSaving") }} />
+                            <li className="text-gray-700" dangerouslySetInnerHTML={{ __html: t("content.whySagoke.items.accuracy") }} />
+                            <li className="text-gray-700" dangerouslySetInnerHTML={{ __html: t("content.whySagoke.items.customerService") }} />
+                            <li className="text-gray-700" dangerouslySetInnerHTML={{ __html: t("content.whySagoke.items.network") }} />
+                            <li className="text-gray-700" dangerouslySetInnerHTML={{ __html: t("content.whySagoke.items.relatedServices") }} />
                         </ul>
                     </div>
 
