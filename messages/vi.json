@@ -221,13 +221,34 @@
       }
     },
     "sidebar": {
-      "title": "Dịch vụ khác",
       "sea": "Vận tải đường biển",
       "air": "Vận tải hàng không",
       "road": "Vận tải đường bộ",
-      "warehouse": "Kho bãi & Phân phối",
+      "warehouse": "Kho bãi",
       "customs": "Khai báo hải quan",
-      "project": "Vận tải hàng dự án"
+      "project": "Vận tải hàng dự án",
+      "search": {
+        "title": "Tìm kiếm",
+        "placeholder": "Nhập thông tin cần tìm..."
+      },
+      "services": {
+        "title": "Dịch vụ của chúng tôi"
+      },
+      "recentPosts": {
+        "title": "Bài viết gần đây",
+        "items": {
+          "post1": "Thủ tục nhập khẩu máy móc thiết bị và những điều cần biết 2025",
+          "post2": "Hàng dự án là gì? Tìm hiểu khái niệm và ứng dụng trong logistics",
+          "post3": "Xe siêu trường siêu trọng: Giải pháp tối ưu cho vận chuyển lô hàng lớn",
+          "post4": "Thủ tục tái nhập hàng xuất khẩu bị trả lại: Hướng dẫn chi tiết",
+          "post5": "Thủ tục nhập khẩu dây chuyền đồng bộ tháo rời qua cảng Hải Phòng: Chi tiết 2025"
+        }
+      },
+      "support": {
+        "title": "Bạn cần hỗ trợ?",
+        "desc": "Liên hệ ngay, chúng tôi luôn sẵn sàng phục vụ!",
+        "cta": "Giữ liên hệ"
+      }
     },
     "support": {
       "title": "Hỗ trợ khách hàng",
