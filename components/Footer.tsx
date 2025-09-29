@@ -12,11 +12,12 @@ export default function Footer() {
   const locale = useLocale()
 
   const services = [
-    "services.items.seaFreight.title",
-    "services.items.airLogistics.title",
-    "services.items.forwarding.title",
-    "services.items.warehousing.title",
-    "services.items.supplyChain.title",
+    "services_footer.sea",
+    "services_footer.air",
+    "services_footer.road",
+    "services_footer.warehouse",
+    "services_footer.customs",
+    "services_footer.project"
   ]
 
   return (

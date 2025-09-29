@@ -1,54 +1,66 @@
-"use client"
+"use client";
 
-import Link from "next/link"
-import Image from "next/image"
-import { usePathname, useRouter } from "next/navigation"
-import { useLocale, useTranslations } from "next-intl"
-import { Menu, X, ChevronDown } from "lucide-react"
-import { useState, useEffect, useRef } from "react"
-import { MdEmail } from "react-icons/md"
+import Link from "next/link";
+import Image from "next/image";
+import { usePathname, useRouter } from "next/navigation";
+import { useLocale, useTranslations } from "next-intl";
+import { Menu, X, ChevronDown } from "lucide-react";
+import { useState, useEffect, useRef } from "react";
+import { MdEmail } from "react-icons/md";
 
 // Danh sách các mục điều hướng
 const navItems = [
   { href: "/about", key: "about" },
-  { href: "/services", key: "services" },
+  {
+    href: "/services",
+    key: "services",
+    children: [
+      { href: "/services/sea-transport", key: "seaTransport" },
+      { href: "/services/air-transpor", key: "airTransport" },
+      { href: "/services/road", key: "road" },
+      { href: "/services/warehousing", key: "warehousing" },
+      { href: "/services/customs", key: "customs" },
+      { href: "/services/project-cargo", key: "project" },
+      { href: "/services/logistics", key: "logistics" },
+    ],
+  },
   { href: "/news", key: "news" },
   { href: "/contact", key: "contact" },
-]
+];
 
 // Component Dropdown Ngôn ngữ tùy chỉnh
 function LanguageSwitcher() {
-  const locale = useLocale()
-  const router = useRouter()
-  const pathname = usePathname()
-  const [isOpen, setIsOpen] = useState(false)
-  const dropdownRef = useRef<HTMLDivElement>(null)
+  const locale = useLocale();
+  const router = useRouter();
+  const pathname = usePathname();
+  const [isOpen, setIsOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
 
   const languages = [
     { code: "vi", name: "VI", flag: "/flags/vn.png" },
     { code: "en", name: "EN", flag: "/flags/en.png" },
-  ]
+  ];
 
   const handleLanguageChange = (newLocale: string) => {
-    const newPath = pathname.replace(`/${locale}`, `/${newLocale}`)
-    router.push(newPath)
-    setIsOpen(false)
-  }
+    const newPath = pathname.replace(`/${locale}`, `/${newLocale}`);
+    router.push(newPath);
+    setIsOpen(false);
+  };
 
   // Đóng dropdown khi click ra ngoài
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
-        setIsOpen(false)
+        setIsOpen(false);
       }
     }
-    document.addEventListener("mousedown", handleClickOutside)
+    document.addEventListener("mousedown", handleClickOutside);
     return () => {
-      document.removeEventListener("mousedown", handleClickOutside)
-    }
-  }, [dropdownRef])
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [dropdownRef]);
 
-  const currentLanguage = languages.find(lang => lang.code === locale)
+  const currentLanguage = languages.find((lang) => lang.code === locale);
 
   return (
     <div className="relative" ref={dropdownRef}>
@@ -64,9 +76,8 @@ function LanguageSwitcher() {
           className="object-contain rounded-sm"
         />
         <span>{currentLanguage?.name}</span>
-        <ChevronDown size={16} className={`transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`} />
+        <ChevronDown size={16} className={`transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`} />
       </button>
-
 
       {isOpen && (
         <div className="absolute top-full right-0 mt-2 w-32 bg-white rounded-lg shadow-lg border z-10 overflow-hidden">
@@ -88,29 +99,41 @@ function LanguageSwitcher() {
                 </button>
               </li>
             ))}
-
           </ul>
         </div>
       )}
     </div>
-  )
+  );
 }
 
-
 export default function Header() {
-  const tNav = useTranslations("navigation")
-  const tCta = useTranslations("cta")
-  const locale = useLocale()
-  const pathname = usePathname()
-  const [open, setOpen] = useState(false)
+  const tNav = useTranslations("navigation");
+  const tCta = useTranslations("cta");
+  const locale = useLocale();
+  const pathname = usePathname();
+  const [open, setOpen] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
 
   // Hàm kiểm tra link có đang active không
   const isActive = (href: string) => {
-    const activePath = `/${locale}${href}`
-    // Trường hợp trang chủ
-    if (href === '/') return pathname === `/${locale}`
-    return pathname.startsWith(activePath)
-  }
+    const activePath = `/${locale}${href}`;
+    if (href === "/") return pathname === `/${locale}`;
+    return pathname.startsWith(activePath);
+  };
+
+  // Đóng dropdown khi click ra ngoài
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setDropdownOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [dropdownRef]);
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
@@ -118,9 +141,12 @@ export default function Header() {
       <div className="bg-gray-50 text-gray-600 text-sm border-b">
         <div className="container mx-auto flex justify-between items-center px-4 h-9">
           {/* Email */}
-          <a href="mailto:sake@sagoke-group.com" className="flex items-center gap-2 hover:text-blue-600 transition-colors">
+          <a
+            href="mailto:ops@sagoke-group.com"
+            className="flex items-center gap-2 hover:text-blue-600 transition-colors"
+          >
             <MdEmail className="text-blue-600" size={16} />
-            <span className=" sm:inline">ops@sagoke-group.com</span>
+            <span className="sm:inline">ops@sagoke-group.com</span>
           </a>
 
           {/* Select ngôn ngữ */}
@@ -129,7 +155,7 @@ export default function Header() {
       </div>
 
       {/* --- MAIN NAV --- */}
-      <div className="container mx-auto flex justify-between items-center px-4 h-20">
+      <div className="container mx-auto flex justify-between items-center px-4 ">
         {/* Logo */}
         <Link href={`/${locale}`} className="flex-shrink-0 hidden md:block">
           <Image
@@ -144,25 +170,63 @@ export default function Header() {
 
         {/* Nav (desktop) */}
         <nav className="hidden md:flex items-center gap-8">
-          {navItems.map((item) => (
-            <Link
-              key={item.href}
-              href={`/${locale}${item.href}`}
-              className={`relative text-[15px] uppercase font-medium transition-colors duration-300 
-        ${isActive(item.href)
+          {navItems.map((item) =>
+            item.children ? (
+              <div
+                key={item.href}
+                className="relative"
+                ref={dropdownRef}
+                onClick={() => setDropdownOpen(!dropdownOpen)}
+              >
+                <button
+                  className={`relative text-[15px] uppercase font-medium transition-colors duration-300 flex items-center gap-1 ${isActive(item.href)
+                    ? "text-blue-600"
+                    : "text-gray-700 hover:text-blue-600"
+                    }`}
+                >
+                  {tNav(item.key)}
+                  <ChevronDown
+                    size={16}
+                    className={`transition-transform duration-300 ${dropdownOpen ? "rotate-180" : ""
+                      }`}
+                  />
+                </button>
+
+                {dropdownOpen && (
+                  <div className="absolute left-0 top-full bg-white shadow-lg border rounded-md min-w-[200px] mt-2 z-20">
+                    <ul className="py-2">
+                      {item.children.map((sub) => (
+                        <li key={sub.href}>
+                          <Link
+                            href={`/${locale}${sub.href}`}
+                            className={`block px-4 py-2 text-sm hover:bg-blue-50 hover:text-blue-600 transition-colors ${isActive(sub.href)
+                              ? "text-blue-600 font-semibold bg-blue-50"
+                              : "text-gray-700"
+                              }`}
+                            onClick={() => setDropdownOpen(false)}
+                          >
+                            {tNav(sub.key)}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </div>
+            ) : (
+              <Link
+                key={item.href}
+                href={`/${locale}${item.href}`}
+                className={`text-[15px] uppercase font-medium transition-colors duration-300 ${isActive(item.href)
                   ? "text-blue-600"
                   : "text-gray-700 hover:text-blue-600"
-                }
-        after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:h-[2px] 
-        after:w-full after:bg-blue-600 after:transition-transform after:duration-300 
-        ${isActive(item.href) ? 'after:scale-x-100' : 'after:scale-x-0'}
-        hover:after:scale-x-100`}
-            >
-              {tNav(item.key)}
-            </Link>
-          ))}
+                  }`}
+              >
+                {tNav(item.key)}
+              </Link>
+            )
+          )}
         </nav>
-
 
         {/* CTA button */}
         <div className="hidden md:block">
@@ -170,7 +234,7 @@ export default function Header() {
             href={`/${locale}/contact`}
             className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-full shadow-lg hover:bg-blue-700 transform hover:scale-105 transition-all duration-300"
           >
-            {tCta('getStarted')}
+            {tCta("getStarted")}
           </Link>
         </div>
 
@@ -190,29 +254,61 @@ export default function Header() {
       </div>
 
       {/* --- MOBILE NAV (Animated) --- */}
-      <div className={`md:hidden bg-white shadow-lg transition-all duration-500 ease-in-out overflow-hidden ${open ? 'max-h-[500px] border-t' : 'max-h-0'}`}>
+      <div
+        className={`md:hidden bg-white shadow-lg transition-all duration-500 ease-in-out overflow-hidden ${open ? "max-h-[500px] border-t" : "max-h-0"
+          }`}
+      >
         <nav className="px-4 pt-4 pb-6 space-y-2">
-          {navItems.map((item) => (
-            <Link
-              key={item.href}
-              href={`/${locale}${item.href}`}
-              onClick={() => setOpen(false)}
-              className={`block py-3 px-3 text-gray-800 uppercase font-semibold rounded-md hover:bg-gray-100 hover:text-blue-600 transition-colors duration-200 ${isActive(item.href) ? 'text-blue-600 bg-blue-50' : ''}`}
-            >
-              {tNav(item.key)}
-            </Link>
-          ))}
+          {navItems.map((item) =>
+            item.children ? (
+              <details key={item.href} className="group">
+                <summary className="flex justify-between items-center py-3 px-3 cursor-pointer font-semibold uppercase text-gray-800 hover:text-blue-600">
+                  {tNav(item.key)}
+                  <ChevronDown
+                    size={16}
+                    className="transition-transform group-open:rotate-180"
+                  />
+                </summary>
+                <div className="pl-4">
+                  {item.children.map((sub) => (
+                    <Link
+                      key={sub.href}
+                      href={`/${locale}${sub.href}`}
+                      onClick={() => setOpen(false)}
+                      className={`block py-2 px-3 text-sm rounded-md hover:bg-gray-100 hover:text-blue-600 transition-colors ${isActive(sub.href)
+                        ? "text-blue-600 bg-blue-50"
+                        : "text-gray-700"
+                        }`}
+                    >
+                      {tNav(sub.key)}
+                    </Link>
+                  ))}
+                </div>
+              </details>
+            ) : (
+              <Link
+                key={item.href}
+                href={`/${locale}${item.href}`}
+                onClick={() => setOpen(false)}
+                className={`block py-3 px-3 text-gray-800 uppercase font-semibold rounded-md hover:bg-gray-100 hover:text-blue-600 transition-colors duration-200 ${isActive(item.href) ? "text-blue-600 bg-blue-50" : ""
+                  }`}
+              >
+                {tNav(item.key)}
+              </Link>
+            )
+          )}
+
           <div className="pt-4">
             <Link
               href={`/${locale}/contact`}
               className="block w-full text-center py-3 px-5 bg-blue-600 text-white font-semibold rounded-full shadow hover:bg-blue-700 transition-all duration-300"
               onClick={() => setOpen(false)}
             >
-              {tCta('getStarted')}
+              {tCta("getStarted")}
             </Link>
           </div>
         </nav>
       </div>
-    </header >
-  )
+    </header>
+  );
 }

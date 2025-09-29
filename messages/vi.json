@@ -2,6 +2,13 @@
   "navigation": {
     "home": "Trang chủ",
     "services": "Dịch vụ",
+    "seaTransport": "Vận tải đường biển",
+    "airTransport": "Vận tải hàng không",
+    "road": "Vận tải đường bộ",
+    "warehousing": "Kho bãi & Phân phối",
+    "customs": "Khai báo hải quan",
+    "project": "Vận chuyển hàng dự án",
+    "logistics": "Dịch vụ logistics tích hợp",
     "news": "Tin tức",
     "contact": "Liên hệ",
     "about": "Giới thiệu"
@@ -143,127 +150,227 @@
       "desc": "Sagoke cam kết mang đến giải pháp logistics đầu‑cuối an toàn, hiệu quả và cạnh tranh, hướng đến giá trị bền vững."
     }
   },
-  "services": {
-    "title": "Dịch vụ của chúng tôi",
-    "subtitle": "Kết nối các hành lang kinh tế cốt lõi Á‑Âu",
-    "overview": {
-      "description": "Với hơn 15 năm kinh nghiệm trong ngành logistics, Sagoke cung cấp đầy đủ các dịch vụ vận chuyển và logistics chuyên nghiệp, đáp ứng mọi nhu cầu của khách hàng từ cá nhân đến doanh nghiệp lớn."
+  "servicesLogistics": {
+    "hero": {
+      "title": "Dịch vụ logistics tích hợp",
+      "subtitle": "Giải pháp toàn diện, tối ưu mọi khâu trong chuỗi cung ứng, từ vận chuyển, kho bãi đến quản lý logistics."
     },
-    "stats": {
-      "title": "Thành tích của chúng tôi",
-      "desc": "Những con số ấn tượng qua nhiều năm phát triển",
-      "years": "15+ năm",
-      "containers": "50K+ container/năm",
-      "countries": "100+ quốc gia",
-      "onTime": "99.5% đúng hẹn"
-    },
-    "items": {
-      "rail": {
-        "title": "Vận tải đường sắt",
-        "description": "Dịch vụ vận chuyển container qua đường sắt từ Trung Quốc đến châu Âu và các nước CIS",
-        "features": {
-          "container": "Container FCL/LCL",
-          "bulk": "Hàng rời (Bulk cargo)",
-          "project": "Hàng dự án (Project cargo)",
-          "departures": "Khởi hành: Thứ 2, 4, 7 hàng tuần",
-          "transit": "Thời gian: 10‑12 ngày ga‑đến‑ga",
-          "delivery": "Giao nhận tận nơi toàn quốc",
-          "tracking": "Dịch vụ theo dõi 24/7"
-        }
+    "content": {
+      "desc1": "Sagoke cung cấp dịch vụ vận tải hàng dự án an toàn, tối ưu hóa mọi khâu trong chuỗi cung ứng. Với sự kết hợp linh hoạt của các dịch vụ vận chuyển, kho bãi, và quản lý logistics, chúng tôi cam kết mang lại hiệu quả cao nhất và tiết kiệm chi phí cho khách hàng. Hãy cùng khám phá những lợi ích vượt trội mà dịch vụ logistics tích hợp của Sagoke có thể mang lại",
+      "title": "Dịch vụ logistics tích hợp",
+      "intro": "Dịch vụ logistics tích hợp của Sagoke mang đến cho khách hàng một giải pháp toàn diện, tối ưu hóa mọi khâu trong chuỗi cung ứng. Với sự kết hợp linh hoạt của các dịch vụ vận chuyển, kho bãi, và quản lý logistics, chúng tôi cam kết mang lại hiệu quả cao nhất và tiết kiệm chi phí cho khách hàng.",
+      "solution": {
+        "title": "Giải pháp toàn diện và linh hoạt",
+        "desc": "Sagoke cung cấp dịch vụ logistics tích hợp từ vận chuyển hàng hóa, kho bãi đến phân phối và quản lý chuỗi cung ứng. Chúng tôi hiểu rằng mỗi khách hàng có những nhu cầu riêng, do đó, chúng tôi thiết kế các giải pháp linh hoạt để tùy chỉnh theo yêu cầu cụ thể của từng doanh nghiệp."
       },
-      "seaFreight": {
-        "title": "Vận tải biển quốc tế",
-        "description": "Dịch vụ vận chuyển container và hàng rời qua đường biển đến các cảng lớn trên thế giới",
-        "features": {
-          "container": "Container FCL/LCL",
-          "bulk": "Hàng rời (Bulk cargo)",
-          "project": "Hàng dự án (Project cargo)"
-        }
+      "optimize": {
+        "title": "Tối ưu hóa chi phí và thời gian",
+        "desc": "Với dịch vụ logistics tích hợp, Sagoke giúp khách hàng giảm thiểu chi phí và tối ưu hóa thời gian vận chuyển. Sự kết hợp hài hòa giữa các dịch vụ giúp rút ngắn thời gian xử lý và vận hành, đồng thời giảm thiểu chi phí phát sinh không cần thiết."
       },
-      "airLogistics": {
-        "title": "Logistics hàng không",
-        "description": "Dịch vụ vận chuyển hàng không nhanh chóng cho hàng hóa khẩn cấp và có giá trị cao",
-        "features": {
-          "express": "Express Air Freight",
-          "charter": "Charter Flights",
-          "dangerous": "Hàng nguy hiểm (DG)"
-        }
+      "management": {
+        "title": "Quản lý hàng hóa thông minh và chính xác",
+        "desc": "Chúng tôi sử dụng công nghệ tiên tiến để quản lý hàng hóa một cách hiệu quả và chính xác. Hệ thống quản lý của Sagoke cung cấp thông tin chi tiết về tình trạng và vị trí hàng hóa, giúp khách hàng dễ dàng theo dõi và kiểm soát."
       },
-      "forwarding": {
-        "title": "Dịch vụ giao nhận",
-        "description": "Giải pháp giao nhận hàng hóa toàn diện từ kho đến kho",
-        "features": {
-          "doorToDoor": "Giao nhận tận nơi (Door-to-Door)",
-          "customsClearance": "Thủ tục hải quan",
-          "insurance": "Bảo hiểm hàng hóa"
-        }
+      "team": {
+        "title": "Đội ngũ chuyên nghiệp và tận tâm",
+        "desc": "Đội ngũ chuyên gia của Sagoke có kinh nghiệm dày dạn trong ngành logistics, luôn sẵn sàng hỗ trợ và tư vấn cho khách hàng. Chúng tôi cam kết mang đến sự hài lòng tuyệt đối qua dịch vụ chuyên nghiệp và tận tâm."
       },
-      "supplyChain": {
-        "title": "Chuỗi cung ứng",
-        "description": "Giải pháp logistics đầu-cuối tích hợp từ sản xuất đến phân phối",
-        "features": {
-          "planning": "Lập kế hoạch chuỗi cung ứng",
-          "inventory": "Quản lý tồn kho",
-          "distribution": "Phân phối hàng hóa"
-        }
+      "network": {
+        "title": "Mạng lưới toàn cầu",
+        "desc": "Với mạng lưới đối tác rộng khắp trên toàn thế giới, Sagoke đảm bảo khả năng vận chuyển hàng hóa đến mọi điểm đến một cách nhanh chóng và an toàn."
       },
-      "road": {
-        "title": "Vận tải đường bộ",
-        "description": "Dịch vụ vận chuyển đường bộ linh hoạt, phù hợp cho vận chuyển nội địa và xuyên biên giới",
-        "features": {
-          "trucks": "Xe tải các loại tải trọng",
-          "container": "Xe container",
-          "specialized": "Xe chuyên dụng"
-        }
+      "technology": {
+        "title": "Công nghệ tiên tiến",
+        "desc": "Chúng tôi áp dụng công nghệ tiên tiến trong mọi khâu của quy trình logistics, từ theo dõi hàng hóa trực tuyến đến quản lý kho bãi thông minh. Điều này không chỉ nâng cao hiệu quả vận hành mà còn đảm bảo độ chính xác và an toàn cho hàng hóa."
       },
-      "warehousing": {
-        "title": "Kho bãi & Dán nhãn",
-        "description": "Dịch vụ kho bãi hiện đại và các giải pháp logistics tổng thể",
-        "features": {
-          "modern": "Kho bãi hiện đại",
-          "wms": "Hệ thống WMS",
-          "crossDocking": "Cross-docking"
-        }
+      "quality": {
+        "title": "Cam kết chất lượng",
+        "desc": "Vinalogs luôn đặt chất lượng dịch vụ và sự hài lòng của khách hàng lên hàng đầu. Chúng tôi không ngừng cải tiến và nâng cao chất lượng dịch vụ để đáp ứng tốt nhất nhu cầu ngày càng cao của thị trường."
       },
-      "customs": {
-        "title": "Dịch vụ hải quan",
-        "description": "Hỗ trợ thủ tục hải quan xuất nhập khẩu chuyên nghiệp và nhanh chóng",
-        "features": {
-          "declaration": "Khai báo hải quan",
-          "taxConsultation": "Tư vấn thuế xuất nhập khẩu",
-          "permit": "Xin giấy phép"
-        }
+      "additional": {
+        "title": "Dịch vụ bổ trợ toàn diện",
+        "desc": "Chúng tôi cung cấp một loạt các dịch vụ bổ trợ như đóng gói, dán nhãn, kiểm tra chất lượng và dịch vụ hải quan. Sự tích hợp này giúp khách hàng tiết kiệm thời gian và chi phí, đồng thời đảm bảo quy trình logistics diễn ra suôn sẻ và hiệu quả."
       },
-      "mainFeatures": "Dịch vụ chính"
+      "conclusion": "Sagoke mong muốn trở thành đối tác tin cậy của bạn trong mọi hoạt động logistics. Hãy để chúng tôi giúp bạn tối ưu hóa quy trình chuỗi cung ứng, nâng cao hiệu quả kinh doanh và tạo ra giá trị bền vững cho doanh nghiệp."
     },
     "advantages": {
-      "globalNetwork": {
+      "title": "Ưu điểm nổi bật",
+      "global": {
         "title": "Mạng lưới toàn cầu",
-        "description": "Kết nối với hơn 100 quốc gia và vùng lãnh thổ trên thế giới"
+        "desc": "Hệ thống đối tác và đại lý rộng khắp, đảm bảo kết nối toàn cầu."
       },
-      "onTimeDelivery": {
-        "title": "Giao hàng đúng hẹn",
-        "description": "Cam kết 99.5% đơn hàng được giao đúng thời gian đã hẹn"
+      "time": {
+        "title": "Tiết kiệm thời gian",
+        "desc": "Tối ưu hóa quy trình vận chuyển và giao nhận nhanh chóng."
       },
-      "absoluteSafety": {
-        "title": "An toàn tuyệt đối",
-        "description": "Bảo hiểm toàn diện và hệ thống theo dõi 24/7"
+      "safety": {
+        "title": "An toàn & bảo mật",
+        "desc": "Đảm bảo hàng hóa luôn được giám sát và bảo vệ nghiêm ngặt."
       },
-      "isoQuality": {
-        "title": "Chất lượng ISO",
-        "description": "Được chứng nhận ISO 9001:2015 về hệ thống quản lý chất lượng"
+      "quality": {
+        "title": "Chất lượng dịch vụ",
+        "desc": "Cam kết mang lại trải nghiệm chuyên nghiệp và hiệu quả."
       },
-      "expertTeam": {
-        "title": "Đội ngũ chuyên nghiệp",
-        "description": "Hơn 500 chuyên gia logistics giàu kinh nghiệm"
+      "team": {
+        "title": "Đội ngũ tận tâm",
+        "desc": "Chuyên gia logistics giàu kinh nghiệm, luôn hỗ trợ khách hàng."
       },
-      "competitivePricing": {
-        "title": "Giá cả cạnh tranh",
-        "description": "Tiết kiệm đến 30% chi phí vận chuyển so với thị trường"
+      "price": {
+        "title": "Chi phí tối ưu",
+        "desc": "Giải pháp tiết kiệm chi phí mà vẫn đảm bảo chất lượng."
       }
     },
+    "sidebar": {
+      "title": "Dịch vụ khác",
+      "sea": "Vận tải đường biển",
+      "air": "Vận tải hàng không",
+      "road": "Vận tải đường bộ",
+      "warehouse": "Kho bãi & Phân phối",
+      "customs": "Khai báo hải quan",
+      "project": "Vận tải hàng dự án"
+    },
+    "support": {
+      "title": "Hỗ trợ khách hàng",
+      "desc": "Liên hệ ngay với chúng tôi để được tư vấn nhanh chóng.",
+      "cta": "Liên hệ"
+    },
     "cta": {
-      "button": "Gửi yêu cầu báo giá"
+      "title": "Đồng hành cùng Sagoke",
+      "desc": "Liên hệ với chúng tôi ngay hôm nay để trải nghiệm dịch vụ logistics tích hợp chuyên nghiệp.",
+      "button": "Liên hệ ngay"
+    }
+  },
+  "servicesProjectCargo": {
+    "hero": {
+      "title": "Vận chuyển hàng dự án",
+      "subtitle": "Vận chuyển hàng dự án chuyên nghiệp giúp tối ưu thời gian và chi phí. Liên hệ ngay để nhận giải pháp logistics hiệu quả và tin cậy!."
+    },
+    "content": {
+      "title": "Vận chuyển hàng dự án",
+      "desc1": "Hiểu đơn giản vận chuyển hàng dự án là việc vận chuyển các lô hàng siêu trường, siêu trọng, hoặc lô hàng có tính chất đặc thù – thường phục vụ cho các công trình công nghiệp, năng lượng, xây dựng lớn như nhà máy điện, trạm biến áp, hệ thống giàn khoan, v.v. Mỗi lô hàng lại là một bài toán riêng với nhiều biến số, đòi hỏi người tổ chức vận chuyển phải có kinh nghiệm, khả năng phối hợp và xử lý tình huống cực tốt.",
+      "definition": {
+        "title": "Hàng dự án là gì?",
+        "desc": "Hàng dự án là nhóm hàng hóa phục vụ cho một dự án cụ thể (như xây dựng nhà máy, công trình năng lượng, dầu khí...). Đa số gồm thiết bị có kích thước và trọng lượng vượt chuẩn thông thường – gọi là hàng siêu trường siêu trọng."
+      },
+      "features": {
+        "title": "Đặc điểm nổi bật & Các loại hàng",
+        "desc": "Máy móc thiết bị nhà máy, thiết bị điện – hạ tầng năng lượng, vật liệu & kết cấu thép, giàn khoan – kết cấu cơ khí, toàn bộ dây chuyền máy móc nhập khẩu..."
+      },
+      "process": {
+        "title": "Quy trình vận chuyển hàng dự án",
+        "desc": "1. Khảo sát thực địa & phương án kỹ thuật → 2. Thiết kế đóng gói, chằng buộc → 3. Lập kế hoạch vận chuyển chi tiết → 4. Thủ tục hải quan, xin phép → 5. Kế hoạch an toàn & bảo hiểm → 6. Điều phối hiện trường & giám sát."
+      },
+      "costFactors": {
+        "title": "Các yếu tố ảnh hưởng đến chi phí",
+        "desc": "1. Tính chất đặc thù của hàng hóa (kích thước, trọng lượng, thiết kế bất đối xứng)...\n2. Địa điểm xuất – nhập và tuyến đường vận chuyển...\n3. Giấy phép & thủ tục pháp lý...\n4. Thời điểm triển khai (cao điểm, khẩn cấp)..."
+      },
+      "tips": {
+        "title": "Lưu ý khi chọn đơn vị vận chuyển",
+        "desc": "Kinh nghiệm xử lý thực tế hàng siêu trường, năng lực điều phối & giấy phép, chính sách bảo hiểm và kế hoạch an toàn. Hãy chọn đối tác có kinh nghiệm, đội ngũ kỹ thuật riêng và hồ sơ dự án rõ ràng."
+      },
+      "conclusion": {
+        "title": "Kết luận",
+        "desc": "Vận chuyển hàng dự án là một lĩnh vực logistics phức tạp, đòi hỏi sự phối hợp chặt chẽ giữa nhiều bên liên quan, cũng như các giải pháp kỹ thuật và pháp lý phù hợp. Từ việc hiểu rõ đặc điểm hàng hóa, lộ trình vận chuyển cho tới đánh giá các rủi ro tiềm ẩn, tất cả đều cần được lên kế hoạch kỹ lưỡng, đặc biệt với những dự án có yêu cầu về khối lượng lớn, thời gian gấp rút hoặc điều kiện thi công đặc biệt. ",
+        "desc2": "Chi phí vận chuyển phụ thuộc vào rất nhiều yếu tố — từ loại hàng, phương thức vận chuyển, đến các giấy phép liên quan. Do đó, lựa chọn một đơn vị vận chuyển uy tín và giàu kinh nghiệm không chỉ giúp bạn tiết kiệm chi phí mà còn đảm bảo an toàn cho toàn bộ quá trình vận chuyển hàng dự án."
+      },
+      "cta": {
+        "title": "Bạn cần dịch vụ vận chuyển hàng dự án?",
+        "desc": "Liên hệ ngay để được tư vấn chi tiết và báo giá minh bạch cho dự án của bạn.",
+        "button": "Đề nghị báo giá"
+      }
+    },
+    "sidebar": {
+      "sea": "Vận tải đường biển",
+      "air": "Vận tải hàng không",
+      "road": "Vận tải đường bộ",
+      "warehouse": "Kho bãi",
+      "customs": "Khai báo hải quan",
+      "project": "Vận tải hàng dự án",
+      "search": {
+        "title": "Tìm kiếm",
+        "placeholder": "Nhập thông tin cần tìm..."
+      },
+      "services": {
+        "title": "Dịch vụ của chúng tôi"
+      },
+      "recentPosts": {
+        "title": "Bài viết gần đây",
+        "items": {
+          "post1": "Thủ tục nhập khẩu máy móc thiết bị và những điều cần biết 2025",
+          "post2": "Hàng dự án là gì? Tìm hiểu khái niệm và ứng dụng trong logistics",
+          "post3": "Xe siêu trường siêu trọng: Giải pháp tối ưu cho vận chuyển lô hàng lớn",
+          "post4": "Thủ tục tái nhập hàng xuất khẩu bị trả lại: Hướng dẫn chi tiết",
+          "post5": "Thủ tục nhập khẩu dây chuyền đồng bộ tháo rời qua cảng Hải Phòng: Chi tiết 2025"
+        }
+      },
+      "support": {
+        "title": "Bạn cần hỗ trợ?",
+        "desc": "Liên hệ ngay, chúng tôi luôn sẵn sàng phục vụ!",
+        "cta": "Giữ liên hệ"
+      }
+    }
+  },
+  "projectCargo": {
+    "hero": {
+      "title": "Vận tải hàng dự án",
+      "subtitle": "Giải pháp cho hàng siêu trường, siêu trọng"
+    },
+    "content": {
+      "title": "Giới thiệu dịch vụ hàng dự án",
+      "desc1": "Sagoke cung cấp dịch vụ vận tải hàng dự án an toàn, tối ưu...",
+      "plan": {
+        "title": "Lập kế hoạch chi tiết",
+        "desc": "Khảo sát, tính toán lộ trình, phương tiện"
+      },
+      "solution": {
+        "title": "Giải pháp chuyên dụng",
+        "desc": "Xe siêu trường, siêu trọng, tàu chuyên dụng"
+      },
+      "team": {
+        "title": "Đội ngũ giàu kinh nghiệm",
+        "desc": "Đảm bảo an toàn, đúng tiến độ"
+      }
+    },
+    "advantages": {
+      "title": "Điểm mạnh dịch vụ hàng dự án",
+      "network": {
+        "title": "Mạng lưới vận tải",
+        "desc": "Liên kết quốc tế, nhiều tuyến"
+      },
+      "safety": {
+        "title": "An toàn tuyệt đối",
+        "desc": "Tuân thủ chuẩn quốc tế"
+      },
+      "experience": {
+        "title": "Kinh nghiệm thực tế",
+        "desc": "Thực hiện nhiều dự án lớn"
+      }
+    }
+  },
+  "advantages": {
+    "globalNetwork": {
+      "title": "Mạng lưới toàn cầu",
+      "description": "Kết nối với hơn 100 quốc gia và vùng lãnh thổ trên thế giới"
+    },
+    "onTimeDelivery": {
+      "title": "Giao hàng đúng hẹn",
+      "description": "Cam kết 99.5% đơn hàng được giao đúng thời gian đã hẹn"
+    },
+    "absoluteSafety": {
+      "title": "An toàn tuyệt đối",
+      "description": "Bảo hiểm toàn diện và hệ thống theo dõi 24/7"
+    },
+    "isoQuality": {
+      "title": "Chất lượng ISO",
+      "description": "Được chứng nhận ISO 9001:2015 về hệ thống quản lý chất lượng"
+    },
+    "expertTeam": {
+      "title": "Đội ngũ chuyên nghiệp",
+      "description": "Hơn 500 chuyên gia logistics giàu kinh nghiệm"
+    },
+    "competitivePricing": {
+      "title": "Giá cả cạnh tranh",
+      "description": "Tiết kiệm đến 30% chi phí vận chuyển so với thị trường"
     }
   },
   "newsPage": {
@@ -511,6 +618,737 @@
       "pricing": "Giá cả cạnh tranh, minh bạch",
       "support": "Hỗ trợ khách hàng 24/7",
       "insurance": "Bảo hiểm hàng hóa toàn diện"
+    }
+  },
+  "servicesWarehousing": {
+    "hero": {
+      "title": "Dịch vụ Kho bãi",
+      "subtitle": "Giải pháp kho bãi hiện đại, an toàn và hiệu quả cho chuỗi cung ứng của bạn."
+    },
+    "content": {
+      "title": "Dịch vụ kho bãi: Mảnh ghép quan trọng trong logistics, nhưng chưa được chú ý đúng mức",
+      "desc1": "Trong khi mọi sự quan tâm thường đổ dồn vào vận tải quốc tế, thông quan hải quan hay chi phí thuế phí, thì dịch vụ kho bãi – một mắt xích quan trọng trong chuỗi cung ứng – lại thường bị “bỏ quên”. Ấy vậy mà, nếu không được tổ chức hiệu quả, chính khâu lưu trữ, bảo quản hàng hóa có thể tạo ra điểm nghẽn, gây chậm trễ và ảnh hưởng trực tiếp đến tiến độ giao hàng và chi phí vận hành.",
+      "overview": {
+        "title": "1. Tổng quan về dịch vụ kho bãi và vai trò trong chuỗi cung ứng",
+        "desc": "Trước khi đào sâu vào các loại kho hay lựa chọn nhà cung cấp phù hợp, bạn cần hiểu rõ dịch vụ kho bãi là gì, và tại sao doanh nghiệp lại cần đến nó, thậm chí ngày càng cần hơn trong thời đại thương mại điện tử tăng trưởng mạnh mẽ và chuỗi cung ứng toàn cầu liên tục \"biến hóa\".",
+        "definition": "Dịch vụ kho bãi là hoạt động lưu trữ, bảo quản, quản lý và vận hành hàng hóa trong một kho hàng – là nơi trung chuyển trong chuỗi cung ứng giữa sản xuất, nhập khẩu/xuất khẩu và đến tay khách hàng cuối cùng.",
+        "example": "Tôi từng gặp một doanh nghiệp nhập khẩu thiết bị điện tử, mà chỉ vì không có nơi lưu kho phù hợp nên phải “chạy vạy” từng ngày, xin hãng tàu kéo dài thời gian lấy container ra khỏi cảng để tránh phí lưu container (detention charge). Cuối cùng chi phí phát sinh lại còn cao hơn phí thuê kho bãi ngay từ đầu. Đó là bài học thực tế mà nhiều người lần đầu kinh doanh hoặc mới bắt đầu làm logistics thường mắc phải.",
+        "roles": {
+          "title": "Vai trò của dịch vụ kho bãi trong chuỗi cung ứng",
+          "items": [
+            "Trung chuyển và gom hàng hiệu quả<br>Với những lô hàng nhập khẩu với số lượng lớn, nhưng phân phối nhỏ lẻ về sau, kho là nơi thích hợp để kiểm đếm, phân loại, đóng gói lại (nếu cần) hoặc kết hợp với hàng khác để giao theo từng đợt gom hàng.",
+            "Tối ưu quản lý hàng tồn<br>Có kho là có dữ liệu thời gian thực. Những dịch vụ kho chuyên nghiệp hỗ trợ bạn theo dõi chính xác hàng tồn, hạn sử dụng, mã hàng, vòng quay hàng hóa… từ đó giúp kiểm soát dòng tiền và kế hoạch nhập / xuất kho hiệu quả hơn.",
+            "Đệm thời gian giữa các mắt xích logistics<br>Thực tế là không phải lúc nào kế hoạch shipping – nhận hàng – sản xuất – giao hàng cũng khớp nhau từng giây. Kho giúp “cân thời gian” này để bạn không bị động.",
+            "Hạn chế rủi ro về chi phí phát sinh tại cảng / sân bay<br>Không lấy hàng kịp đồng nghĩa với việc bạn có thể chịu thêm phí lưu container, lưu bãi (DEM/DET). Có kho vệ tinh gần cảng và nhà cung cấp dịch vụ linh hoạt, bạn sẽ không bị lệ thuộc vào lịch trình hãng tàu."
+          ]
+        },
+        "ecommerce": {
+          "title": "Thương mại điện tử dịch vụ kho bãi",
+          "desc": "Từ góc độ thương mại điện tử – nơi sản phẩm có thể cần gửi đến người mua trong vòng 24-48h – một trung tâm phân phối (Distribution Center - DC) đóng vai trò rất quan trọng. Dịch vụ kho bãi giờ đây không chỉ là lưu giữ hàng hóa, mà còn tích hợp luôn các khâu như: đóng gói đơn hàng, quản lý tồn kho theo SKU, xử lý hàng trả về... Sự thay đổi này cho thấy: dịch vụ kho bãi giờ đây đang chuyển dịch từ “cost center” (trung tâm phát sinh chi phí) thành “profit enabler” (đòn bẩy tăng trưởng lợi nhuận), khi được vận hành đúng cách."
+        }
+      },
+      "types": {
+        "title": "Các loại hình kho bãi phổ biến hiện nay",
+        "desc": "Sau khi hiểu tổng quan vai trò của dịch vụ kho bãi trong chuỗi cung ứng, thì việc tìm hiểu các loại hình kho bãi hiện có trên thị trường là bước tiếp theo rất cần thiết. Bởi vì không phải cứ có kho là dùng được cho mọi loại hàng — mỗi loại hình lại \"hợp gu\" với từng mục đích sử dụng và loại hàng hóa khác nhau. Trong phần này, tôi sẽ chia sẻ các loại kho bãi phổ biến mà doanh nghiệp xuất nhập khẩu thường gặp nhất, cùng những đặc điểm giúp bạn lựa chọn đúng kiểu kho cho mình.",
+        "bonded": {
+          "title": "1. Kho ngoại quan (Bonded warehouse)",
+          "desc": "Đây là loại kho chuyên dùng cho hàng nhập khẩu chưa hoàn thành thủ tục hải quan. Kho ngoại quan thường được xây dựng gần các cảng biển, sân bay quốc tế hoặc cửa khẩu đất liền. Ưu điểm là hàng hóa có thể lưu trữ dài hạn mà chưa cần nộp thuế nhập khẩu ngay lập tức. Tôi từng làm thủ tục cho một khách hàng nhập đường biển lô điện thoại di động từ Hàn Quốc về cảng Cát Lái. Vì cần chờ đối tác cấp giấy phép phân phối, chúng tôi đã tư vấn đưa hàng vào kho ngoại quan để “câu giờ” mà hàng vẫn được bảo quản tốt. Đây là một ví dụ điển hình về việc sử dụng linh hoạt loại hình kho này."
+        },
+        "cfs": {
+          "title": "2. Kho CFS (Container Freight Station)",
+          "desc": "Hiểu đơn giản thì đây là loại kho chuyên để đóng hoặc rút hàng lẻ (LCL) từ container. Nơi đây thường là trạm trung chuyển quan trọng với hàng LCL xuất nhập khẩu. Nếu bạn làm hàng LCL thường xuyên, bạn sẽ gặp kho CFS như cơm bữa. Trong thực tế, kho CFS như “trung tâm dàn dựng” cho hàng hóa: hàng ra, hàng vào liên tục. Đội ngũ làm việc trong kho này phải có kinh nghiệm xếp/dỡ khéo léo để tránh sai sót, vì có tới hàng chục doanh nghiệp xuất nhập khẩu gửi hàng chung container ở đây."
+        },
+        "cold": {
+          "title": "3. Kho lưu trữ hàng đông lạnh và bảo ôn",
+          "desc": "Với mặt hàng thực phẩm, dược phẩm hay hóa chất nhạy cảm với nhiệt độ, thì bạn sẽ cần đến kho lạnh (cold storage) hoặc kho mát (chứa ở 18-25ºC). Loại kho này thường có chi phí cao hơn do cần duy trì điều kiện ổn định, nhưng đối với doanh nghiệp xuất nhập khẩu nông sản, hải sản… thì không thể thiếu. Có lần một doanh nghiệp thủy sản xuất khẩu cá ngừ sang thị trường Nhật Bản đã bị từ chối đơn hàng vì “bết nhiệt độ kho bảo quản không đạt chuẩn hậu vận chuyển”. Từ đó, họ quay lại sử dụng kho lạnh có kiểm định quốc tế, dù chi phí cao hơn nhưng đảm bảo an toàn cho đơn hàng."
+        },
+        "general": {
+          "title": "4. Kho lưu trữ hàng hóa thông thường",
+          "desc": "Loại kho này thường dùng để chứa hàng khô, hàng tiêu dùng, linh kiện, đồ gia dụng… Kết cấu kho đơn giản hơn, chi phí thuê cũng “dễ chịu” hơn so với các loại kho chuyên biệt. Tuy nhiên, một số kho vẫn có trang bị giá kệ, xe nâng, và phần mềm quản lý thông minh, giúp tối ưu hóa hoạt động lưu kho. Nếu bạn đang cần thuê dịch vụ kho bãi cho hàng hóa không yêu cầu điều kiện đặc biệt, thì kho thông thường là lựa chọn kinh tế mà hiệu quả."
+        }
+      },
+      "benefits": {
+        "title": "Lợi ích của việc sử dụng dịch vụ kho bãi chuyên nghiệp",
+        "desc": "Sau khi đã hiểu rõ về các loại hình kho bãi hiện nay, có lẽ bạn đang cân nhắc: “Liệu doanh nghiệp mình có nên sử dụng dịch vụ kho bãi chuyên nghiệp hay tự thuê mặt bằng, tự vận hành?” Vậy hãy cùng nhìn thẳng vào bức tranh thực tế để thấy điều gì là tối ưu hơn cho chuỗi cung ứng của bạn.",
+        "cost": {
+          "title": "Tối ưu chi phí – nhưng không phải kiểu \"tiết kiệm lặt vặt\"",
+          "desc": "Một số doanh nghiệp khi mới bắt đầu thường hay nghĩ đơn giản: thuê một nhà kho nho nhỏ, cử vài nhân viên nội bộ trông coi. Nghe có vẻ tiết kiệm, nhưng trên thực tế, chi phí ẩn lại rất lớn: chi phí duy trì, bảo hiểm, nhân sự, trang thiết bị nâng hạ, phần mềm quản lý… Chưa kể đến những tổn thất do sai lệch trong kiểm đếm, thất thoát hàng hóa, hoặc thiếu kiểm soát trong tồn kho. Dịch vụ kho bãi chuyên nghiệp là giải pháp thuê ngoài toàn bộ – nơi bạn trả một chi phí hợp lý, đổi lại là hệ thống kho đạt tiêu chuẩn, nhân sự chuyên môn, và quy trình bài bản để vận hành trơn tru. Như một khách hàng bên tôi từng chia sẻ: “Chi phí thuê kho chuyên nghiệp còn thấp hơn cả chi phí tôi duy trì đội vận hành kho trong 6 tháng vừa rồi!”"
+        },
+        "flexibility": {
+          "title": "Linh hoạt theo quy mô và mùa vụ",
+          "desc": "Bạn có thể cần nhiều diện tích kho vào mùa cao điểm cuối năm, và giảm mạnh nhu cầu vào quý I. Nhưng nếu tự thuê kho dài hạn, thì dù trống cũng vẫn phải trả tiền đều đều. Một dịch vụ kho chuyên nghiệp – đặc biệt nếu có quy mô lớn – sẽ linh hoạt điều chỉnh không gian lưu trữ theo thực tế doanh số của bạn. Với nhóm ngành thương mại điện tử hoặc phân phối hàng tiêu dùng nhanh (FMCG), sự linh hoạt này thực sự là \"vàng\" trong công tác điều phối hàng tồn và chi phí logistics."
+        },
+        "data": {
+          "title": "Dữ liệu tồn kho &amp; vận hành trong tầm tay",
+          "desc": "Kho bãi không chỉ là nơi chứa hàng. Nhiều doanh nghiệp nhận ra rằng, việc kiểm soát dữ liệu kho – như tồn đầu kỳ, nhập, xuất, tồn cuối kỳ – là yếu tố quan trọng ảnh hưởng đến quyết định sản xuất, xuất nhập khẩu hay mua bán. Khi sử dụng dịch vụ kho chuyên nghiệp, bạn sẽ được cung cấp phần mềm quản lý kho (WMS – Warehouse Management System), hoặc ít nhất là báo cáo định kỳ rõ ràng, minh bạch. Thông tin cập nhật liên tục này giúp bạn chủ động hơn trong cả chuỗi cung ứng."
+        },
+        "risk": {
+          "title": "Giảm rủi ro nhờ nghiệp vụ và cơ sở vật chất đạt chuẩn",
+          "desc": "Một điều mà không phải ai cũng lường trước: rủi ro trong khâu lưu trữ hàng hóa có thể ảnh hưởng đến cả hợp đồng xuất nhập khẩu. Hàng bị hư hỏng, ẩm mốc, chậm giao... có thể dẫn đến bị khách phạt đơn hàng. Các kho chuyên nghiệp thường được đầu tư bài bản về: hệ thống phòng cháy chữa cháy, kiểm soát côn trùng, camera an ninh, giá kệ chắc chắn, hệ thống thoát nước phù hợp và có cả bảo hiểm hàng hóa. Đặc biệt, đội ngũ quản lý kho có chuyên môn sẵn sàng xử lý tình huống phát sinh. Nếu bạn muốn hàng hoá của mình được bảo quản tốt trong kho, thì tốt nhất là hãy \"gởi con cho đúng người\"."
+        }
+      },
+      "vinalogs": {
+        "title": "Dịch vụ kho bãi tại Vinalogs có gì nổi bật",
+        "desc": "Dịch vụ kho bãi là một trong những yếu tố then chốt trong chuỗi cung ứng logistics. Tại Vinalogs, chúng tôi cung cấp các giải pháp kho bãi hiện đại và an toàn, giúp khách hàng quản lý hàng hóa một cách hiệu quả và tiết kiệm chi phí. Với dịch vụ kho bãi của Vinalogs, bạn có thể yên tâm về việc lưu trữ, bảo quản và quản lý hàng hóa.",
+        "infrastructure": "Cơ sở hạ tầng hiện đại và an toàn: Vinalogs tự hào sở hữu hệ thống kho bãi hiện đại với cơ sở vật chất tiên tiến, đảm bảo điều kiện lưu trữ tối ưu cho mọi loại hàng hóa. Các kho bãi của chúng tôi được trang bị hệ thống an ninh 24/7 và các thiết bị phòng cháy chữa cháy đạt chuẩn.",
+        "management": "Quản lý hàng hóa chuyên nghiệp: Chúng tôi áp dụng các phần mềm quản lý kho bãi tiên tiến, giúp khách hàng dễ dàng theo dõi và quản lý hàng hóa. Hệ thống quản lý của Vinalogs cung cấp thông tin chi tiết về tình trạng, số lượng và vị trí của hàng hóa trong kho, giúp tối ưu hóa quá trình quản lý và xuất nhập hàng, tại khu vực Hải Phòng cũng như các nơi khác",
+        "flexibility": "Dịch vụ linh hoạt và tiết kiệm chi phí: Vinalogs cung cấp các gói dịch vụ kho bãi linh hoạt, phù hợp với mọi nhu cầu của khách hàng. Chúng tôi cam kết mang lại giải pháp lưu trữ với chi phí hợp lý, giúp khách hàng tiết kiệm chi phí và tối ưu hóa quy trình logistics.",
+        "location": "Vị trí thuận lợi: Các kho bãi của Vinalogs được đặt tại các vị trí chiến lược, gần các tuyến đường chính và các khu công nghiệp, giúp dễ dàng kết nối và vận chuyển hàng hóa. Điều này không chỉ giúp tiết kiệm thời gian mà còn giảm thiểu chi phí vận chuyển.",
+        "support": "Dịch vụ khách hàng và hỗ trợ tận tâm: Đội ngũ của Vinalogs luôn sẵn sàng hỗ trợ khách hàng trong mọi tình huống. Chúng tôi cung cấp dịch vụ tư vấn chuyên nghiệp và luôn lắng nghe để đáp ứng mọi yêu cầu của khách hàng, đảm bảo sự hài lòng tuyệt đối.",
+        "integration": "Tích hợp dịch vụ logistics toàn diện: Ngoài dịch vụ kho bãi, Vinalogs còn cung cấp các dịch vụ logistics toàn diện như vận chuyển hàng hóa, phân phối và quản lý chuỗi cung ứng. Sự kết hợp này giúp khách hàng tối ưu hóa toàn bộ quy trình logistics, từ lưu trữ đến vận chuyển và phân phối.",
+        "quality": "Cam kết chất lượng và uy tín: Vinalogs luôn đặt chất lượng dịch vụ lên hàng đầu và cam kết mang lại sự hài lòng cho khách hàng. Chúng tôi không ngừng cải tiến và nâng cao chất lượng dịch vụ để đáp ứng tốt nhất nhu cầu ngày càng cao của khách hàng.",
+        "conclusion": "Chúng tôi tại Vinalogs mong muốn trở thành đối tác tin cậy của bạn trong mọi hoạt động logistics. Hãy để chúng tôi giúp bạn quản lý và lưu trữ hàng hóa một cách hiệu quả, an toàn và tiết kiệm chi phí. Khi bạn tìm một đơn vị cung cấp dịch vụ kho bãi, cứ xem như đang “chọn bạn đồng hành dài hạn”. Vinalogs – với hạ tầng đa dạng, dịch vụ linh hoạt và thái độ làm việc có tâm – rất có thể là người bạn ấy. Sau khi đọc kỹ từng điểm ở trên, bạn sẽ có cái nhìn cụ thể hơn trước khi đưa ra lựa chọn phù hợp cho mình."
+      },
+      "conclusion": {
+        "title": "Lời kết",
+        "desc": "Dịch vụ kho bãi đóng vai trò rất quan trọng trong chuỗi cung ứng, không chỉ giúp tối ưu hóa quá trình lưu trữ và phân phối hàng hóa mà còn góp phần giảm thiểu chi phí vận hành cho doanh nghiệp. Tùy vào đặc điểm sản phẩm và mục tiêu kinh doanh, doanh nghiệp sẽ lựa chọn loại hình kho phù hợp như kho thường, kho lạnh, kho ngoại quan hay kho phân phối… Tại Công ty TNHH Vinalogs, dịch vụ kho bãi được thiết kế linh hoạt, chuyên nghiệp và tích hợp nhiều tiện ích hỗ trợ logistics, giúp tối ưu vận hành cho từng lô hàng cụ thể. Đây chính là giải pháp đáng cân nhắc cho những doanh nghiệp đang tìm kiếm một đối tác tin cậy trong lĩnh vực logistics và xuất nhập khẩu."
+      }
+    },
+    "sidebar": {
+      "sea": "Vận tải đường biển",
+      "air": "Vận tải hàng không",
+      "road": "Vận tải đường bộ",
+      "warehouse": "Kho bãi",
+      "customs": "Khai báo hải quan",
+      "project": "Vận tải hàng dự án",
+      "search": {
+        "title": "Tìm kiếm",
+        "placeholder": "Nhập thông tin cần tìm..."
+      },
+      "services": {
+        "title": "Dịch vụ của chúng tôi"
+      },
+      "recentPosts": {
+        "title": "Bài viết gần đây",
+        "items": {
+          "post1": "Thủ tục nhập khẩu máy móc thiết bị và những điều cần biết 2025",
+          "post2": "Hàng dự án là gì? Tìm hiểu khái niệm và ứng dụng trong logistics",
+          "post3": "Xe siêu trường siêu trọng: Giải pháp tối ưu cho vận chuyển lô hàng lớn",
+          "post4": "Thủ tục tái nhập hàng xuất khẩu bị trả lại: Hướng dẫn chi tiết",
+          "post5": "Thủ tục nhập khẩu dây chuyền đồng bộ tháo rời qua cảng Hải Phòng: Chi tiết 2025"
+        }
+      },
+      "support": {
+        "title": "Bạn cần hỗ trợ?",
+        "desc": "Liên hệ ngay, chúng tôi luôn sẵn sàng phục vụ!",
+        "cta": "Giữ liên hệ"
+      }
+    }
+  },
+  "servicesCustoms": {
+    "hero": {
+      "title": "Dịch vụ hải quan trọn gói - Tiết kiệm, nhanh chóng, uy tín",
+      "subtitle": "Giải pháp thông quan nhanh chóng, an toàn và hiệu quả cho doanh nghiệp"
+    },
+    "content": {
+      "title": "Giải pháp thông quan nhanh chóng, an toàn và hiệu quả cho doanh nghiệp",
+      "intro": "Dịch vụ hải quan đóng vai trò vô cùng quan trọng trong hoạt động xuất nhập khẩu, giúp doanh nghiệp hoàn thành các thủ tục thông quan hàng hóa một cách hợp pháp và nhanh chóng. Tuy nhiên, quy trình hải quan thường phức tạp, đòi hỏi nhiều kiến thức chuyên môn và tốn nhiều thời gian, nhân lực để thực hiện. Hiểu được điều này, Vinalogs cung cấp dịch vụ hải quan trọn gói, mang đến giải pháp tối ưu cho mọi nhu cầu thông quan của doanh nghiệp.",
+      "whatIsCustoms": {
+        "title": "Thủ Tục Hải Quan Là Gì?",
+        "desc1": "Thủ tục hải quan là một phần không thể thiếu trong quá trình xuất nhập khẩu hàng hóa. Nó bao gồm các hoạt động kiểm tra, giám sát, và quản lý hàng hóa nhằm đảm bảo tuân thủ các quy định pháp luật của Nhà nước. Mục tiêu chính của thủ tục hải quan là ngăn chặn hàng hóa bất hợp pháp, đảm bảo thu thuế đúng quy định.",
+        "desc2": "Tại các cửa khẩu, hải quan là cơ quan Nhà nước chịu trách nhiệm kiểm soát và giám sát các hoạt động thương mại qua biên giới. Những công việc này bao gồm việc kiểm tra hồ sơ, xác định giá trị hàng hóa, áp dụng các mức thuế, và đảm bảo hàng hóa nhập khẩu tuân thủ các quy định chuyên ngành khác như&nbsp; an toàn và sức khỏe, kiểm soát dịch bệnh, bảo vệ môi trường..."
+      },
+      "types": {
+        "title": "Các Hình Thức Của Dịch Vụ Hải Quan",
+        "desc": "Dịch vụ hải quan có thể được chia thành nhiều hình thức khác nhau, tùy thuộc vào nhu cầu và tính chất của mỗi lô hàng. Một số hình thức phổ biến bao gồm:",
+        "selfDeclaration": "Tự Khai Hải Quan: Doanh nghiệp tự mình chuẩn bị và nộp các hồ sơ cần thiết cho cơ quan hải quan. Hình thức này yêu cầu doanh nghiệp phải có kiến thức sâu rộng về các quy định và thủ tục hải quan.",
+        "customsAgent": "Thuê Đại Lý Hải Quan: Doanh nghiệp thuê các công ty chuyên cung cấp dịch vụ khai báo hải quan để thay mặt họ thực hiện các thủ tục. Đại lý hải quan sẽ chuẩn bị và nộp hồ sơ, làm việc với cơ quan hải quan, và giải quyết các vấn đề phát sinh.",
+        "fullService": "Dịch Vụ Hải Quan Trọn Gói: Đây là hình thức mà doanh nghiệp thuê một công ty dịch vụ hải quan như Vinalogs để thực hiện toàn bộ quy trình từ A đến Z. Dịch vụ này bao gồm việc tư vấn, chuẩn bị hồ sơ, nộp hồ sơ, theo dõi và xử lý các vấn đề phát sinh, đảm bảo hàng hóa thông quan nhanh chóng và hiệu quả."
+      },
+      "fullService": {
+        "title": "Dịch Vụ Hải Quan Trọn Gói Là Gì?",
+        "desc1": "Dịch vụ hải quan trọn gói là giải pháp toàn diện cho doanh nghiệp trong việc xử lý các thủ tục hải quan. Khi sử dụng dịch vụ này, doanh nghiệp sẽ được hỗ trợ từ đầu đến cuối, từ khâu tư vấn ban đầu, chuẩn bị hồ sơ, đến việc theo dõi và giải quyết các vấn đề phát sinh trong quá trình thông quan.",
+        "desc2": "Các Hạng Mục Của Dịch Vụ Hải Quan Trọn Gói Bao Gồm:",
+        "items": {
+          "consultation": "Tư Vấn Hải Quan: Cung cấp thông tin và tư vấn về các quy định, thủ tục, mã HS Code, thuế suất XNK, và yêu cầu của hải quan đối với từng loại hàng hóa cụ thể.&nbsp;",
+          "documentPrep": "Chuẩn Bị Hồ Sơ: Hỗ trợ chủ hàng chuẩn bị các chứng từ cần thiết như hóa đơn thương mại, danh mục hàng hóa, giấy chứng nhận xuất xứ, giấy phép nhập khẩu, và các tài liệu khác theo quy định.",
+          "declaration": "Khai báo hải quan bằng phần mềm ECUS VNACCS",
+          "submission": "Nộp Hồ Sơ Hải Quan: Nhân viên của Vinalogs nộp hồ sơ cho cơ quan hải quan và theo dõi quá trình xử lý.",
+          "monitoring": "Theo Dõi Quá Trình Thông Quan: Giám sát quá trình kiểm tra hồ sơ và thông quan hàng hóa, đảm bảo tuân thủ đúng các quy định và thời gian quy định.",
+          "issueResolution": "Xử Lý Vấn Đề Phát Sinh: Giải quyết các vấn đề phát sinh trong quá trình thông quan như kiểm tra hàng hóa, bổ sung tài liệu, và xử lý các vướng mắc nếu có."
+        }
+      },
+      "whyVinalogs": {
+        "title": "Vì Sao Nên Thuê Dịch Vụ Hải Quan Trọn Gói Của Vinalogs?",
+        "desc": "Vinalogs tự hào là một trong những công ty hàng đầu cung cấp dịch vụ hải quan trọn gói với nhiều năm kinh nghiệm và đội ngũ chuyên gia giàu kiến thức. Khi lựa chọn Vinalogs, doanh nghiệp sẽ nhận được nhiều lợi ích vượt trội:",
+        "items": {
+          "certifiedAgent": "Phục Vụ bởi Đại Lý Hải Quan: Vinalogs là Đại lý hải quan<span style=\"font-size: inherit;\"> được Tổng cục hải quan công nhận từ năm 2013. Chúng tôi cũng thường xuyên được cập nhật về nghiệp vụ hải quan theo quy định. Với trên 10 năm phục vụ các khách hàng, mỗi năm thông quan hàng nghìn tờ khai, Vinalogs cung cấp đến khách hàng dịch vụ thủ tục hải quan nhanh chóng tin cậy (đặc biệt  href=\"/dich-vu/dich-vu-hai-quan-tai-hai-phong/\" title=\"Dich vu hai quan tai Hai Phong\">tại khu vực Hải Phòng), từ khâu tư vấn đến việc thực hiện, đảm bảo thông quan hàng hóa một cách nhanh chóng, thuận tiện.</span><p style=\"text-align: center;\"><img src=\"/media/xhsbwlxs/cap-nhat-kien-thuc-phap-luat-hai-quan.jpg?width=500&amp;height=366.01307189542484\" alt=\"Chứng nhận cập nhật kiến thức đại lý hải quan\" width=\"500\" height=\"366.01307189542484\"></p>",
+          "costTimeSaving": "Tiết Kiệm Thời Gian và Chi Phí: Với dịch vụ hải quan trọn gói của Vinalogs, doanh nghiệp không cần phải lo lắng về việc tìm hiểu và chuẩn bị các thủ tục phức tạp. Đội ngũ chuyên gia của chúng tôi sẽ đảm nhận toàn bộ quy trình, giúp tiết kiệm thời gian và chi phí.",
+          "accuracy": "Đảm Bảo Tính Chính Xác và Hiệu Quả: Với kinh nghiệm và kiến thức sâu rộng, chúng tôi đảm bảo mọi thủ tục được thực hiện chính xác và nhanh chóng, giảm thiểu rủi ro và tránh các sai sót có thể gây ra chi phí phát sinh.",
+          "customerService": "Dịch Vụ Khách Hàng Chuyên Nghiệp: Chúng tôi cam kết mang lại dịch vụ khách hàng chuyên nghiệp, luôn sẵn sàng hỗ trợ và giải đáp mọi thắc mắc của doanh nghiệp trong quá trình sử dụng dịch vụ.",
+          "network": "Mạng Lưới Kết Nối Rộng Rãi: Vinalogs có mối quan hệ tốt với các cơ quan hải quan và các đối tác trong ngành, giúp quá trình thông quan diễn ra thuận lợi và hiệu quả hơn.",
+          "relatedServices": "Hỗ Trợ Các Nghiệp Vụ Liên Quan: lấy lệnh hãng tàu, nộp thuế xuất nhập khẩu, mua bảo hiểm hàng hóa, tham vấn giá, thủ tục giấy tờ kiểm tra chuyên ngành của các mặt hàng liên quan: đăng kiểm, kiểm dịch, hun trùng, vệ sinh an toàn thực phẩm…&nbsp; Chúng tôi thường xuyên làm những mặt hàng phức tạp như: thép nhập khẩu, gạch đá ốp lát, hạt nhựa tái sinh và nguyên sinh..."
+        }
+      },
+      "process": {
+        "title": "Quy Trình Sử Dụng Dịch Vụ Hải Quan Trọn Gói Của Vinalogs",
+        "desc": "Để sử dụng dịch vụ hải quan trọn gói của Vinalogs, doanh nghiệp chỉ cần thực hiện theo các bước đơn giản sau:",
+        "steps": {
+          "contact": "Liên Hệ và Tư Vấn: Liên hệ với Vinalogs qua điện thoại hoặc email để nhận được tư vấn ban đầu về dịch vụ. Chúng tôi sẽ lắng nghe nhu cầu và yêu cầu cụ thể của doanh nghiệp.",
+          "contract": "Ký Kết Hợp Đồng: Sau khi tư vấn, hai bên sẽ tiến hành ký kết hợp đồng dịch vụ, đảm bảo quyền lợi và trách nhiệm của cả hai bên.",
+          "documentPrep": "Chuẩn Bị Hồ Sơ: Doanh nghiệp cung cấp các tài liệu cần thiết và thông tin về lô hàng. Vinalogs sẽ hỗ trợ chuẩn bị và hoàn thiện hồ sơ hải quan.",
+          "submission": "Nộp Hồ Sơ và Theo Dõi: Vinalogs sẽ đại diện doanh nghiệp nộp hồ sơ cho cơ quan hải quan và theo dõi quá trình xử lý, đảm bảo mọi việc diễn ra suôn sẻ.",
+          "issueResolution": "Giải Quyết Vấn Đề Phát Sinh: Trong trường hợp có vấn đề phát sinh, đội ngũ của Vinalogs sẽ nhanh chóng giải quyết để không ảnh hưởng đến tiến độ thông quan.",
+          "completion": "Hoàn Tất Thủ Tục và Giao Hàng: Sau khi hàng hóa được thông quan, Vinalogs sẽ thông báo cho doanh nghiệp và hoàn tất các thủ tục cần thiết để giao hàng đến địa điểm yêu cầu."
+        }
+      },
+      "costs": {
+        "title": "Các Loại Chi Phí Khi Sử Dụng Dịch Vụ Hải Quan Trọn Gói",
+        "desc": "Chi phí sử dụng dịch vụ hải quan trọn gói tại Vinalogs được cấu thành từ nhiều yếu tố khác nhau, bao gồm:",
+        "items": {
+          "serviceFee": "Phí Dịch Vụ: Đây là khoản phí trả cho Vinalogs để thực hiện toàn bộ quy trình dịch vụ hải quan trọn gói. Phí này thường dựa trên quy mô và tính phức tạp của lô hàng.",
+          "customsFee": "Phí Hải Quan: Là các khoản phí phải nộp cho cơ quan hải quan theo quy định, bao gồm thuế nhập khẩu, thuế VAT, và các loại thuế khác.",
+          "storageFee": "Phí Lưu Kho: Trong trường hợp hàng hóa cần lưu kho trong quá trình chờ thông quan, doanh nghiệp sẽ phải trả thêm phí lưu kho.",
+          "transportFee": "Phí Vận Chuyển: Nếu Vinalogs chịu trách nhiệm vận chuyển hàng hóa sau khi thông quan, phí vận chuyển sẽ được tính dựa trên quãng đường và phương tiện vận chuyển.",
+          "additionalFee": "Phí Phát Sinh Khác: Có thể bao gồm phí kiểm tra hàng hóa, phí lấy mẫu, phí kiểm định, và các chi phí khác tùy theo yêu cầu cụ thể của cơ quan hải quan."
+        }
+      },
+      "conclusion1": "Dịch vụ hải quan trọn gói là một giải pháp tối ưu giúp doanh nghiệp giải quyết mọi vấn đề liên quan đến thủ tục hải quan một cách nhanh chóng và hiệu quả. Với Vinalogs, doanh nghiệp không chỉ tiết kiệm được thời gian và chi phí mà còn đảm bảo mọi thủ tục được thực hiện đúng quy định, giảm thiểu rủi ro và tối ưu hóa quá trình thông quan.",
+      "conclusion2": "Hãy liên hệ với Vinalogs ngay hôm nay để nhận được tư vấn và hỗ trợ tốt nhất cho mọi nhu cầu về dịch vụ hải quan trọn gói. Chúng tôi cam kết mang lại sự hài lòng và hiệu quả cao nhất cho quý doanh nghiệp."
+    },
+    "sidebar": {
+      "sea": "Vận tải đường biển",
+      "air": "Vận tải hàng không",
+      "road": "Vận tải đường bộ",
+      "warehouse": "Kho bãi",
+      "customs": "Khai báo hải quan",
+      "project": "Vận tải hàng dự án",
+      "search": {
+        "title": "Tìm kiếm",
+        "placeholder": "Nhập thông tin cần tìm..."
+      },
+      "services": {
+        "title": "Dịch vụ của chúng tôi"
+      },
+      "recentPosts": {
+        "title": "Bài viết gần đây",
+        "items": {
+          "post1": "Thủ tục nhập khẩu máy móc thiết bị và những điều cần biết 2025",
+          "post2": "Hàng dự án là gì? Tìm hiểu khái niệm và ứng dụng trong logistics",
+          "post3": "Xe siêu trường siêu trọng: Giải pháp tối ưu cho vận chuyển lô hàng lớn",
+          "post4": "Thủ tục tái nhập hàng xuất khẩu bị trả lại: Hướng dẫn chi tiết",
+          "post5": "Thủ tục nhập khẩu dây chuyền đồng bộ tháo rời qua cảng Hải Phòng: Chi tiết 2025"
+        }
+      },
+      "support": {
+        "title": "Bạn cần hỗ trợ?",
+        "desc": "Liên hệ ngay, chúng tôi luôn sẵn sàng phục vụ!",
+        "cta": "Giữ liên hệ"
+      }
+    }
+  },
+  "servicesRoad": {
+    "hero": {
+      "title": "Vận chuyển đường bộ",
+      "subtitle": "Giải pháp vận chuyển linh hoạt và hiệu quả"
+    },
+    "content": {
+      "intro": {
+        "title": "Giới thiệu dịch vụ vận chuyển đường bộ",
+        "section1": {
+          "title": "Vận chuyển hàng theo hình thức FCL và LCL",
+          "fcl": {
+            "title": "FCL (Full Container Load)",
+            "desc1": "FCL, viết tắt của Full Container Load, là hình thức vận chuyển hàng hóa trong đó toàn bộ container được sử dụng bởi một người gửi hàng duy nhất. Hàng hóa của bạn sẽ chiếm trọn container, đảm bảo an toàn, bảo mật và hiệu quả cho những lô hàng lớn. Các doanh nghiệp thường chọn FCL khi có khối lượng hàng hóa đủ để lấp đầy một container hoặc muốn giảm thiểu rủi ro từ việc ghép hàng với các doanh nghiệp khác.",
+            "advantages": "Ưu điểm của FCL",
+            "advantagesItems": {
+              "safety": "An toàn và bảo mật: Hàng hóa của bạn không phải chia sẻ không gian với hàng hóa của người khác, giảm thiểu nguy cơ hư hại và mất mát.",
+              "cost": "Tối ưu chi phí: Đối với các lô hàng lớn, chi phí trên mỗi đơn vị hàng hóa thấp hơn so với LCL.",
+              "convenience": "Tiện lợi trong xử lý: Quy trình xuất nhập khẩu và vận chuyển thường nhanh chóng hơn do không phải xử lý nhiều lô hàng nhỏ ghép lại."
+            }
+          },
+          "lcl": {
+            "title": "LCL (Less than Container Load)",
+            "desc1": "LCL, viết tắt của Less than Container Load, là hình thức vận chuyển hàng hóa trong đó container được chia sẻ với nhiều người gửi hàng khác nhau. Hàng hóa của bạn sẽ được ghép chung với hàng hóa của các doanh nghiệp khác, giúp tiết kiệm chi phí cho những lô hàng nhỏ.",
+            "advantages": "Ưu điểm của LCL",
+            "advantagesItems": {
+              "cost": "Tiết kiệm chi phí: Phù hợp cho các doanh nghiệp có khối lượng hàng hóa nhỏ, không đủ để xếp đầy một container.",
+              "flexibility": "Linh hoạt: Cho phép vận chuyển các lô hàng nhỏ lẻ mà không cần đợi đủ hàng để xếp đầy container.",
+              "optimization": "Tăng khả năng sử dụng container: Giúp tối ưu hóa không gian và giảm chi phí logistics tổng thể."
+            }
+          },
+          "additionalServices": "Ngoài 2 hình thức FCL và LCL vừa nêu, chúng tôi còn phục vụ nhu cầu vận chuyển hàng dự án và vận chuyển hàng siêu trường siêu trọng đối với hàng quá khổ quá tải và không đóng container."
+        },
+        "section2": {
+          "title": "Tầm quan trọng của dịch vụ FCL và LCL trong xuất nhập khẩu",
+          "role": {
+            "title": "Vai trò của vận chuyển đường bộ trong chuỗi cung ứng",
+            "desc1": "Vận chuyển đường bộ đóng vai trò quan trọng trong chuỗi cung ứng, đặc biệt là trong lĩnh vực xuất nhập khẩu. Nó không chỉ là phương tiện kết nối giữa các nhà sản xuất, kho bãi, và cảng biển mà còn đảm bảo hàng hóa được vận chuyển một cách an toàn, đúng thời gian và chi phí hợp lý. Vận chuyển đường bộ linh hoạt trong việc điều chỉnh lộ trình, thời gian, và có khả năng vận chuyển hàng hóa đến những khu vực không có đường sắt hay đường hàng không.",
+            "advantages": "Ưu điểm của vận chuyển đường bộ",
+            "advantagesItems": {
+              "flexibility": "Linh hoạt về lộ trình và thời gian: Có thể dễ dàng điều chỉnh theo nhu cầu cụ thể của khách hàng.",
+              "accessibility": "Khả năng tiếp cận cao: Dễ dàng tiếp cận các vùng sâu, vùng xa mà các phương tiện vận chuyển khác khó tiếp cận.",
+              "costEfficiency": "Hiệu quả về chi phí: Đặc biệt hiệu quả cho các quãng đường ngắn và trung bình."
+            }
+          },
+          "benefits": {
+            "title": "Lợi ích của việc sử dụng FCL và LCL cho hàng xuất nhập khẩu",
+            "desc1": "Sử dụng FCL và LCL trong xuất nhập khẩu mang lại nhiều lợi ích cho doanh nghiệp, giúp tối ưu hóa chi phí và hiệu quả vận chuyển. Việc lựa chọn hình thức vận chuyển phù hợp dựa trên khối lượng hàng hóa và nhu cầu cụ thể sẽ giúp doanh nghiệp tiết kiệm chi phí và đảm bảo hàng hóa được vận chuyển an toàn.",
+            "fclBenefits": "Lợi ích của FCL",
+            "fclBenefitsItems": {
+              "safety": "An toàn và bảo mật: Hàng hóa không bị trộn lẫn với hàng hóa của các doanh nghiệp khác, giảm thiểu rủi ro mất mát hoặc hư hỏng.",
+              "cost": "Tiết kiệm chi phí cho lô hàng lớn: Chi phí vận chuyển tính trên mỗi đơn vị hàng hóa thấp hơn so với LCL.",
+              "simplification": "Đơn giản hóa quy trình: Thủ tục hải quan và xử lý hàng hóa đơn giản và nhanh chóng hơn do không phải tách ghép hàng."
+            },
+            "lclBenefits": "Lợi ích của LCL",
+            "lclBenefitsItems": {
+              "cost": "Tiết kiệm chi phí cho lô hàng nhỏ: Chỉ phải trả tiền cho phần không gian container mà hàng hóa của bạn chiếm dụng.",
+              "flexibility": "Linh hoạt và tiện lợi: Dễ dàng vận chuyển các lô hàng nhỏ mà không cần chờ đủ hàng để lấp đầy container.",
+              "optimization": "Hiệu quả trong sử dụng container: Giúp tối ưu hóa không gian container và giảm chi phí logistics tổng thể."
+            }
+          }
+        }
+      },
+      "features": {
+        "title": "Các đặc điểm nổi bật của dịch vụ vận chuyển đường bộ",
+        "fcl": {
+          "title": "Dịch vụ vận chuyển FCL",
+          "desc1": "Với dịch vụ FCL, toàn bộ container sẽ được sử dụng để chứa hàng hóa của một doanh nghiệp duy nhất. Điều này mang lại nhiều lợi ích về an toàn, bảo mật và hiệu quả chi phí, đặc biệt là đối với các lô hàng lớn.",
+          "advantages": "Lợi ích của FCL",
+          "advantagesItems": {
+            "safety": "An toàn và bảo mật: Hàng hóa của bạn không phải chia sẻ không gian với hàng hóa của người khác, giảm thiểu nguy cơ hư hại và mất mát.",
+            "cost": "Tối ưu chi phí: Đối với các lô hàng lớn, chi phí trên mỗi đơn vị hàng hóa thấp hơn so với LCL.",
+            "convenience": "Tiện lợi trong xử lý: Quy trình xuất nhập khẩu và vận chuyển thường nhanh chóng hơn do không phải xử lý nhiều lô hàng nhỏ ghép lại."
+          },
+          "containerTypes": "Các loại container",
+          "containerTypesItems": {
+            "container20ft": "Container 20ft: Thường được sử dụng cho các lô hàng có khối lượng nhỏ hơn.",
+            "container40ft": "Container 40ft: Phù hợp cho các lô hàng lớn hơn.",
+            "highCube": "High cube container: Cao hơn container thông thường, thích hợp cho các hàng hóa cồng kềnh."
+          },
+          "process": "Quy trình vận chuyển FCL",
+          "processItems": {
+            "packing": "Đóng gói hàng hóa: Hàng hóa được đóng gói và niêm phong trong container.",
+            "portTransport": "Vận chuyển đến cảng: Container được vận chuyển từ kho hàng của bạn đến cảng biển.",
+            "finalDelivery": "Vận chuyển bằng đường bộ: Từ cảng biển, container được vận chuyển bằng xe tải đến điểm đến cuối cùng."
+          }
+        },
+        "lcl": {
+          "title": "Dịch vụ vận chuyển LCL",
+          "desc1": "Dịch vụ LCL phù hợp với các doanh nghiệp có khối lượng hàng hóa nhỏ, không đủ để lấp đầy một container. Hàng hóa của bạn sẽ được ghép chung với hàng hóa của các doanh nghiệp khác, giúp tiết kiệm chi phí vận chuyển.",
+          "advantages": "Lợi ích của LCL",
+          "advantagesItems": {
+            "cost": "Tiết kiệm chi phí: Phù hợp cho các doanh nghiệp có khối lượng hàng hóa nhỏ, không đủ để lấp đầy một container.",
+            "flexibility": "Linh hoạt: Cho phép vận chuyển các lô hàng nhỏ lẻ mà không cần đợi đủ hàng để lấp đầy container.",
+            "optimization": "Tăng khả năng sử dụng container: Giúp tối ưu hóa không gian và giảm chi phí logistics tổng thể."
+          },
+          "consolidationProcess": "Quy trình đóng ghép hàng LCL",
+          "consolidationProcessItems": {
+            "gathering": "Tập kết hàng hóa tại kho: Hàng hóa được tập kết tại kho hàng, nơi sẽ tiến hành ghép hàng.",
+            "consolidation": "Đóng ghép và niêm phong container: Hàng hóa từ nhiều doanh nghiệp được ghép chung vào một container.",
+            "transport": "Vận chuyển đến cảng và điểm cuối: Container được vận chuyển từ kho đến cảng biển và sau đó đến điểm đến cuối cùng."
+          },
+          "safetyMeasures": "Các biện pháp đảm bảo an toàn hàng hóa khi ghép container",
+          "safetyMeasuresItems": {
+            "qualityCheck": "Quy trình kiểm tra chất lượng: Hàng hóa được kiểm tra chất lượng trước khi ghép vào container.",
+            "packing": "Đóng gói cẩn thận: Hàng hóa được đóng gói cẩn thận để tránh hư hỏng trong quá trình vận chuyển.",
+            "sealing": "Niêm phong và bảo vệ: Container được niêm phong và bảo vệ để đảm bảo an toàn cho hàng hóa bên trong."
+          }
+        }
+      },
+      "benefits": {
+        "title": "Lợi ích khi sử dụng dịch vụ vận chuyển đường bộ FCL và LCL của Vinalogs",
+        "cost": {
+          "title": "Tiết kiệm chi phí",
+          "items": {
+            "optimization": "Tối ưu hóa chi phí vận chuyển: Với FCL, chi phí trên mỗi đơn vị hàng hóa thấp hơn do sử dụng toàn bộ container. Với LCL, bạn chỉ phải trả tiền cho phần không gian container mà hàng hóa của bạn chiếm dụng.",
+            "logistics": "Giảm chi phí logistics tổng thể: Việc ghép hàng LCL giúp tối ưu hóa không gian container, giảm chi phí vận chuyển và lưu kho."
+          }
+        },
+        "safety": {
+          "title": "Đảm bảo an toàn và bảo mật",
+          "items": {
+            "monitoring": "Hệ thống giám sát hàng hóa: Công ty sử dụng hệ thống giám sát hiện đại để theo dõi tình trạng hàng hóa trong suốt quá trình vận chuyển.",
+            "packaging": "Quy trình đóng gói và bảo quản chuyên nghiệp: Hàng hóa được đóng gói cẩn thận và bảo quản đúng cách để đảm bảo an toàn trong quá trình vận chuyển."
+          }
+        },
+        "flexibility": {
+          "title": "Linh hoạt và tiện lợi",
+          "items": {
+            "variety": "Đa dạng phương tiện và lộ trình: Công ty cung cấp nhiều lựa chọn về phương tiện và lộ trình vận chuyển, phù hợp với nhu cầu cụ thể của khách hàng.",
+            "doorToDoor": "Dịch vụ vận chuyển từ cửa đến cửa: Đảm bảo hàng hóa được giao đến tận nơi một cách nhanh chóng và tiện lợi."
+          }
+        },
+        "customerService": {
+          "title": "Dịch vụ khách hàng chuyên nghiệp",
+          "items": {
+            "dedicatedTeam": "Đội ngũ nhân viên tận tâm: Đội ngũ nhân viên chuyên nghiệp, giàu kinh nghiệm sẵn sàng hỗ trợ khách hàng trong mọi khâu của quá trình vận chuyển.",
+            "support": "Hỗ trợ 24/7: Dịch vụ hỗ trợ khách hàng 24/7, đảm bảo mọi vấn đề được giải quyết kịp thời."
+          }
+        }
+      },
+      "process": {
+        "title": "Quy trình sử dụng dịch vụ vận chuyển đường bộ FCL và LCL",
+        "steps": {
+          "request": {
+            "title": "Tiếp nhận yêu cầu và tư vấn",
+            "items": {
+              "contact": "Liên hệ qua điện thoại, email hoặc website: Khách hàng có thể liên hệ với công ty qua nhiều kênh để yêu cầu dịch vụ và nhận tư vấn.",
+              "consultation": "Tư vấn về lựa chọn FCL hoặc LCL phù hợp: Đội ngũ chuyên viên sẽ tư vấn giúp khách hàng lựa chọn hình thức vận chuyển phù hợp nhất với nhu cầu và khối lượng hàng hóa của mình."
+            }
+          },
+          "quotation": {
+            "title": "Báo giá và ký kết hợp đồng",
+            "items": {
+              "detailedQuote": "Cung cấp báo giá chi tiết: Công ty sẽ cung cấp báo giá chi tiết dựa trên khối lượng hàng hóa, lộ trình và hình thức vận chuyển.",
+              "contract": "Ký kết hợp đồng vận chuyển: Sau khi khách hàng đồng ý với báo giá, hai bên sẽ ký kết hợp đồng vận chuyển."
+            }
+          },
+          "preparation": {
+            "title": "Chuẩn bị và đóng gói hàng hóa",
+            "items": {
+              "guidance": "Hướng dẫn chuẩn bị hàng hóa: Công ty sẽ hướng dẫn khách hàng chuẩn bị hàng hóa đúng cách để đảm bảo an toàn trong quá trình vận chuyển.",
+              "packing": "Quy trình đóng gói và kiểm tra: Hàng hóa sẽ được đóng gói cẩn thận và kiểm tra trước khi vận chuyển."
+            }
+          },
+          "transportation": {
+            "title": "Thực hiện vận chuyển",
+            "items": {
+              "routePlanning": "Lộ trình và phương tiện vận chuyển: Công ty sẽ lên kế hoạch lộ trình và lựa chọn phương tiện vận chuyển phù hợp để đảm bảo hàng hóa đến nơi an toàn và đúng thời gian.",
+              "monitoring": "Giám sát và cập nhật tình trạng hàng hóa: Công ty sẽ giám sát quá trình vận chuyển và cập nhật tình trạng hàng hóa cho khách hàng."
+            }
+          },
+          "delivery": {
+            "title": "Giao hàng và hoàn tất thủ tục",
+            "items": {
+              "confirmation": "Xác nhận giao hàng: Khi hàng hóa đến nơi, công ty sẽ xác nhận giao hàng với khách hàng.",
+              "postDelivery": "Hỗ trợ các thủ tục sau giao hàng: Công ty sẽ hỗ trợ khách hàng hoàn tất các thủ tục sau khi giao hàng."
+            }
+          }
+        }
+      },
+      "faq": {
+        "title": "Thông tin thêm",
+        "items": {
+          "transportTime": {
+            "question": "Thời gian vận chuyển hàng hóa từ kho của chúng tôi đến cảng biển (hoặc ngược lại) thường mất bao lâu?",
+            "answer": "Thời gian vận chuyển hàng hóa từ kho đến cảng biển và ngược lại phụ thuộc vào khoảng cách và điều kiện giao thông. Thông thường, chúng tôi cam kết thời gian vận chuyển trong 1 ngày đối với các tuyến đường ngắn và 3-5 ngày đối với các tuyến đường dài."
+          },
+          "quotation": {
+            "question": "Xin vui lòng cung cấp cho chúng tôi bảng báo giá chi tiết cho cả dịch vụ FCL và LCL, bao gồm tất cả các chi phí liên quan như phí xăng dầu, phí cầu đường, và các phí phụ khác.",
+            "answer": "Chúng tôi sẽ cung cấp bảng báo giá chi tiết sau khi nhận được thông tin cụ thể về lô hàng của quý khách như khối lượng, loại hàng hóa, và tuyến đường vận chuyển. Báo giá sẽ bao gồm tất cả các chi phí liên quan như phí xăng dầu, phí cầu đường, và các phí phụ khác. Vui lòng liên hệ với chúng tôi qua email hoặc điện thoại để nhận báo giá chi tiết."
+          },
+          "incident": {
+            "question": "Trong trường hợp xảy ra sự cố như hư hỏng hoặc mất mát hàng hóa, quy trình xử lý và bồi thường của quý công ty như thế nào? Quý công ty có cung cấp bảo hiểm hàng hóa không?",
+            "answer": "Trong trường hợp xảy ra sự cố, chúng tôi sẽ tiến hành điều tra nguyên nhân và đánh giá mức độ thiệt hại. Quý khách hàng sẽ được thông báo về quy trình xử lý và bồi thường cụ thể. Chúng tôi có giới thiệu công ty bảo hiểm hàng hóa để đảm bảo quyền lợi của khách hàng. Mức bồi thường sẽ được xác định dựa trên giá trị hàng hóa và điều kiện bảo hiểm đã thỏa thuận."
+          }
+        }
+      },
+      "ask": {
+        "title": "Bạn còn thắc mắc?",
+        "cta": "Hỏi luôn"
+      }
+    },
+    "sidebar": {
+      "sea": "Vận tải đường biển",
+      "air": "Vận tải hàng không",
+      "road": "Vận tải đường bộ",
+      "warehouse": "Kho bãi",
+      "customs": "Khai báo hải quan",
+      "project": "Vận tải hàng dự án",
+      "search": {
+        "title": "Tìm kiếm",
+        "placeholder": "Nhập thông tin cần tìm..."
+      },
+      "services": {
+        "title": "Dịch vụ của chúng tôi"
+      },
+      "recentPosts": {
+        "title": "Bài viết gần đây",
+        "items": {
+          "post1": "Thủ tục nhập khẩu máy móc thiết bị và những điều cần biết 2025",
+          "post2": "Hàng dự án là gì? Tìm hiểu khái niệm và ứng dụng trong logistics",
+          "post3": "Xe siêu trường siêu trọng: Giải pháp tối ưu cho vận chuyển lô hàng lớn",
+          "post4": "Thủ tục tái nhập hàng xuất khẩu bị trả lại: Hướng dẫn chi tiết",
+          "post5": "Thủ tục nhập khẩu dây chuyền đồng bộ tháo rời qua cảng Hải Phòng: Chi tiết 2025"
+        }
+      },
+      "support": {
+        "title": "Bạn cần hỗ trợ?",
+        "desc": "Liên hệ ngay, chúng tôi luôn sẵn sàng phục vụ!",
+        "cta": "Giữ liên hệ"
+      }
+    },
+    "callout": {
+      "title": "Bạn muốn hợp tác với chúng tôi?",
+      "desc": "Chúng tôi không chỉ cung cấp dịch vụ, mà còn đồng hành cùng bạn trong công cuộc kinh doanh...",
+      "cta": "Liên hệ ngay"
+    },
+    "support": {
+      "title": "Hỗ trợ khách hàng",
+      "desc": "Liên hệ ngay với chúng tôi để được tư vấn nhanh chóng.",
+      "cta": "Liên hệ"
+    },
+    "cta": {
+      "title": "Đồng hành cùng Vinalogs trong vận chuyển đường bộ",
+      "desc": "Liên hệ ngay để nhận giải pháp vận chuyển tối ưu cho doanh nghiệp của bạn.",
+      "button": "Liên hệ ngay"
+    }
+  },
+  "servicesAir": {
+    "hero": {
+      "title": "Vận chuyển đường hàng không",
+      "subtitle": "Giải pháp vận chuyển nhanh chóng và an toàn"
+    },
+    "content": {
+      "title": "Vận chuyển đường hàng không cho hàng hóa XNK",
+      "intro": "Dịch vụ vận chuyển đường hàng không là lựa chọn hàng đầu cho những khách hàng cần sự nhanh chóng và an toàn. Tại Vinalogs, chúng tôi cung cấp giải pháp vận chuyển bằng máy bay giúp hàng hóa của bạn được giao đến đích trong thời gian ngắn nhất với chi phí cước vận chuyển hợp lý. Với dịch vụ vận chuyển hàng không, Vinalogs cam kết mang đến trải nghiệm vận chuyển hiệu quả và đáng tin cậy.",
+      "speed": {
+        "title": "Tốc độ và thời gian giao hàng",
+        "desc": "Vinalogs cam kết vận chuyển hàng hóa nhanh chóng và hiệu quả bằng máy bay, đảm bảo đúng lịch trình. Chúng tôi luôn tư vấn giúp khách hàng lựa chọn lịch trình vận chuyển phù hợp nhất với nhu cầu của mình."
+      },
+      "safety": {
+        "title": "An toàn và bảo đảm chất lượng hàng hóa",
+        "desc": "Dù là công ty đang phát triển, Vinalogs luôn chú trọng đến việc xử lý và bảo quản hàng hóa một cách cẩn trọng và đúng các quy trình quy phạm liên quan. Với trang thiết bị hiện đại và sự tận tâm, chúng tôi cam kết bảo vệ hàng hóa của bạn khỏi các hư hỏng trong quá trình vận chuyển bằng máy bay."
+      },
+      "scope": {
+        "title": "Phạm vi vận chuyển",
+        "desc": "Vinalogs hợp tác với nhiều hãng hàng không để đảm bảo hàng hóa của bạn có thể được vận chuyển đến gần như bất kỳ đâu trên thế giới. Chúng tôi cung cấp dịch vụ vận chuyển quốc tế với mức giá cước vận chuyển cạnh tranh và chất lượng đảm bảo."
+      },
+      "customerService": {
+        "title": "Dịch vụ khách hàng và hỗ trợ tận tâm",
+        "desc": "Đội ngũ của Vinalogs sẵn sàng hỗ trợ bạn bất cứ lúc nào, đảm bảo giải đáp mọi thắc mắc và giải quyết các vấn đề nhanh chóng. Chúng tôi luôn lắng nghe và đưa ra các giải pháp vận chuyển phù hợp với nhu cầu cụ thể của bạn."
+      },
+      "flexibleSolution": {
+        "title": "Giải pháp vận chuyển linh hoạt và tiết kiệm chi phí",
+        "desc": "Vinalogs hiểu rằng chi phí cước vận chuyển là một yếu tố quan trọng, do đó chúng tôi luôn tìm cách tối ưu hóa để mang lại giải pháp tốt nhất với mức giá hợp lý. Chúng tôi cũng thường xuyên có các chương trình khuyến mãi và ưu đãi hợp lý để giúp khách hàng tiết kiệm chi phí."
+      },
+      "technology": {
+        "title": "Công nghệ và quản lý thông minh",
+        "desc": "Hệ thống theo dõi hàng hóa trực tuyến của Vinalogs giúp bạn cập nhật trạng thái hàng hóa mọi lúc, mọi nơi. Chúng tôi luôn cập nhật và áp dụng các công nghệ mới nhất để nâng cao hiệu quả và độ chính xác trong quy trình vận chuyển bằng máy bay."
+      },
+      "commitment": {
+        "title": "Sự tận tâm và cam kết chất lượng",
+        "desc": "Dù là một công ty đang phát triển, Vinalogs luôn đặt sự hài lòng của khách hàng lên hàng đầu và nỗ lực mang lại dịch vụ tốt nhất. Chúng tôi cam kết mang lại dịch vụ vận chuyển an toàn, nhanh chóng và hiệu quả, đáp ứng mọi yêu cầu của khách hàng."
+      },
+      "callToAction": "Chúng tôi tại Vinalogs mong muốn trở thành đối tác tin cậy của bạn trong mọi hành trình vận chuyển. Hãy để chúng tôi giúp bạn đưa hàng hóa đến khắp mọi nơi trên thế giới một cách nhanh chóng và an toàn nhất.",
+      "ask": {
+        "title": "Bạn còn thắc mắc?",
+        "cta": "Hỏi luôn"
+      }
+    },
+    "sidebar": {
+      "search": {
+        "title": "Tìm kiếm",
+        "placeholder": "Nhập thông tin cần tìm..."
+      },
+      "title": "Dịch vụ khác",
+      "sea": "Vận tải đường biển quốc tế",
+      "air": "Vận tải đường hàng không",
+      "road": "Vận chuyển đường bộ",
+      "warehouse": "Dịch vụ kho bãi",
+      "customs": "Dịch vụ hải quan",
+      "project": "Vận chuyển hàng dự án",
+      "services": {
+        "title": "Dịch vụ của chúng tôi"
+      },
+      "recentPosts": {
+        "title": "Bài viết gần đây",
+        "items": {
+          "post1": "Thủ tục nhập khẩu máy móc thiết bị và những điều cần biết 2025",
+          "post2": "Hàng dự án là gì? Tìm hiểu khái niệm và ứng dụng trong logistics",
+          "post3": "Xe siêu trường siêu trọng: Giải pháp tối ưu cho vận chuyển lô hàng lớn",
+          "post4": "Thủ tục tái nhập hàng xuất khẩu bị trả lại: Hướng dẫn chi tiết",
+          "post5": "Thủ tục nhập khẩu dây chuyền đồng bộ tháo rời qua cảng Hải Phòng: Chi tiết 2025"
+        }
+      },
+      "support": {
+        "title": "Bạn cần hỗ trợ?",
+        "desc": "Liên hệ ngay, chúng tôi luôn sẵn sàng phục vụ!",
+        "cta": "Giữ liên hệ"
+      }
+    },
+    "callout": {
+      "title": "Bạn muốn hợp tác với chúng tôi?",
+      "desc": "Chúng tôi không chỉ cung cấp dịch vụ, mà còn đồng hành cùng bạn trong công cuộc kinh doanh...",
+      "cta": "Liên hệ ngay"
+    }
+  },
+  "servicesSea": {
+    "hero": {
+      "title": "Vận chuyển đường biển quốc tế",
+      "subtitle": "Giải pháp tối ưu cho xuất nhập khẩu"
+    },
+    "content": {
+      "overview": {
+        "title": "Tổng quan về dịch vụ vận chuyển đường biển quốc tế của Vinalogs",
+        "intro": "Dịch vụ vận chuyển đường biển quốc tế của Vinalogs là giải pháp tối ưu cho các doanh nghiệp xuất nhập khẩu, giúp tiết kiệm chi phí và đảm bảo an toàn cho hàng hóa. Chúng tôi cung cấp dịch vụ vận chuyển hàng hóa từ Việt Nam đến các cảng biển trên toàn thế giới và ngược lại. Với mạng lưới đối tác vận tải rộng khắp, chúng tôi cam kết mang đến cho khách hàng những dịch vụ chất lượng, nhanh chóng và hiệu quả nhất.",
+        "routes": "Các tuyến đường biển quốc tế phổ biến mà Vinalogs phục vụ bao gồm tuyến Châu Á, Châu Âu, Châu Mỹ, và Châu Úc. Chúng tôi không ngừng mở rộng và nâng cao chất lượng dịch vụ để đáp ứng nhu cầu ngày càng cao của khách hàng."
+      },
+      "types": {
+        "title": "Các loại hình vận chuyển đường biển quốc tế",
+        "intro": "Vinalogs cung cấp nhiều loại hình vận chuyển đường biển để phù hợp với từng nhu cầu cụ thể của khách hàng:",
+        "fcl": "Vận chuyển nguyên container (FCL - Full Container Load): Phù hợp cho các doanh nghiệp cần vận chuyển số lượng hàng lớn, giúp tiết kiệm chi phí và đảm bảo an toàn cho hàng hóa.",
+        "lcl": "Vận chuyển ghép container (LCL - Less than Container Load): Thích hợp cho các doanh nghiệp có khối lượng hàng hóa nhỏ, không đủ để đóng nguyên container. Giải pháp này giúp tối ưu chi phí vận chuyển.",
+        "bulkSpecial": "Vận chuyển hàng rời và hàng hóa đặc biệt: Chúng tôi cũng cung cấp dịch vụ vận chuyển hàng rời, hàng hóa quá khổ, quá tải, hoặc hàng nguy hiểm. Đội ngũ chuyên gia của Vinalogs sẽ tư vấn giải pháp vận chuyển phù hợp nhất cho từng loại hàng hóa đặc biệt.",
+        "multimodal": "Dịch vụ vận chuyển đa phương thức kết hợp đường biển và các hình thức vận chuyển khác: Kết hợp đường biển với các phương thức vận chuyển khác như đường bộ, đường sắt, đường hàng không để đảm bảo giao hàng đúng hẹn và tối ưu chi phí. Với phương thức này, bạn có thể tìm hiểu thêm dịch vụ vận chuyển door-to-door của chúng tôi."
+      },
+      "prosCons": {
+        "title": "Ưu nhược điểm của vận chuyển đường biển",
+        "intro": "Khi cân nhắc sử dụng dịch vụ vận chuyển đường biển quốc tế, chắc hẳn bạn cần lưu tâm và cân nhắc tới cả ưu điểm lẫn nhược điểm của phương thức vận tải phổ biến này.",
+        "pros": "Ưu điểm: Chi phí thấp: Vận chuyển đường biển có cước phí bình quân rẻ hơn so với đường hàng không, đặc biệt khi vận chuyển khối lượng hàng lớn. Vận chuyển khối lượng lớn: Đường biển có thể vận chuyển hàng hóa với khối lượng và kích thước lớn mà các phương thức khác không thể đảm nhận. Phù hợp cho hàng hóa không khẩn cấp: Thích hợp cho hàng hóa không cần gấp, giúp tiết kiệm chi phí đáng kể.",
+        "cons": "Nhược điểm: Thời gian vận chuyển dài: Vận chuyển đường biển thường mất nhiều thời gian hơn so với các phương thức khác. Chịu ảnh hưởng của điều kiện thời tiết: Thời tiết xấu có thể gây chậm trễ hoặc gián đoạn quá trình vận chuyển. Yêu cầu thủ tục phức tạp: Quy trình hải quan và các thủ tục giấy tờ liên quan đến vận chuyển quốc tế có thể phức tạp và mất thời gian.",
+        "note": "Nếu thấy các ưu điểm của phương thức vận tải biển vượt qua được các nhược điểm, giờ là lúc bạn quan tâm tới chi phí cần thiết phải chi trả cho lô hàng. Nghĩa là cước biển và các loại phụ phí hết bao nhiêu tiền."
+      },
+      "cost": {
+        "title": "Cước phí vận chuyển đường biển quốc tế",
+        "intro": "Cước biển (Ocean freight) và các loại phụ phí (Surchages) luôn là yếu tố quan trọng hàng đầu khi chủ hàng cân nhắc lựa chọn phương thức vận tải. Các khoản chi phí này sẽ ảnh hưởng trực tiếp tới giá thành cũng như giá bán sản phẩm hàng hóa mà bạn muốn xuất nhập khẩu. Chính vì vậy, bạn cũng cần hiểu rõ bản chất của chúng.",
+        "factors": "Cước phí không thể giống nhau cho các lô hàng, do đó bạn cần để ý đến các yếu tố ảnh hưởng đến cước phí: Chủng loại hàng hóa: Các loại hàng hóa khác nhau có mức phí vận chuyển khác nhau. Khối lượng và kích thước: Khối lượng và kích thước hàng hóa ảnh hưởng trực tiếp đến cước phí. Tuyến đường: Cước phí khác nhau tùy theo tuyến đường vận chuyển. Mùa vận chuyển: Mùa cao điểm và thấp điểm có thể ảnh hưởng đến giá cước.",
+        "calculation": "Bên cạnh đó, chủ hàng cũng nên biết cách thức mà các hãng vận chuyển tính cước phí như thế nào. Cụ thể, khi thuê dịch vụ vận chuyển đường biển quốc tế, thì có thể tính: Cước phí theo khối lượng: Thường áp dụng cho hàng hóa đi tàu hàng rời, có khối lượng lớn từ vài nghìn đến vài chục nghìn tấn. Cước phí theo container: Áp dụng cho dịch vụ vận chuyển hàng FCL, tính phí theo container 20ft, 40ft, hoặc loại container cụ thể cho loại hàng đó.",
+        "surcharges": "Các phí phụ khác: Phí xăng dầu: Thay đổi theo giá xăng dầu thị trường. Phí cầu đường: Áp dụng cho các tuyến đường có thu phí. Phí bảo hiểm: Phí bảo hiểm hàng hóa để đảm bảo an toàn trong quá trình vận chuyển."
+      },
+      "time": {
+        "title": "Thời gian vận chuyển hàng hóa bằng đường biển quốc tế",
+        "average": "Thời gian trung bình cho các tuyến đường phổ biến: Từ Việt Nam đi Nội Á: 5-10 ngày. Từ Việt Nam đi Châu Âu: 20-30 ngày. Từ Việt Nam đi Châu Mỹ: 25-35 ngày. Từ Việt Nam đi Châu Phi: 25-40 ngày.",
+        "factors": "Các yếu tố ảnh hưởng đến thời gian vận chuyển: Khoảng cách: Tuyến đường xa sẽ mất nhiều thời gian hơn. Điều kiện thời tiết: Thời tiết xấu có thể gây chậm trễ. Quy trình hải quan: Thủ tục hải quan phức tạp có thể làm kéo dài thời gian.",
+        "commitment": "Cam kết thời gian giao hàng của Vinalogs: Chúng tôi nỗ lực hết mình để giao hàng đúng hẹn theo thỏa thuận với khách hàng và sẽ thông báo kịp thời nếu có bất kỳ sự chậm trễ nào."
+      },
+      "clients": {
+        "title": "Đối tượng khách hàng",
+        "list": "Các doanh nghiệp xuất nhập khẩu: Các công ty xuất nhập khẩu hàng hóa quốc tế cần vận chuyển hàng hóa an toàn và tiết kiệm chi phí. Các nhà sản xuất: Các doanh nghiệp sản xuất cần vận chuyển nguyên vật liệu và sản phẩm đến các thị trường tiêu thụ. Các công ty thương mại quốc tế: Các công ty thương mại kinh doanh quốc tế cần dịch vụ vận chuyển hàng hóa hiệu quả. Các doanh nghiệp vừa và nhỏ: Các doanh nghiệp đang mở rộng thị trường ra nước ngoài cần giải pháp vận chuyển linh hoạt và tiết kiệm chi phí."
+      },
+      "process": {
+        "title": "Quy trình sử dụng dịch vụ vận chuyển đường biển quốc tế",
+        "step1": "Tiếp nhận yêu cầu và tư vấn dịch vụ: Khách hàng liên hệ với Vinalogs để cung cấp thông tin về lô hàng và yêu cầu vận chuyển. Đội ngũ chuyên viên của chúng tôi sẽ tư vấn và đề xuất giải pháp phù hợp nhất.",
+        "step2": "Báo giá và ký kết hợp đồng vận chuyển: Dựa trên thông tin khách hàng cung cấp, chúng tôi sẽ đưa ra bảng báo giá chi tiết. Sau khi khách hàng đồng ý, hai bên sẽ ký kết hợp đồng vận chuyển.",
+        "step3": "Chuẩn bị và đóng gói hàng hóa: Khách hàng chuẩn bị hàng hóa theo hướng dẫn của Vinalogs. Chúng tôi cung cấp dịch vụ đóng gói chuyên nghiệp để đảm bảo an toàn cho hàng hóa trong quá trình vận chuyển.",
+        "step4": "Thực hiện vận chuyển và theo dõi hành trình hàng hóa: Hàng hóa được vận chuyển theo kế hoạch đã thỏa thuận. Khách hàng có thể theo dõi hành trình hàng hóa thông qua hệ thống giám sát của Vinalogs.",
+        "step5": "Giao hàng và hoàn tất thủ tục sau khi hàng đến nơi: Sau khi hàng hóa đến đích, chúng tôi sẽ thông báo và hoàn tất các thủ tục giao nhận. Khách hàng kiểm tra hàng hóa và ký xác nhận hoàn tất dịch vụ."
+      },
+      "callToAction": "Chúng tôi hy vọng rằng bài viết này sẽ giúp khách hàng hiểu rõ hơn về dịch vụ vận chuyển đường biển quốc tế của Vinalogs và có được sự lựa chọn phù hợp nhất cho nhu cầu vận chuyển hàng hóa của mình. Nếu có bất kỳ thắc mắc nào, xin vui lòng liên hệ với chúng tôi để được hỗ trợ.",
+      "benefits": {
+        "title": "Lợi ích dùng dịch vụ",
+        "professional": "Dịch vụ chuyên nghiệp",
+        "courteous": "Thái độ phục vụ lịch sự",
+        "support": "Chăm sóc khách hàng rất tốt"
+      },
+      "faq": {
+        "title": "Thông tin thêm",
+        "q1": "Vận chuyển biển theo hình thức nào?",
+        "a1": "Chúng tôi cung cấp dịch vụ vận chuyển đường biển, cho hàng hóa đóng trong container. Có thể là hàng nguyên container (FCL) hoặc đóng ghép với những lô hàng khác (LCL).",
+        "q2": "Có thể cho cả hàng xuất và nhập khẩu không?",
+        "a2": "Tùy theo nhu cầu của chủ hàng, chúng tôi có thể thu xếp vận chuyển cho cả hàng xuất khẩu, hoặc nhập khẩu.",
+        "q3": "Có thể vận chuyển đến những cảng nào?",
+        "a3": "Với mạng lưới văn phòng và đại lý tại nước ngoài, chúng tôi phục vụ hàng hóa đi và đến từ nhiều cảng biển trên thế giới, chủ yếu tại Đông Bắc Á, Đông Nam Á, Ấn Độ..."
+      },
+      "ask": {
+        "title": "Bạn còn thắc mắc?",
+        "cta": "Hỏi luôn"
+      }
+    },
+    "sidebar": {
+      "search": {
+        "title": "Tìm kiếm",
+        "placeholder": "Nhập thông tin cần tìm..."
+      },
+      "title": "Dịch vụ khác",
+      "sea": "Vận tải đường biển quốc tế",
+      "air": "Vận tải đường hàng không",
+      "road": "Vận chuyển đường bộ",
+      "warehouse": "Dịch vụ kho bãi",
+      "customs": "Dịch vụ hải quan",
+      "project": "Vận chuyển hàng dự án",
+      "services": {
+        "title": "Dịch vụ của chúng tôi"
+      },
+      "recentPosts": {
+        "title": "Bài viết gần đây",
+        "items": {
+          "post1": "Thủ tục nhập khẩu máy móc thiết bị và những điều cần biết 2025",
+          "post2": "Hàng dự án là gì? Tìm hiểu khái niệm và ứng dụng trong logistics",
+          "post3": "Xe siêu trường siêu trọng: Giải pháp tối ưu cho vận chuyển lô hàng lớn",
+          "post4": "Thủ tục tái nhập hàng xuất khẩu bị trả lại: Hướng dẫn chi tiết",
+          "post5": "Thủ tục nhập khẩu dây chuyền đồng bộ tháo rời qua cảng Hải Phòng: Chi tiết 2025"
+        }
+      },
+      "support": {
+        "title": "Bạn cần hỗ trợ?",
+        "desc": "Liên hệ ngay, chúng tôi luôn sẵn sàng phục vụ!",
+        "cta": "Giữ liên hệ"
+      }
+    },
+    "callout": {
+      "title": "Bạn muốn hợp tác với chúng tôi?",
+      "desc": "Chúng tôi không chỉ cung cấp dịch vụ, mà còn đồng hành cùng bạn trong công cuộc kinh doanh...",
+      "cta": "Liên hệ ngay"
+    }
+  },
+  "services_footer": {
+    "sea": "Vận tải đường biển",
+    "air": "Vận tải hàng không",
+    "road": "Vận tải đường bộ",
+    "warehouse": "Kho bãi",
+    "customs": "Khai báo hải quan",
+    "project": "Vận tải hàng dự án"
+  },
+  "trading": {
+    "banner": {
+      "title": "Global Trading Company",
+      "subtitle": "Kết nối hàng hóa Việt Nam với thế giới - Giải pháp thương mại toàn cầu đáng tin cậy",
+      "cta": "Liên hệ ngay"
+    },
+    "about": {
+      "title": "Về chúng tôi",
+      "description1": "Chúng tôi là công ty thương mại hàng đầu chuyên về xuất nhập khẩu và phân phối hàng hóa quốc tế. Với hơn 15 năm kinh nghiệm, chúng tôi tự hào xây dựng mạng lưới đối tác toàn cầu, mang đến giải pháp logistics và thương mại tối ưu cho các doanh nghiệp lớn nhỏ.",
+      "description2": "Được thành lập tại Việt Nam, chúng tôi cam kết hỗ trợ doanh nghiệp địa phương vươn ra thị trường quốc tế, đồng thời mang đến các sản phẩm và công nghệ tiên tiến từ khắp nơi trên thế giới.",
+      "imageAlt": "Công ty thương mại",
+      "cta": "Tìm hiểu thêm"
+    },
+    "coreValues": {
+      "title": "Giá trị cốt lõi",
+      "values": [
+        {
+          "title": "Uy tín",
+          "description": "Đặt chữ tín lên hàng đầu, luôn minh bạch trong mọi giao dịch."
+        },
+        {
+          "title": "Đổi mới",
+          "description": "Ứng dụng công nghệ hiện đại, tối ưu quy trình thương mại quốc tế."
+        },
+        {
+          "title": "Bền vững",
+          "description": "Phát triển cùng đối tác, gắn kết cộng đồng và bảo vệ môi trường."
+        }
+      ]
+    },
+    "history": {
+      "title": "Lịch sử phát triển",
+      "description": "Từ một doanh nghiệp nhỏ tại TP.HCM vào năm 2010, chúng tôi đã phát triển thành một công ty thương mại quốc tế với chi nhánh tại Hà Nội, Đà Nẵng và các đối tác tại Mỹ, châu Âu, và châu Á. Hành trình này được xây dựng trên nền tảng sự đổi mới và cam kết phục vụ khách hàng.",
+      "milestones": [
+        "Thành lập tại TP.HCM",
+        "Mở rộng sang thị trường quốc tế",
+        "Đạt doanh thu 100 triệu USD"
+      ]
+    },
+    "partners": {
+      "title": "Đối tác & Khách hàng",
+      "alt": "Logo đối tác"
+    },
+    "services": {
+      "title": "Dịch vụ của chúng tôi",
+      "items": [
+        {
+          "title": "Xuất khẩu",
+          "description": "Chuyên cung cấp dịch vụ xuất khẩu nông sản, thủy sản, và hàng thủ công Việt Nam ra thị trường toàn cầu."
+        },
+        {
+          "title": "Nhập khẩu",
+          "description": "Nhập khẩu máy móc, thiết bị công nghệ, và nguyên liệu thô từ Mỹ, Đức, Nhật Bản."
+        },
+        {
+          "title": "Phân phối",
+          "description": "Kết nối nhà sản xuất với khách hàng trong và ngoài nước, đảm bảo chuỗi cung ứng liên tục."
+        },
+        {
+          "title": "Logistics",
+          "description": "Vận chuyển đường biển, hàng không, và kho bãi hiện đại với đội ngũ chuyên nghiệp."
+        }
+      ]
+    },
+    "contactCta": {
+      "title": "Global Trade Starts Here",
+      "description": "Hãy để chúng tôi trở thành cầu nối cho doanh nghiệp của bạn vươn ra toàn cầu. Liên hệ ngay để nhận tư vấn giải pháp thương mại tối ưu.",
+      "cta": "Nhận tư vấn ngay"
     }
   }
 }

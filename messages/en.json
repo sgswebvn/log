@@ -2,6 +2,13 @@
   "navigation": {
     "home": "Home",
     "services": "Services",
+    "seaTransport": "Sea Transport",
+    "airTransport": "Air Logistics",
+    "road": "Road Transport",
+    "warehousing": "Warehousing & Distribution",
+    "customs": "Customs Brokerage",
+    "project": "Project Cargo Transport",
+    "logistics": "Integrated Logistics Services",
     "news": "News",
     "contact": "Contact",
     "about": "About Us"
@@ -124,128 +131,234 @@
       "desc": "Sagoke is committed to safe, efficient, competitive end-to-end logistics solutions and long-term excellence."
     }
   },
-  "services": {
-    "title": "Our Services",
-    "subtitle": "Connecting core economic corridors across Eurasia",
-    "overview": {
-      "description": "With over 15 years of experience in the logistics industry, Sagoke provides comprehensive transportation and logistics services, meeting the needs of clients from individuals to large enterprises."
+  "servicesLogistics": {
+    "hero": {
+      "title": "Integrated Logistics Services",
+      "subtitle": "Comprehensive solutions optimizing every stage of the supply chain, from transportation and warehousing to logistics management."
     },
-    "stats": {
-      "title": "Our Achievements",
-      "desc": "Impressive numbers over years of development",
-      "years": "15+ years",
-      "containers": "50K+ containers/year",
-      "countries": "100+ countries",
-      "onTime": "99.5% on-time"
-    },
-    "items": {
-      "rail": {
-        "title": "Rail Transportation",
-        "description": "Container transportation services by rail from China to Europe and CIS countries",
-        "features": {
-          "container": "Container FCL/LCL",
-          "bulk": "Bulk cargo",
-          "project": "Project cargo",
-          "departures": "Weekly departures: Mon, Wed, Sat",
-          "transit": "Transit: 10-12 days station-to-station",
-          "delivery": "Nationwide door-to-door delivery",
-          "tracking": "24/7 tracking service"
-        }
+    "content": {
+      "desc1": "Vinalogs provides safe and optimized project cargo solutions for oversized and heavy-lift cargo, ensuring timely delivery and absolute safety.",
+      "title": "Integrated Logistics Services",
+      "intro": "Vinalogs’ integrated logistics services provide customers with comprehensive solutions, optimizing every stage of the supply chain. By combining flexible services such as transportation, warehousing, and logistics management, we are committed to delivering maximum efficiency and cost savings.",
+      "solution": {
+        "title": "Comprehensive and Flexible Solutions",
+        "desc": "Vinalogs provides integrated logistics services covering transportation, warehousing, distribution, and supply chain management. We understand that each customer has unique needs, so we design flexible solutions tailored to the specific requirements of each business."
       },
-      "seaFreight": {
-        "title": "International Sea Freight",
-        "description": "Maritime cargo transportation services",
-        "features": {
-          "container": "Container FCL/LCL",
-          "bulk": "Bulk cargo",
-          "project": "Project cargo"
-        }
+      "optimize": {
+        "title": "Cost and Time Optimization",
+        "desc": "With integrated logistics services, Vinalogs helps customers minimize costs and optimize transportation time. The seamless combination of services shortens handling and operating times while reducing unnecessary expenses."
       },
-      "airLogistics": {
-        "title": "Air Logistics",
-        "description": "Air cargo transportation services",
-        "features": {
-          "express": "Express Air Freight",
-          "charter": "Charter Flights",
-          "dangerous": "Dangerous Goods (DG)"
-        }
+      "management": {
+        "title": "Smart and Accurate Cargo Management",
+        "desc": "We apply advanced technologies to manage goods effectively and accurately. Vinalogs’ management system provides detailed information on the status and location of goods, enabling customers to track and control with ease."
       },
-      "supplyChain": {
-        "title": "Supply Chain Services",
-        "description": "Integrated logistics solutions from production to distribution",
-        "features": {
-          "planning": "Supply chain planning",
-          "inventory": "Inventory management",
-          "distribution": "Distribution services"
-        }
+      "team": {
+        "title": "Professional and Dedicated Team",
+        "desc": "Vinalogs’ team of experts has extensive experience in the logistics industry, always ready to support and advise customers. We are committed to delivering absolute satisfaction through professional and dedicated services."
       },
-      "forwarding": {
-        "title": "Forwarding Services",
-        "description": "Comprehensive cargo forwarding solutions from door to door",
-        "features": {
-          "doorToDoor": "Door-to-Door Delivery",
-          "customsClearance": "Customs clearance",
-          "insurance": "Cargo insurance"
-        }
+      "network": {
+        "title": "Global Network",
+        "desc": "With an extensive network of partners around the world, Sagoke ensures the ability to transport goods to every destination quickly and safely."
       },
-      "road": {
-        "title": "Road Transport",
-        "description": "Flexible road transportation services for domestic and cross-border needs",
-        "features": {
-          "trucks": "Trucks with various load capacities",
-          "container": "Container trucks",
-          "specialized": "Specialized vehicles"
-        }
+      "technology": {
+        "title": "Advanced Technology",
+        "desc": "We apply advanced technology in every stage of the logistics process, from online cargo tracking to smart warehouse management. This not only improves operational efficiency but also ensures accuracy and safety for goods."
       },
-      "warehousing": {
-        "title": "Warehousing & Labeling",
-        "description": "Warehousing and cargo labeling services",
-        "features": {
-          "modern": "Modern warehousing",
-          "wms": "WMS system",
-          "crossDocking": "Cross-docking"
-        }
+      "quality": {
+        "title": "Quality Commitment",
+        "desc": "Vinalogs always puts service quality and customer satisfaction first. We continuously improve and enhance our services to best meet the ever-increasing demands of the market."
       },
-      "customs": {
-        "title": "Customs Services",
-        "description": "Professional and fast customs clearance services for import/export",
-        "features": {
-          "declaration": "Customs declaration",
-          "taxConsultation": "Import/export tax consultation",
-          "permit": "Permit acquisition"
-        }
+      "additional": {
+        "title": "Comprehensive Value-Added Services",
+        "desc": "Comprehensive integrated services from Vinalogs: We provide a wide range of value-added services such as packaging, labeling, quality inspection, and customs services. This integration helps customers save time and costs while ensuring a smooth and efficient logistics process."
       },
-      "mainFeatures": "Main Services"
+      "conclusion": "Sagoke aspires to be your trusted partner in all logistics activities. Let us help you optimize your supply chain processes, improve business efficiency, and create sustainable value for your enterprise."
     },
     "advantages": {
-      "globalNetwork": {
+      "title": "Key Advantages",
+      "global": {
         "title": "Global Network",
-        "description": "Connecting over 100 countries and territories worldwide"
+        "desc": "Extensive network of partners and agents ensuring worldwide connectivity."
       },
-      "onTimeDelivery": {
-        "title": "On-time Delivery",
-        "description": "99.5% of orders delivered on schedule"
+      "time": {
+        "title": "Time Efficiency",
+        "desc": "Optimized transportation and delivery processes for faster operations."
       },
-      "absoluteSafety": {
-        "title": "Absolute Safety",
-        "description": "Comprehensive insurance and 24/7 tracking"
+      "safety": {
+        "title": "Safety & Security",
+        "desc": "Ensuring goods are always monitored and securely protected."
       },
-      "isoQuality": {
-        "title": "ISO Quality",
-        "description": "Certified ISO 9001:2015 for quality management system"
+      "quality": {
+        "title": "Service Quality",
+        "desc": "Committed to delivering professional and effective customer experiences."
       },
-      "expertTeam": {
-        "title": "Expert Team",
-        "description": "Over 500 experienced logistics professionals"
+      "team": {
+        "title": "Dedicated Team",
+        "desc": "Experienced logistics professionals always ready to support clients."
       },
-      "competitivePricing": {
-        "title": "Competitive Pricing",
-        "description": "Up to 30% savings compared to the market"
+      "price": {
+        "title": "Cost Efficiency",
+        "desc": "Providing cost-saving solutions without compromising quality."
       }
     },
+    "sidebar": {
+      "search": {
+        "title": "Search",
+        "placeholder": "Enter search terms..."
+      },
+      "title": "Other Services",
+      "sea": "International Sea Freight",
+      "air": "Air Freight",
+      "road": "Road Transport",
+      "warehouse": "Warehousing Services",
+      "customs": "Customs Services",
+      "project": "Project Cargo Transportation",
+      "services": {
+        "title": "Our Services"
+      },
+      "recentPosts": {
+        "title": "Recent Posts",
+        "items": {
+          "post1": "Import Procedures for Machinery and Equipment: Key Insights for 2025",
+          "post2": "What is Project Cargo? Understanding Concepts and Applications in Logistics",
+          "post3": "Oversized Vehicles: Optimal Solutions for Large Shipments",
+          "post4": "Re-import Procedures for Returned Exports: A Detailed Guide",
+          "post5": "Import Procedures for Disassembled Production Lines via Hai Phong Port: 2025 Details"
+        }
+      },
+      "support": {
+        "title": "Need Support?",
+        "desc": "Contact us now, we are always ready to serve!",
+        "cta": "Stay in Touch"
+      }
+    },
+    "callout": {
+      "title": "Want to Collaborate with Us?",
+      "desc": "We don’t just provide services; we partner with you in your business journey...",
+      "cta": "Contact Now"
+    },
     "cta": {
-      "button": "Request a Quote",
-      "getStarted": "Get Started"
+      "title": "Partner with Vinalogs for Road Transport",
+      "desc": "Contact us now to get the best transport solutions for your business.",
+      "button": "Contact Now"
+    }
+  },
+  "servicesProjectCargo": {
+    "hero": {
+      "title": "Project Cargo Transport",
+      "subtitle": "Professional project cargo transport solutions optimizing time and cost. Contact us now for effective and reliable logistics solutions!."
+    },
+    "content": {
+      "title": "Project Cargo Transport",
+      "desc1": "Simply put, project cargo transportation is the transportation of oversized, overweight shipments, or shipments of special nature - often serving large industrial, energy, and construction projects such as power plants, transformer stations, drilling rig systems, etc. Each shipment is a separate problem with many variables, requiring the transportation organizer to have experience, the ability to coordinate and handle situations extremely well.",
+      "definition": {
+        "title": "What Is Project Cargo?",
+        "desc": "Project cargo refers to shipments for specific projects (such as factories, energy plants, construction works). They often include equipment with large dimensions or heavyweight — also known as oversized and heavy-lift cargo — requiring specialized handling and transport planning."
+      },
+      "features": {
+        "title": "Key Characteristics & Types",
+        "desc": "Typical project cargo includes: factory machinery, energy and electrical equipment, construction materials and steel structures, drilling rigs and mechanical modules, or entire production lines imported from abroad. These items are oversized, irregular, or extremely heavy, requiring tailored solutions."
+      },
+      "costFactors": {
+        "title": "Cost Influencing Factors",
+        "desc": "1. Specific nature of the cargo (dimension, weight, irregular shape)\n2. Origin, destination, and route complexity\n3. Permits & regulatory procedures\n4. Required equipment and handling methods\n5. Insurance coverage\n6. Timing and urgency of delivery"
+      },
+      "process": {
+        "title": "Project Cargo Transport Process",
+        "desc": "1. Site survey & technical planning → 2. Packaging design & reinforcement → 3. Detailed route planning & scheduling → 4. Permits and regulatory compliance → 5. Safety planning & insurance → 6. Execution, field coordination & supervision until final delivery."
+      },
+      "tips": {
+        "title": "Tips for Choosing the Right Partner",
+        "desc": "Select a logistics partner with proven experience in oversized/heavy cargo, strong permit-handling capacity, technical teams for on-site supervision, comprehensive insurance policies, and transparent, competitive pricing."
+      },
+      "conclusion": {
+        "title": "Conclusion",
+        "desc": "Project cargo transport is a complex and high-value logistics service that requires cross-disciplinary planning and precise execution. Choosing the right partner helps save costs, reduce risks, and ensure absolute safety for your project.",
+        "desc2": "Project cargo transport is a complex logistics field that requires close coordination among multiple stakeholders, as well as appropriate technical and legal solutions. From understanding the characteristics of the cargo, the transportation route to assessing potential risks, all need to be meticulously planned, especially for projects with large volume requirements, tight timelines, or special construction conditions. The cost of transportation depends on many factors — from the type of goods, mode of transport, to related permits. Therefore, choosing a reputable and experienced transportation unit not only helps you save costs but also ensures safety throughout the entire project cargo transportation process."
+      },
+      "cta": {
+        "title": "Need Project Cargo Transport Services?",
+        "desc": "Contact us now for detailed consultation and a transparent quotation tailored to your project.",
+        "button": "Request a Quote"
+      }
+    },
+    "sidebar": {
+      "search": {
+        "title": "Search",
+        "placeholder": "Enter search terms..."
+      },
+      "title": "Other Services",
+      "sea": "International Sea Freight",
+      "air": "Air Freight",
+      "road": "Road Transport",
+      "warehouse": "Warehousing Services",
+      "customs": "Customs Services",
+      "project": "Project Cargo Transportation",
+      "services": {
+        "title": "Our Services"
+      },
+      "recentPosts": {
+        "title": "Recent Posts",
+        "items": {
+          "post1": "Import Procedures for Machinery and Equipment: Key Insights for 2025",
+          "post2": "What is Project Cargo? Understanding Concepts and Applications in Logistics",
+          "post3": "Oversized Vehicles: Optimal Solutions for Large Shipments",
+          "post4": "Re-import Procedures for Returned Exports: A Detailed Guide",
+          "post5": "Import Procedures for Disassembled Production Lines via Hai Phong Port: 2025 Details"
+        }
+      },
+      "support": {
+        "title": "Need Support?",
+        "desc": "Contact us now, we are always ready to serve!",
+        "cta": "Stay in Touch"
+      }
+    },
+    "callout": {
+      "title": "Want to Collaborate with Us?",
+      "desc": "We don’t just provide services; we partner with you in your business journey...",
+      "cta": "Contact Now"
+    },
+    "cta": {
+      "title": "Partner with Vinalogs for Road Transport",
+      "desc": "Contact us now to get the best transport solutions for your business.",
+      "button": "Contact Now"
+    }
+  },
+  "projectCargo": {
+    "hero": {
+      "title": "Project Cargo Transportation",
+      "subtitle": "Solutions for oversized and heavy-lift cargo"
+    },
+    "content": {
+      "title": "About project cargo services",
+      "desc1": "Vinalogs provides safe and optimized project cargo solutions...",
+      "plan": {
+        "title": "Detailed planning",
+        "desc": "Surveying, routing, vehicle allocation"
+      },
+      "solution": {
+        "title": "Specialized solutions",
+        "desc": "Heavy-lift trucks, specialized vessels"
+      },
+      "team": {
+        "title": "Experienced team",
+        "desc": "Ensuring safety and timely delivery"
+      }
+    },
+    "advantages": {
+      "title": "Strengths of project cargo service",
+      "network": {
+        "title": "Transport network",
+        "desc": "International links, multiple routes"
+      },
+      "safety": {
+        "title": "Absolute safety",
+        "desc": "International safety compliance"
+      },
+      "experience": {
+        "title": "Practical experience",
+        "desc": "Executed many large-scale projects"
+      }
     }
   },
   "newsPage": {
@@ -492,6 +605,777 @@
       "pricing": "Competitive and transparent pricing",
       "support": "24/7 customer support",
       "insurance": "Comprehensive cargo insurance"
+    }
+  },
+  "servicesWarehousing": {
+    "hero": {
+      "title": "Warehousing Services",
+      "subtitle": "Modern, safe, and efficient warehousing solutions for your supply chain."
+    },
+    "content": {
+      "title": "Warehousing Services: A Key Yet Underappreciated Piece in Logistics",
+      "desc1": "While attention often focuses on international transportation, customs clearance, or tax costs, warehousing services – a critical link in the supply chain – are frequently overlooked. However, if not managed effectively, this stage of storage and preservation can create bottlenecks, leading to delays and directly impacting delivery schedules and operating costs.",
+      "overview": {
+        "title": "1. Overview of Warehousing Services and Their Role in the Supply Chain",
+        "desc": "Before delving into warehouse types or choosing the right provider, you need to understand what warehousing services are and why businesses need them, especially as e-commerce grows rapidly and global supply chains continue to evolve.",
+        "definition": "Warehousing services involve the storage, preservation, management, and operation of goods in a warehouse – a key transit point in the supply chain between production, import/export, and final delivery to customers.",
+        "example": "I once worked with a business importing electronics that, due to a lack of suitable storage, had to scramble daily to negotiate with shipping lines to extend the time to retrieve containers from the port to avoid detention charges. In the end, the additional costs exceeded what they would have paid to rent a warehouse from the start. This is a practical lesson many new entrepreneurs or those new to logistics often learn the hard way.",
+        "roles": {
+          "title": "The Role of Warehousing Services in the Supply Chain",
+          "items": [
+            "Efficient Transshipment and Consolidation<br>For large import shipments that are later distributed in smaller batches, a warehouse is the ideal place for inventory checks, sorting, repackaging (if needed), or combining with other goods for phased deliveries.",
+            "Optimized Inventory Management<br>With a warehouse, you gain real-time data. Professional warehousing services help you track inventory levels, expiration dates, product codes, and turnover rates, improving cash flow control and import/export planning.",
+            "Buffering Time Between Logistics Stages<br>In reality, shipping, receipt, production, and delivery schedules don’t always align perfectly. Warehouses help balance this timing, preventing disruptions.",
+            "Reducing Risks of Port/Airport Incidental Costs<br>Failing to retrieve goods on time can lead to additional container storage fees (DEM/DET). Having a satellite warehouse near the port and a flexible service provider reduces dependence on shipping line schedules."
+          ]
+        },
+        "ecommerce": {
+          "title": "E-commerce & Warehousing Services",
+          "desc": "For e-commerce businesses, warehousing services are even more critical. Fast order fulfillment, accurate inventory management, and efficient returns processing are essential to meet customer expectations. A well-managed warehouse can significantly enhance customer satisfaction and loyalty."
+        }
+      },
+      "types": {
+        "title": "Common Types of Warehouses Today",
+        "desc": "After understanding the general role of warehousing services in the supply chain, exploring the available warehouse types on the market is a crucial next step. Not every warehouse suits every type of goods – each type aligns with specific purposes and goods. In this section, I’ll outline the most common warehouse types encountered by import/export businesses, along with features to help you choose the right one.",
+        "bonded": {
+          "title": "1. Bonded Warehouse",
+          "desc": "This type of warehouse is designed for imported goods that haven’t cleared customs. Bonded warehouses are typically located near seaports, international airports, or land border crossings. The key advantage is that goods can be stored long-term without immediate import tax payments. I once handled customs for a client importing a shipment of mobile phones from South Korea to Cat Lai port. Since we needed to wait for a distribution license from a partner, we advised moving the goods to a bonded warehouse to ‘buy time’ while keeping them well-preserved. This is a classic example of leveraging this warehouse type flexibly."
+        },
+        "cfs": {
+          "title": "2. CFS (Container Freight Station)",
+          "desc": "Simply put, this is a warehouse specializing in loading or unloading less-than-container-load (LCL) cargo from containers. It serves as a critical transshipment hub for LCL imports and exports. If you frequently handle LCL shipments, you’ll encounter CFS warehouses regularly. In practice, a CFS acts like a ‘staging center’ for goods: constant inflow and outflow. The staff here must be skilled in loading/unloading to avoid errors, as dozens of import/export businesses share containers."
+        },
+        "cold": {
+          "title": "3. Cold Storage and Temperature-Controlled Warehouses",
+          "desc": "For perishable goods like food, pharmaceuticals, or temperature-sensitive chemicals, you’ll need cold storage (for frozen goods) or cool storage (18-25ºC). These warehouses are costlier due to the need for stable conditions but are essential for businesses importing agricultural products or seafood. I recall a seafood exporter to Japan whose tuna shipment was rejected because the post-transport storage temperature didn’t meet standards. They switched to an internationally certified cold storage, which, though more expensive, ensured shipment safety."
+        },
+        "general": {
+          "title": "4. General Storage Warehouses",
+          "desc": "These warehouses are typically used for dry goods, consumer products, components, or household items. Their structure is simpler, and rental costs are more affordable than specialized warehouses. However, some include shelving, forklifts, and smart management software to optimize operations. If you need warehousing for goods without special requirements, this is a cost-effective and efficient choice."
+        }
+      },
+      "benefits": {
+        "title": "Benefits of Using Professional Warehousing Services",
+        "desc": "Having explored the various warehouse types, you might be wondering: ‘Should my business use professional warehousing services or rent and operate its own space?’ Let’s look at the reality to determine the best option for your supply chain.",
+        "cost": {
+          "title": "Cost Optimization – Not Just Penny-Pinching",
+          "desc": "Some businesses starting out think it’s simple: rent a small warehouse and assign a few in-house staff to manage it. It may seem cost-effective, but hidden costs are significant—maintenance, insurance, labor, lifting equipment, software… Not to mention losses from inventory discrepancies, theft, or poor stock control. Professional warehousing services offer a fully outsourced solution: you pay a reasonable fee for a standard-compliant system, skilled staff, and streamlined processes. A client once told me, ‘Renting a professional warehouse cost less than maintaining my own team for six months!’"
+        },
+        "flexibility": {
+          "title": "Flexibility by Scale and Season",
+          "desc": "You might need more warehouse space during the year-end peak season but much less in the first quarter. Renting long-term means paying even when it’s empty. A professional warehousing service—especially a large-scale one—can adjust storage space based on your actual sales volume. For e-commerce or fast-moving consumer goods (FMCG) sectors, this flexibility is invaluable for managing inventory and logistics costs."
+        },
+        "data": {
+          "title": "Inventory Data & Operations at Your Fingertips",
+          "desc": "Warehouses are more than just storage. Many businesses realize that controlling warehouse data—such as opening stock, receipts, issues, and closing stock—is critical for production, import/export, or sales decisions. With professional services, you get a Warehouse Management System (WMS) or at least clear, transparent periodic reports. This real-time information keeps you proactive across the supply chain."
+        },
+        "risk": {
+          "title": "Risk Reduction with Expertise and Standard Facilities",
+          "desc": "One often-overlooked risk: storage issues can affect import/export contracts. Damaged, moldy, or delayed goods can lead to penalties. Professional warehouses are well-equipped with fire suppression systems, pest control, security cameras, sturdy shelving, proper drainage, and cargo insurance. Plus, their trained staff can handle emergencies. If you want your goods preserved well, entrust them to the right hands."
+        }
+      },
+      "vinalogs": {
+        "title": "What Makes Vinalogs’ Warehousing Services Stand Out",
+        "desc": "Warehousing is a pivotal element in the logistics supply chain. At Vinalogs, we offer modern and secure warehousing solutions, helping clients manage goods efficiently and cost-effectively. With Vinalogs’ warehousing services, you can trust us with storage, preservation, and management.",
+        "infrastructure": "Modern and Secure Infrastructure: Vinalogs proudly operates a network of modern warehouses with advanced facilities, ensuring optimal storage conditions for all types of goods. Our warehouses feature 24/7 security systems and state-of-the-art fire suppression equipment.",
+        "management": "Professional Goods Management: We use cutting-edge warehouse management software, enabling clients to easily track and manage their inventory. Vinalogs’ system provides detailed insights into the status, quantity, and location of goods, optimizing handling and movement, including in areas like <a href=\"/dich-vu/dich-vu-luu-kho-tai-hai-phong/\" title=\"Warehousing services in Hai Phong\">Hai Phong</a> and beyond.",
+        "flexibility": "Flexible and Cost-Effective Services: Vinalogs offers customizable warehousing packages to suit every client’s needs. We commit to providing cost-effective storage solutions that save money and streamline logistics processes.",
+        "location": "Strategic Locations: Our warehouses are strategically located near major roads and industrial zones, facilitating easy connectivity and transportation. This saves time and reduces shipping costs.",
+        "support": "Dedicated Customer Service and Support: Our Vinalogs team is always ready to assist clients in any situation. We provide professional consultations and listen attentively to meet every requirement, ensuring complete satisfaction.",
+        "integration": "Comprehensive Logistics Integration: Beyond warehousing, Vinalogs offers full logistics services, including transportation, distribution, and supply chain management. This integration optimizes the entire process from storage to delivery.",
+        "quality": "Quality and Reliability Commitment: Vinalogs prioritizes service quality and client satisfaction. We continuously improve and enhance our offerings to meet the growing demands of the market.",
+        "conclusion": "At Vinalogs, we aim to be your trusted partner in all logistics activities. Let us help you manage and store goods efficiently, safely, and cost-effectively. Choosing a warehousing provider is like selecting a long-term partner. Vinalogs—with its diverse infrastructure, flexible services, and dedicated approach—could be that partner. After reviewing the details above, you’ll have a clearer perspective to make the right choice."
+      },
+      "conclusion": {
+        "title": "Conclusion",
+        "desc": "Warehousing services play a vital role in the supply chain, optimizing storage and distribution while reducing operating costs for businesses. Depending on product characteristics and business goals, companies can choose suitable warehouse types like general, cold, bonded, or distribution warehouses. At Vinalogs, our warehousing services are designed to be flexible, professional, and integrated with logistics support, optimizing operations for each shipment. This is a solution worth considering for businesses seeking a reliable partner in logistics and import/export."
+      }
+    },
+    "sidebar": {
+      "search": {
+        "title": "Search",
+        "placeholder": "Enter search terms..."
+      },
+      "title": "Other Services",
+      "sea": "International Sea Freight",
+      "air": "Air Freight",
+      "road": "Road Transport",
+      "warehouse": "Warehousing Services",
+      "customs": "Customs Services",
+      "project": "Project Cargo Transportation",
+      "services": {
+        "title": "Our Services"
+      },
+      "recentPosts": {
+        "title": "Recent Posts",
+        "items": {
+          "post1": "Import Procedures for Machinery and Equipment: Key Insights for 2025",
+          "post2": "What is Project Cargo? Understanding Concepts and Applications in Logistics",
+          "post3": "Oversized Vehicles: Optimal Solutions for Large Shipments",
+          "post4": "Re-import Procedures for Returned Exports: A Detailed Guide",
+          "post5": "Import Procedures for Disassembled Production Lines via Hai Phong Port: 2025 Details"
+        }
+      },
+      "support": {
+        "title": "Need Support?",
+        "desc": "Contact us now, we are always ready to serve!",
+        "cta": "Stay in Touch"
+      }
+    },
+    "callout": {
+      "title": "Want to Collaborate with Us?",
+      "desc": "We don’t just provide services; we partner with you in your business journey...",
+      "cta": "Contact Now"
+    },
+    "cta": {
+      "title": "Partner with Vinalogs for Road Transport",
+      "desc": "Contact us now to get the best transport solutions for your business.",
+      "button": "Contact Now"
+    }
+  },
+  "servicesCustoms": {
+    "hero": {
+      "title": "Comprehensive Customs Services - Cost-effective, Fast, Reliable",
+      "subtitle": "Quick, safe, and efficient customs clearance solutions for businesses"
+    },
+    "content": {
+      "title": "Quick, Safe, and Efficient Customs Clearance Solutions for Businesses",
+      "intro": "Customs services play an essential role in import and export activities, helping businesses complete customs clearance procedures legally and quickly. However, the customs process is often complex, requiring extensive expertise and significant time and manpower. Understanding this, Vinalogs provides comprehensive customs services, offering the most optimal solution for all business clearance needs.",
+      "whatIsCustoms": {
+        "title": "What is Customs Procedure?",
+        "desc1": "Customs procedures are an indispensable part of the import and export process. They include activities such as inspection, supervision, and management of goods to ensure compliance with national laws. The main objective of customs procedures is to prevent illegal goods and to ensure proper tax collection.",
+        "desc2": "At border checkpoints, customs is the government authority responsible for controlling and supervising cross-border trade. Tasks include checking documents, determining the value of goods, applying tax rates, and ensuring imported goods comply with sector-specific regulations such as safety and health, disease control, and environmental protection."
+      },
+      "types": {
+        "title": "Types of Customs Services",
+        "desc": "Customs services can be divided into various types, depending on the needs and characteristics of each shipment. Some common types include:",
+        "selfDeclaration": "Self-Declaration: The business itself prepares and submits the required documents to customs authorities. This form requires the company to have extensive knowledge of customs regulations and procedures.",
+        "customsAgent": "Hiring a Customs Agent: Businesses hire specialized companies that provide customs declaration services to handle the procedures on their behalf. Customs agents will prepare and submit documents, work with customs authorities, and resolve any arising issues.",
+        "fullService": "Full Customs Service: Businesses hire a customs service company like Vinalogs to handle the entire process from A to Z. This includes consultation, document preparation, submission, monitoring, and issue resolution to ensure quick and effective clearance."
+      },
+      "fullService": {
+        "title": "What is Full Customs Service?",
+        "desc1": "Full customs service is a comprehensive solution for businesses in handling customs procedures. When using this service, businesses will be supported from start to finish, from initial consultation and document preparation to monitoring and resolving issues during clearance.",
+        "desc2": "Categories of Full Customs Services Include:",
+        "items": {
+          "consultation": "Customs Consultation: Providing information and advice on regulations, procedures, HS Codes, import-export tax rates, and customs requirements for specific types of goods.",
+          "documentPrep": "Document Preparation: Assisting shippers in preparing required documents such as commercial invoices, packing lists, certificates of origin, import licenses, and other documents as required.",
+          "declaration": "Customs Declaration using ECUS VNACCS software",
+          "submission": "Customs Submission: Vinalogs staff submit documents to customs authorities and monitor the process.",
+          "monitoring": "Monitoring the Clearance Process: Supervising the inspection and clearance of goods to ensure compliance with regulations and deadlines.",
+          "issueResolution": "Issue Resolution: Handling issues arising during clearance such as inspections, additional documents, and resolving obstacles if any."
+        }
+      },
+      "whyVinalogs": {
+        "title": "Why Choose Vinalogs Full Customs Service?",
+        "desc": "Vinalogs is proud to be one of the leading companies providing comprehensive customs services with years of experience and a team of knowledgeable experts. When choosing Vinalogs, businesses gain many outstanding benefits:",
+        "items": {
+          "certifiedAgent": "Served by a Certified Customs Agent: Vinalogs has been recognized as a customs agent by the General Department of Customs since 2013. We are regularly updated on customs practices as required. With over 10 years of experience serving customers and thousands of declarations processed annually, Vinalogs provides fast and reliable customs services, from consultation to execution, ensuring quick and smooth clearance.",
+          "costTimeSaving": "Saving Time and Costs: With Vinalogs full customs service, businesses don’t need to worry about learning and preparing complex procedures. Our expert team handles the entire process, saving both time and costs.",
+          "accuracy": "Accuracy and Efficiency: With extensive knowledge and experience, we ensure all procedures are performed accurately and quickly, minimizing risks and avoiding costly errors.",
+          "customerService": "Professional Customer Service: We are committed to delivering professional customer support, always ready to assist and answer any questions businesses may have during the service.",
+          "network": "Extensive Network: Vinalogs maintains good relationships with customs authorities and industry partners, ensuring smoother and more efficient clearance.",
+          "relatedServices": "Support for Related Services: obtaining shipping line releases, paying import-export taxes, purchasing cargo insurance, price consultations, and specialized inspections such as registration, quarantine, fumigation, and food safety. We regularly handle complex items such as imported steel, tiles, recycled and virgin plastic pellets."
+        }
+      },
+      "process": {
+        "title": "Process of Using Vinalogs Full Customs Service",
+        "desc": "To use Vinalogs full customs service, businesses only need to follow these simple steps:",
+        "steps": {
+          "contact": "Contact and Consultation: Get in touch with Vinalogs via phone or email for initial consultation. We will listen to the business’s needs and requirements.",
+          "contract": "Contract Signing: After consultation, both parties sign a service contract, ensuring mutual rights and responsibilities.",
+          "documentPrep": "Document Preparation: The business provides necessary documents and shipment details. Vinalogs will assist in preparing and completing customs documents.",
+          "submission": "Submission and Monitoring: Vinalogs submits documents to customs authorities on behalf of the business and monitors the process to ensure smooth handling.",
+          "issueResolution": "Issue Resolution: In case of any issues, Vinalogs’ team quickly resolves them to avoid clearance delays.",
+          "completion": "Completion and Delivery: Once goods are cleared, Vinalogs informs the business and completes the necessary steps to deliver goods to the designated location."
+        }
+      },
+      "costs": {
+        "title": "Types of Costs When Using Full Customs Service",
+        "desc": "The cost of using Vinalogs full customs service is composed of several factors, including:",
+        "items": {
+          "serviceFee": "Service Fee: The fee paid to Vinalogs for handling the entire customs process. This fee usually depends on the scale and complexity of the shipment.",
+          "customsFee": "Customs Fees: Mandatory fees payable to customs authorities, including import tax, VAT, and other applicable taxes.",
+          "storageFee": "Storage Fee: If goods need to be stored while waiting for clearance, storage fees will apply.",
+          "transportFee": "Transportation Fee: If Vinalogs handles transportation after clearance, this fee is calculated based on distance and transport method.",
+          "additionalFee": "Other Additional Fees: May include inspection fees, sampling fees, testing fees, and other costs depending on customs requirements."
+        }
+      },
+      "conclusion1": "Full customs service is an optimal solution helping businesses address all issues related to customs procedures quickly and effectively. With Vinalogs, businesses not only save time and costs but also ensure compliance, minimize risks, and optimize the clearance process.",
+      "conclusion2": "Contact Vinalogs today for the best consultation and support for all your full customs service needs. We are committed to delivering the highest satisfaction and efficiency for your business."
+    },
+    "sidebar": {
+      "search": {
+        "title": "Search",
+        "placeholder": "Enter search terms..."
+      },
+      "title": "Other Services",
+      "sea": "International Sea Freight",
+      "air": "Air Freight",
+      "road": "Road Transport",
+      "warehouse": "Warehousing Services",
+      "customs": "Customs Services",
+      "project": "Project Cargo Transportation",
+      "services": {
+        "title": "Our Services"
+      },
+      "recentPosts": {
+        "title": "Recent Posts",
+        "items": {
+          "post1": "Import Procedures for Machinery and Equipment: Key Insights for 2025",
+          "post2": "What is Project Cargo? Understanding Concepts and Applications in Logistics",
+          "post3": "Oversized Vehicles: Optimal Solutions for Large Shipments",
+          "post4": "Re-import Procedures for Returned Exports: A Detailed Guide",
+          "post5": "Import Procedures for Disassembled Production Lines via Hai Phong Port: 2025 Details"
+        }
+      },
+      "support": {
+        "title": "Need Support?",
+        "desc": "Contact us now, we are always ready to serve!",
+        "cta": "Stay in Touch"
+      }
+    },
+    "callout": {
+      "title": "Want to Collaborate with Us?",
+      "desc": "We don’t just provide services; we partner with you in your business journey...",
+      "cta": "Contact Now"
+    },
+    "cta": {
+      "title": "Partner with Vinalogs for Road Transport",
+      "desc": "Contact us now to get the best transport solutions for your business.",
+      "button": "Contact Now"
+    }
+  },
+  "servicesRoad": {
+    "hero": {
+      "title": "Road Transport",
+      "subtitle": "Flexible and efficient transportation solutions"
+    },
+    "content": {
+      "intro": {
+        "title": "Introduction to Road Transport Services",
+        "section1": {
+          "title": "Transportation of Goods via FCL and LCL",
+          "fcl": {
+            "title": "FCL (Full Container Load)",
+            "desc1": "FCL, short for Full Container Load, is a transportation method where an entire container is used by a single shipper. Your goods will occupy the whole container, ensuring safety, security, and efficiency for large shipments. Businesses often choose FCL when they have enough cargo to fill a container or wish to minimize risks from sharing with other companies.",
+            "advantages": "Advantages of FCL",
+            "advantagesItems": {
+              "safety": "Safety and security: Your goods do not share space with others, reducing the risk of damage or loss.",
+              "cost": "Cost optimization: For large shipments, the cost per unit of goods is lower than with LCL.",
+              "convenience": "Convenient handling: Import/export and transportation processes are faster as they do not involve consolidating multiple small shipments."
+            }
+          },
+          "lcl": {
+            "title": "LCL (Less than Container Load)",
+            "desc1": "LCL, short for Less than Container Load, is a transportation method where a container is shared among multiple shippers. Your goods will be consolidated with those of other businesses, saving costs for smaller shipments.",
+            "advantages": "Advantages of LCL",
+            "advantagesItems": {
+              "cost": "Cost savings: Suitable for businesses with small cargo volumes that cannot fill a container.",
+              "flexibility": "Flexibility: Allows transportation of small batches without waiting to fill a container.",
+              "optimization": "Enhanced container utilization: Optimizes space and reduces overall logistics costs."
+            }
+          },
+          "additionalServices": "In addition to the FCL and LCL methods mentioned, we also offer project cargo transportation and oversized/overweight cargo transportation for non-containerized goods."
+        },
+        "section2": {
+          "title": "Importance of FCL and LCL Services in Import/Export",
+          "role": {
+            "title": "Role of Road Transport in the Supply Chain",
+            "desc1": "Road transport plays a vital role in the supply chain, especially in import/export. It serves as a link between manufacturers, warehouses, and seaports, ensuring goods are transported safely, on time, and at reasonable costs. Road transport offers flexibility in adjusting routes and schedules and can deliver goods to areas without rail or air access.",
+            "advantages": "Advantages of road transport",
+            "advantagesItems": {
+              "flexibility": "Flexible routes and schedules: Easily adjustable to specific customer needs.",
+              "accessibility": "High accessibility: Reaches remote areas where other transport methods struggle.",
+              "costEfficiency": "Cost-effective: Particularly efficient for short and medium distances."
+            }
+          },
+          "benefits": {
+            "title": "Benefits of Using FCL and LCL for Import/Export",
+            "desc1": "Using FCL and LCL in import/export offers numerous benefits to businesses, optimizing costs and transportation efficiency. Choosing the right method based on cargo volume and specific needs helps save costs and ensures safe goods delivery.",
+            "fclBenefits": "Benefits of FCL",
+            "fclBenefitsItems": {
+              "safety": "Safety and security: Goods are not mixed with those of other businesses, minimizing loss or damage risks.",
+              "cost": "Cost savings for large shipments: Lower per-unit shipping costs compared to LCL.",
+              "simplification": "Simplified process: Customs and handling procedures are simpler and faster without consolidation."
+            },
+            "lclBenefits": "Benefits of LCL",
+            "lclBenefitsItems": {
+              "cost": "Cost savings for small shipments: You only pay for the container space your goods occupy.",
+              "flexibility": "Flexible and convenient: Easily transports small batches without waiting to fill a container.",
+              "optimization": "Efficient container use: Optimizes container space and reduces overall logistics costs."
+            }
+          }
+        }
+      },
+      "features": {
+        "title": "Key Features of Road Transport Services",
+        "fcl": {
+          "title": "FCL Transportation Services",
+          "desc1": "With FCL services, an entire container is dedicated to a single business's goods. This offers benefits in safety, security, and cost efficiency, especially for large shipments.",
+          "advantages": "Benefits of FCL",
+          "advantagesItems": {
+            "safety": "Safety and security: Your goods do not share space with others, reducing damage or loss risks.",
+            "cost": "Cost optimization: Lower per-unit costs for large shipments compared to LCL.",
+            "convenience": "Convenient handling: Faster import/export and transportation processes without consolidating multiple shipments."
+          },
+          "containerTypes": "Types of containers",
+          "containerTypesItems": {
+            "container20ft": "Container 20ft: Typically used for smaller cargo volumes.",
+            "container40ft": "Container 40ft: Suitable for larger shipments.",
+            "highCube": "High cube container: Taller than standard containers, ideal for bulky goods."
+          },
+          "process": "FCL transportation process",
+          "processItems": {
+            "packing": "Packing goods: Goods are packed and sealed in the container.",
+            "portTransport": "Transport to port: The container is moved from your warehouse to the seaport.",
+            "finalDelivery": "Road delivery: From the port, the container is transported by truck to the final destination."
+          }
+        },
+        "lcl": {
+          "title": "LCL Transportation Services",
+          "desc1": "LCL services are ideal for businesses with small cargo volumes that cannot fill a container. Your goods are consolidated with those of other businesses, saving transportation costs.",
+          "advantages": "Benefits of LCL",
+          "advantagesItems": {
+            "cost": "Cost savings: Suitable for businesses with small cargo volumes that cannot fill a container.",
+            "flexibility": "Flexibility: Allows transportation of small batches without waiting to fill a container.",
+            "optimization": "Enhanced container utilization: Optimizes space and reduces overall logistics costs."
+          },
+          "consolidationProcess": "LCL consolidation process",
+          "consolidationProcessItems": {
+            "gathering": "Goods gathering at warehouse: Goods are collected at a warehouse for consolidation.",
+            "consolidation": "Consolidation and sealing: Goods from multiple businesses are packed into one container.",
+            "transport": "Transport to port and final destination: The container is moved from the warehouse to the port and then to the final destination."
+          },
+          "safetyMeasures": "Safety measures for consolidated cargo",
+          "safetyMeasuresItems": {
+            "qualityCheck": "Quality inspection: Goods are checked for quality before consolidation.",
+            "packing": "Careful packing: Goods are packed carefully to prevent damage during transport.",
+            "sealing": "Sealing and protection: Containers are sealed and secured to ensure cargo safety."
+          }
+        }
+      },
+      "benefits": {
+        "title": "Benefits of Using Vinalogs' FCL and LCL Road Transport Services",
+        "cost": {
+          "title": "Cost Savings",
+          "items": {
+            "optimization": "Cost optimization: FCL offers lower per-unit costs by using the entire container, while LCL charges only for the space your goods occupy.",
+            "logistics": "Reduced overall logistics costs: LCL consolidation optimizes container space, lowering transport and storage costs."
+          }
+        },
+        "safety": {
+          "title": "Safety and Security",
+          "items": {
+            "monitoring": "Cargo monitoring system: We use modern systems to track goods throughout transportation.",
+            "packaging": "Professional packing and storage: Goods are carefully packed and stored to ensure safety during transit."
+          }
+        },
+        "flexibility": {
+          "title": "Flexibility and Convenience",
+          "items": {
+            "variety": "Variety of vehicles and routes: We offer multiple vehicle and route options tailored to customer needs.",
+            "doorToDoor": "Door-to-door service: Ensures goods are delivered directly to your location quickly and conveniently."
+          }
+        },
+        "customerService": {
+          "title": "Professional Customer Service",
+          "items": {
+            "dedicatedTeam": "Dedicated staff: Our experienced team is ready to assist at every stage of transportation.",
+            "support": "24/7 support: We provide round-the-clock assistance to address any issues promptly."
+          }
+        }
+      },
+      "process": {
+        "title": "Process for Using FCL and LCL Road Transport Services",
+        "steps": {
+          "request": {
+            "title": "Request and Consultation",
+            "items": {
+              "contact": "Contact via phone, email, or website: Customers can reach us through various channels for service requests and consultations.",
+              "consultation": "FCL or LCL consultation: Our experts advise on the best transportation method based on your needs and cargo volume."
+            }
+          },
+          "quotation": {
+            "title": "Quotation and Contract Signing",
+            "items": {
+              "detailedQuote": "Detailed quotation: We provide a detailed quote based on cargo volume, route, and transportation method.",
+              "contract": "Contract signing: After agreeing on the quote, both parties sign a transportation contract."
+            }
+          },
+          "preparation": {
+            "title": "Preparation and Packing",
+            "items": {
+              "guidance": "Preparation guidance: We guide customers on properly preparing goods for safe transport.",
+              "packing": "Packing and inspection: Goods are carefully packed and inspected before transport."
+            }
+          },
+          "transportation": {
+            "title": "Transportation Execution",
+            "items": {
+              "routePlanning": "Route and vehicle planning: We plan routes and select suitable vehicles to ensure safe, timely delivery.",
+              "monitoring": "Monitoring and updates: We track the shipment and provide status updates to customers."
+            }
+          },
+          "delivery": {
+            "title": "Delivery and Finalization",
+            "items": {
+              "confirmation": "Delivery confirmation: We confirm delivery upon arrival.",
+              "postDelivery": "Post-delivery support: We assist with any follow-up procedures after delivery."
+            }
+          }
+        }
+      },
+      "summary": {
+        "title": "Summary",
+        "desc1": "Vinalogs' FCL and LCL road transport services offer benefits in cost, safety, and convenience. Customers can choose the method that best suits their needs, optimizing efficiency and costs.",
+        "desc2": "Contact us today for consultation and a detailed quote on FCL and LCL road transport services. We are committed to delivering quality, safe, and cost-effective solutions.",
+        "contact": "Contact information",
+        "contactItems": {
+          "address": "Address: Room 420, Thanh Dat 1 Building, No. 3 Le Thanh Tong, May To Ward, Ngo Quyen District, Hai Phong",
+          "phone": "Phone: (84) 225-3761918",
+          "email": "Email: info@vinalogs.com",
+          "website": "Website: https://vinalogs.com/"
+        }
+      },
+      "faq": {
+        "title": "Additional Information",
+        "items": {
+          "transportTime": {
+            "question": "How long does it typically take to transport goods from our warehouse to the seaport (or vice versa)?",
+            "answer": "The transportation time from warehouse to seaport and vice versa depends on distance and traffic conditions. We typically commit to 1 day for short routes and 3-5 days for longer routes."
+          },
+          "quotation": {
+            "question": "Please provide a detailed quotation for both FCL and LCL services, including all related costs such as fuel, tolls, and additional fees.",
+            "answer": "We will provide a detailed quotation after receiving specific details about your shipment, such as volume, cargo type, and route. The quote will include all related costs like fuel, tolls, and additional fees. Please contact us via email or phone for a detailed quote."
+          },
+          "incident": {
+            "question": "In case of incidents like damage or loss of goods, what is your company’s process for handling and compensation? Do you offer cargo insurance?",
+            "answer": "In case of an incident, we will investigate the cause and assess the damage. Customers will be informed of the specific handling and compensation process. We can introduce cargo insurance companies to protect your interests. Compensation will be determined based on the goods’ value and agreed insurance terms."
+          }
+        }
+      },
+      "ask": {
+        "title": "Any Questions?",
+        "cta": "Ask Now"
+      }
+    },
+    "sidebar": {
+      "search": {
+        "title": "Search",
+        "placeholder": "Enter search terms..."
+      },
+      "title": "Other Services",
+      "sea": "International Sea Freight",
+      "air": "Air Freight",
+      "road": "Road Transport",
+      "warehouse": "Warehousing Services",
+      "customs": "Customs Services",
+      "project": "Project Cargo Transportation",
+      "services": {
+        "title": "Our Services"
+      },
+      "recentPosts": {
+        "title": "Recent Posts",
+        "items": {
+          "post1": "Import Procedures for Machinery and Equipment: Key Insights for 2025",
+          "post2": "What is Project Cargo? Understanding Concepts and Applications in Logistics",
+          "post3": "Oversized Vehicles: Optimal Solutions for Large Shipments",
+          "post4": "Re-import Procedures for Returned Exports: A Detailed Guide",
+          "post5": "Import Procedures for Disassembled Production Lines via Hai Phong Port: 2025 Details"
+        }
+      },
+      "support": {
+        "title": "Need Support?",
+        "desc": "Contact us now, we are always ready to serve!",
+        "cta": "Stay in Touch"
+      }
+    },
+    "callout": {
+      "title": "Want to Collaborate with Us?",
+      "desc": "We don’t just provide services; we partner with you in your business journey...",
+      "cta": "Contact Now"
+    },
+    "cta": {
+      "title": "Partner with Vinalogs for Road Transport",
+      "desc": "Contact us now to get the best transport solutions for your business.",
+      "button": "Contact Now"
+    }
+  },
+  "servicesAir": {
+    "hero": {
+      "title": "Air Freight",
+      "subtitle": "Fast and secure transportation solutions"
+    },
+    "content": {
+      "title": "Air Freight for Import/Export Goods",
+      "intro": "Air freight is the preferred choice for customers needing speed and safety. At Vinalogs, we offer air transportation solutions to deliver your goods to their destination in the shortest possible time with reasonable shipping rates. With our air freight services, Vinalogs is committed to providing an efficient and reliable transportation experience.",
+      "speed": {
+        "title": "Speed and Delivery Time",
+        "desc": "Vinalogs ensures fast and efficient air transport, adhering to schedules. We always advise customers to select the most suitable transportation schedule based on their needs."
+      },
+      "safety": {
+        "title": "Safety and Quality Assurance",
+        "desc": "As a growing company, Vinalogs prioritizes careful handling and storage of goods, following all relevant regulations. With modern equipment and dedication, we commit to protecting your goods from damage during air transport."
+      },
+      "scope": {
+        "title": "Transportation Scope",
+        "desc": "Vinalogs collaborates with various airlines to ensure your goods can be transported almost anywhere in the world. We offer international air freight services with competitive rates and guaranteed quality."
+      },
+      "customerService": {
+        "title": "Dedicated Customer Service and Support",
+        "desc": "Our Vinalogs team is available around the clock to assist you, promptly addressing inquiries and resolving issues. We listen and provide tailored transportation solutions to meet your specific needs."
+      },
+      "flexibleSolution": {
+        "title": "Flexible and Cost-Effective Solutions",
+        "desc": "Vinalogs understands that shipping costs are crucial, so we optimize to deliver the best solutions at reasonable rates. We also offer regular promotions and discounts to help customers save costs."
+      },
+      "technology": {
+        "title": "Technology and Smart Management",
+        "desc": "Vinalogs' online tracking system allows you to monitor your shipment status anytime, anywhere. We continuously update and apply the latest technologies to enhance efficiency and accuracy in air freight processes."
+      },
+      "commitment": {
+        "title": "Dedication and Quality Commitment",
+        "desc": "As a developing company, Vinalogs places customer satisfaction first and strives to deliver the best services. We are committed to providing safe, fast, and efficient air freight, meeting all customer requirements."
+      },
+      "callToAction": "At Vinalogs, we aspire to be your trusted partner in every transportation journey. Let us help you deliver your goods worldwide quickly and safely.",
+      "ask": {
+        "title": "Any Questions?",
+        "cta": "Ask Now"
+      }
+    },
+    "sidebar": {
+      "search": {
+        "title": "Search",
+        "placeholder": "Enter search terms..."
+      },
+      "title": "Other Services",
+      "sea": "International Sea Freight",
+      "air": "Air Freight",
+      "road": "Road Transport",
+      "warehouse": "Warehousing Services",
+      "customs": "Customs Services",
+      "project": "Project Cargo Transportation",
+      "services": {
+        "title": "Our Services"
+      },
+      "recentPosts": {
+        "title": "Recent Posts",
+        "items": {
+          "post1": "Import Procedures for Machinery and Equipment: Key Insights for 2025",
+          "post2": "What is Project Cargo? Understanding Concepts and Applications in Logistics",
+          "post3": "Oversized Vehicles: Optimal Solutions for Large Shipments",
+          "post4": "Re-import Procedures for Returned Exports: A Detailed Guide",
+          "post5": "Import Procedures for Disassembled Production Lines via Hai Phong Port: 2025 Details"
+        }
+      },
+      "support": {
+        "title": "Need Support?",
+        "desc": "Contact us now, we are always ready to serve!",
+        "cta": "Stay in Touch"
+      }
+    },
+    "callout": {
+      "title": "Want to Collaborate with Us?",
+      "desc": "We don’t just provide services; we partner with you in your business journey...",
+      "cta": "Contact Now"
+    },
+    "cta": {
+      "title": "Partner with Vinalogs for Road Transport",
+      "desc": "Contact us now to get the best transport solutions for your business.",
+      "button": "Contact Now"
+    }
+  },
+  "servicesSea": {
+    "hero": {
+      "title": "International Sea Freight",
+      "subtitle": "Optimal solution for input"
+    },
+    "content": {
+      "overview": {
+        "title": "Overview of Vinalogs' International Sea Freight Service",
+        "intro": "Vinalogs' international sea freight service is an optimal solution for input businesses, helping to save costs and ensure the safety of goods. We provide transportation services from Vietnam to seaports worldwide and vice versa. With an extensive network of shipping partners, we are committed to delivering high-quality, fast, and efficient services to our customers.",
+        "routes": "Popular international sea routes served by Vinalogs include Asia, Europe, America, and Australia. We continuously expand and improve our service quality to meet the growing demands of our clients."
+      },
+      "types": {
+        "title": "Types of International Sea Freight",
+        "intro": "Vinalogs offers various types of sea freight to suit the specific needs of our customers:",
+        "fcl": "Full Container Load (FCL): Ideal for businesses needing to transport large quantities of goods, helping to save costs and ensure safety.",
+        "lcl": "Less than Container Load (LCL): Suitable for businesses with smaller cargo volumes that do not fill a full container. This solution optimizes shipping costs.",
+        "bulkSpecial": "Bulk and Special Cargo: We also provide services for bulk cargo, oversized, overweight, or hazardous goods. Our expert team at Vinalogs will advise on the best transportation solutions for each type of special cargo.",
+        "multimodal": "Multimodal Transportation Combining Sea and Other Modes: Combines sea transport with other modes such as road, rail, or air to ensure timely delivery and cost optimization. For more details, explore our door-to-door transportation service."
+      },
+      "prosCons": {
+        "title": "Advantages and Disadvantages of Sea Freight",
+        "intro": "When considering international sea freight services, you should weigh both the advantages and disadvantages of this popular transportation method.",
+        "pros": "Advantages: Low cost: Sea freight offers lower average rates compared to air transport, especially for large shipments. High capacity: Sea transport can handle goods with large volumes and sizes that other modes cannot. Suitable for non-urgent goods: Ideal for non-time-sensitive shipments, significantly reducing costs.",
+        "cons": "Disadvantages: Long transit time: Sea freight typically takes longer than other modes. Weather dependency: Adverse weather can cause delays or disruptions. Complex procedures: Customs and international shipping paperwork can be complex and time-consuming.",
+        "note": "If the advantages of sea freight outweigh the disadvantages, it’s time to consider the costs involved, including ocean freight rates and additional surcharges."
+      },
+      "cost": {
+        "title": "International Sea Freight Costs",
+        "intro": "Ocean freight rates and surcharges are key factors when choosing a transportation method. These costs directly impact the price and market value of your imported/exported goods, making it essential to understand them.",
+        "factors": "Freight rates vary by shipment, influenced by: Type of goods: Different goods incur different shipping fees. Volume and size: Cargo volume and dimensions directly affect costs. Route: Rates differ based on the shipping route. Season: Peak and off-peak seasons can affect pricing.",
+        "calculation": "Shipping companies calculate rates as follows: Weight-based fees: Applied to bulk cargo, ranging from thousands to tens of thousands of tons. Container-based fees: Used for FCL services, charged per 20ft, 40ft, or specialized container types.",
+        "surcharges": "Additional fees include: Fuel surcharge: Varies with market fuel prices. Port fees: Applicable on toll routes. Insurance fees: Covers goods safety during transit."
+      },
+      "time": {
+        "title": "International Sea Freight Transit Time",
+        "average": "Average transit times for popular routes: Vietnam to Intra-Asia: 5-10 days. Vietnam to Europe: 20-30 days. Vietnam to America: 25-35 days. Vietnam to Africa: 25-40 days.",
+        "factors": "Factors affecting transit time: Distance: Longer routes take more time. Weather conditions: Bad weather can cause delays. Customs processes: Complex customs procedures may extend timelines.",
+        "commitment": "Vinalogs' delivery commitment: We strive to deliver on time as agreed and will notify you promptly of any delays."
+      },
+      "clients": {
+        "title": "Target Customers",
+        "list": "Import/export businesses: Companies needing safe and cost-effective international cargo transport. Manufacturers: Businesses requiring material and product delivery to consumer markets. International trading companies: Firms needing efficient goods transportation services. Small and medium enterprises: Companies expanding globally with flexible, cost-saving transport solutions."
+      },
+      "process": {
+        "title": "Process for Using International Sea Freight Service",
+        "step1": "Request intake and consultation: Customers contact Vinalogs with shipment details and transport requirements. Our experts advise and propose the best solutions.",
+        "step2": "Quotation and contract signing: Based on customer details, we provide a detailed quote. Upon agreement, both parties sign the transport contract.",
+        "step3": "Preparation and packaging: Customers prepare goods per Vinalogs' guidelines. We offer professional packaging to ensure safety during transit.",
+        "step4": "Transportation and tracking: Goods are shipped per the agreed plan. Customers can track shipments via Vinalogs' monitoring system.",
+        "step5": "Delivery and post-arrival formalities: Upon arrival, we notify and complete delivery procedures. Customers inspect goods and sign off on service completion."
+      },
+      "callToAction": "We hope this article helps customers better understand Vinalogs' international sea freight services and choose the best option for their shipping needs. For any inquiries, please contact us for assistance.",
+      "benefits": {
+        "title": "Benefits of Our Service",
+        "professional": "Professional service",
+        "courteous": "Courteous customer service",
+        "support": "Excellent customer care"
+      },
+      "faq": {
+        "title": "Additional Information",
+        "q1": "What types of sea freight are available?",
+        "a1": "We offer sea freight services for containerized goods, either as Full Container Load (FCL) or Less than Container Load (LCL) with other shipments.",
+        "q2": "Can it handle both export and import?",
+        "a2": "Depending on the shipper's needs, we can arrange transport for both exports and imports.",
+        "q3": "Which ports can it reach?",
+        "a3": "With our global office and agent network, we serve numerous ports worldwide, primarily in Northeast Asia, Southeast Asia, India, and more."
+      },
+      "ask": {
+        "title": "Any Questions?",
+        "cta": "Ask Now"
+      }
+    },
+    "sidebar": {
+      "search": {
+        "title": "Search",
+        "placeholder": "Enter search terms..."
+      },
+      "title": "Other Services",
+      "sea": "International Sea Freight",
+      "air": "Air Freight",
+      "road": "Road Transport",
+      "warehouse": "Warehousing Services",
+      "customs": "Customs Services",
+      "project": "Project Cargo Transportation",
+      "services": {
+        "title": "Our Services"
+      },
+      "recentPosts": {
+        "title": "Recent Posts",
+        "items": {
+          "post1": "Import Procedures for Machinery and Equipment: Key Insights for 2025",
+          "post2": "What is Project Cargo? Understanding Concepts and Applications in Logistics",
+          "post3": "Oversized Vehicles: Optimal Solutions for Large Shipments",
+          "post4": "Re-import Procedures for Returned Exports: A Detailed Guide",
+          "post5": "Import Procedures for Disassembled Production Lines via Hai Phong Port: 2025 Details"
+        }
+      },
+      "support": {
+        "title": "Need Support?",
+        "desc": "Contact us now, we are always ready to serve!",
+        "cta": "Stay in Touch"
+      }
+    },
+    "callout": {
+      "title": "Want to Collaborate with Us?",
+      "desc": "We don’t just provide services; we partner with you in your business journey...",
+      "cta": "Contact Now"
+    },
+    "cta": {
+      "title": "Partner with Vinalogs for Road Transport",
+      "desc": "Contact us now to get the best transport solutions for your business.",
+      "button": "Contact Now"
+    }
+  },
+  "services_footer": {
+    "sea": "International Sea Freight",
+    "air": "Air Freight",
+    "road": "Road Transport",
+    "warehouse": "Warehousing Services",
+    "customs": "Customs Services",
+    "project": "Project Cargo Transportation"
+  },
+  "trading": {
+    "banner": {
+      "title": "Global Trading Company",
+      "subtitle": "Connecting Vietnamese goods with the world - Trusted global trade solutions",
+      "cta": "Contact Now"
+    },
+    "about": {
+      "title": "About Us",
+      "description1": "We are a leading trading company specializing in import-export and international goods distribution. With over 15 years of experience, we proudly build a global partner network, delivering optimal logistics and trade solutions for businesses of all sizes.",
+      "description2": "Founded in Vietnam, we are committed to helping local businesses expand into international markets while bringing advanced products and technologies from around the world.",
+      "imageAlt": "Trading company",
+      "cta": "Learn More"
+    },
+    "coreValues": {
+      "title": "Core Values",
+      "values": [
+        {
+          "title": "Integrity",
+          "description": "Putting trust first, always transparent in every transaction."
+        },
+        {
+          "title": "Innovation",
+          "description": "Applying modern technology to optimize international trade processes."
+        },
+        {
+          "title": "Sustainability",
+          "description": "Growing with partners, engaging communities, and protecting the environment."
+        }
+      ]
+    },
+    "history": {
+      "title": "Development History",
+      "description": "From a small enterprise in Ho Chi Minh City in 2010, we have grown into an international trading company with branches in Hanoi, Da Nang, and partners in the US, Europe, and Asia. This journey is built on a foundation of innovation and customer commitment.",
+      "milestones": [
+        "Established in Ho Chi Minh City",
+        "Expanded into international markets",
+        "Achieved $100 million in revenue"
+      ]
+    },
+    "partners": {
+      "title": "Partners & Clients",
+      "alt": "Partner logo"
+    },
+    "services": {
+      "title": "Our Services",
+      "items": [
+        {
+          "title": "Export",
+          "description": "Specializing in exporting agricultural products, seafood, and Vietnamese handicrafts to global markets."
+        },
+        {
+          "title": "Import",
+          "description": "Importing machinery, advanced technology, and raw materials from the US, Germany, and Japan."
+        },
+        {
+          "title": "Distribution",
+          "description": "Connecting manufacturers with customers domestically and internationally, ensuring a continuous supply chain."
+        },
+        {
+          "title": "Logistics",
+          "description": "Sea, air, and modern warehousing transportation with a professional team."
+        }
+      ]
+    },
+    "contactCta": {
+      "title": "Global Trade Starts Here",
+      "description": "Let us be the bridge for your business to reach the global market. Contact us now for tailored trade solutions.",
+      "cta": "Get Consultation Now"
     }
   }
 }
